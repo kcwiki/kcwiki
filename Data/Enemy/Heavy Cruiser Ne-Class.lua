@@ -1,0 +1,62 @@
+--Categories:
+--[[Category: Enemy ship modules]]
+ 
+local Heavy_Cruiser_Ne_Class = {
+	[""] = {
+		_name = "Heavy Cruiser Ne-Class",
+		_rarity = 4,
+		_back = -1,
+		_api_id = 594,
+		_id = 594,
+		_japanese_name = "重巡ネ級",
+		_reading = "じゅうじゅんネきゅう",
+		_type = 5,
+		_hp = 80,
+		_firepower = 73,
+		_armor = 82,
+		_torpedo = 66,
+		_evasion = 0,
+		_aa = 72,
+		_asw = 0,
+		_speed = 10,
+		_los = 0,
+		_range = 2,
+		_luck = 60,
+		_equipment = {
+			{equipment = "8inch Triple Gun Mount", size = 0},
+			{equipment = "8inch Triple Gun Mount", size = 0},
+			{equipment = "High-speed Abyssal Torpedo", size = 0},
+			{equipment = "Abyssal Reconnaissance Plane", size = 4},
+		},
+	},
+	["Elite"] = {
+		_name = "Heavy Cruiser Ne-Class",
+		_suffix = "Elite",
+		_rarity = 6,
+		_back = -2,
+		_api_id = 595,
+		_id = 595,
+		_japanese_name = "重巡ネ級elite",
+		_reading = "じゅうじゅんネきゅうエリート",
+		_type = 5,
+		_hp = 88,
+		_firepower = 79,
+		_armor = 89,
+		_torpedo = 74,
+		_evasion = 0,
+		_aa = 79,
+		_asw = 0,
+		_speed = 10,
+		_los = 0,
+		_range = 2,
+		_luck = 70,
+		_equipment = {
+			{equipment = "8inch Triple Gun Mount", size = 0},
+			{equipment = "8inch Triple Gun Mount", size = 0},
+			{equipment = "High-speed Abyssal Torpedo", size = 0},
+			{equipment = "Abyssal Reconnaissance Plane", size = 4},
+		},
+	},
+}
+ 
+return Heavy_Cruiser_Ne_Class

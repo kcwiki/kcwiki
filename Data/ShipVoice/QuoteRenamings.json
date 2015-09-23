@@ -1,0 +1,119 @@
+{
+
+  "自己紹介": "Introduction",
+  "EN1": "IntroductionEn",
+  "Note1": "IntroductionNote",
+
+  "秘書クリック会話①": "Secretary1",
+  "EN2": "Secretary1En",
+  "Note2": "Secretary1Note",
+
+  "秘書クリック会話②": "Secretary2",
+  "EN3": "Secretary2En",
+  "Note3": "Secretary2Note",
+
+  "秘書クリック会話③": "Secretary3",
+  "EN4": "Secretary3En",
+  "Note4": "Secretary3Note",
+
+  "建造時": "Construction",
+  "EN12": "ConstructionEn",
+  "Note12": "ConstructionNote",
+
+  "入渠完了": "DockingComplete",
+  "EN27": "DockingCompleteEn",
+  "Note27": "DockingCompleteNote",
+
+  "艦隊帰投時": "ReturningFromSortie",
+  "EN13": "ReturningFromSortieEn",
+  "Note13": "ReturningFromSortieNote",
+
+  "戦績表示時": "LookingAtScores",
+  "EN5": "LookingAtScoresEn",
+  "Note5": "LookingAtScoresNote",
+
+  "装備時①": "Equipment1",
+  "EN7": "Equipment1En",
+  "Note7": "Equipment1Note",
+
+  "装備時②": "Equipment2",
+  "EN8": "Equipment2En",
+  "Note8": "Equipment2Note",
+
+  "ドック入り(小破以下)": "DockingMinor",
+  "EN10": "DockingMinorEn",
+  "Note10": "DockingMinorNote",
+
+  "ドック入り(中破以上)": "DockingMajor",
+  "EN11": "DockingMajorEn",
+  "Note11": "DockingMajorNote",
+
+  "編成選択時": "JoiningAFleet",
+  "EN6": "JoiningAFleetEn",
+  "Note6": "JoiningAFleetNote",
+
+  "出撃時": "StartingASortie",
+  "EN14": "StartingASortieEn",
+  "Note14": "StartingASortieNote",
+
+  "戦闘開始時": "BattleStart",
+  "EN15": "BattleStartEn",
+  "Note15": "BattleStartNote",
+
+  "攻撃時": "Attack",
+  "EN16": "AttackEn",
+  "Note16": "AttackNote",
+
+  "夜戦攻撃時": "NightAttack",
+  "EN18": "NightAttackEn",
+  "Note18": "NightAttackNote",
+
+  "夜戦開始時": "NightBattle",
+  "EN17": "NightBattleEn",
+  "Note17": "NightBattleNote",
+
+  "小破①": "MinorDamage1",
+  "EN20": "MinorDamage1En",
+  "Note20": "MinorDamage1Note",
+
+  "小破②": "MinorDamage2",
+  "EN21": "MinorDamage2En",
+  "Note21": "MinorDamage2Note",
+
+  "中破": "MajorDamage",
+  "EN22": "MajorDamageEn",
+  "Note22": "MajorDamageNote",
+
+  "撃沈時(反転)": "Sunk",
+  "EN23": "SunkEn",
+  "Note23": "SunkNote",
+
+  "MVP時": "MVP",
+  "EN19": "MVPEn",
+  "Note19": "MVPNote",
+
+  "Wedding": "Wedding",
+  "EN26": "WeddingEn",
+  "Note26": "WeddingNote",
+
+  "Library": "Library",
+  "EN0": "LibraryEn",
+  "Note0": "LibraryNote",
+
+  "装備時③": "Equipment3",
+  "EN9": "Equipment3En",
+  "Note9": "Equipment3Note",
+
+  "補給時": "Supply",
+  "EN24": "SupplyEn",
+  "Note24": "SupplyNote",
+
+  "Married": "SecretaryMarried",
+  "EN25": "SecretaryMarriedEn",
+  "Note25": "SecretaryMarriedNote",
+
+  "秘書放置時": "Idle",
+  "EN4a": "IdleEn",
+  "Note4a": "IdleNote"
+
+}

@@ -1,0 +1,62 @@
+--Categories:
+--[[Category: Enemy ship modules]]
+ 
+local Light_Cruiser_Tsu_Class = {
+	[""] = {
+		_name = "Light Cruiser Tsu-Class",
+		_rarity = 4,
+		_back = -1,
+		_api_id = 591,
+		_id = 591,
+		_japanese_name = "軽巡ツ級",
+		_reading = "けいじゅんツきゅう",
+		_type = 3,
+		_hp = 48,
+		_firepower = 58,
+		_armor = 55,
+		_torpedo = 84,
+		_evasion = 69,
+		_aa = 88,
+		_asw = 96,
+		_speed = 10,
+		_los = 48,
+		_range = 2,
+		_luck = 55,
+		_equipment = {
+			{equipment = "5inch Twin Dual Purpose Gun Mount", size = 0},
+			{equipment = "5inch Twin Dual Purpose Gun Mount", size = 0},
+			{equipment = "Abyssal Sonar Mk.II", size = 3},
+			{equipment = "Abyssal Reconnaissance Plane", size = 3},
+		},
+	},
+	["Elite"] = {
+		_name = "Light Cruiser Tsu-Class",
+		_suffix = "Elite",
+		_rarity = 6,
+		_back = -2,
+		_api_id = 592,
+		_id = 592,
+		_japanese_name = "軽巡ツ級elite",
+		_reading = "けいじゅんツきゅうエリート",
+		_type = 3,
+		_hp = 66,
+		_firepower = 64,
+		_armor = 68,
+		_torpedo = 92,
+		_evasion = 74,
+		_aa = 96,
+		_asw = 98,
+		_speed = 10,
+		_los = 58,
+		_range = 2,
+		_luck = 66,
+		_equipment = {
+			{equipment = "5inch Twin Dual Purpose Gun Mount", size = 0},
+			{equipment = "5inch Twin Dual Purpose Gun Mount", size = 0},
+			{equipment = "Abyssal Sonar Mk.II", size = 3},
+			{equipment = "Abyssal Reconnaissance Plane", size = 3},
+		},
+	},
+}
+ 
+return Light_Cruiser_Tsu_Class
