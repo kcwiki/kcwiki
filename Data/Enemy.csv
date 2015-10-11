@@ -1,131 +1,131 @@
 name,api_name,api_yomi,api_id,api_stype,api_soku,api_slot_num,api_filename,api_version,swf
-Destroyer I-Class,駆逐イ級,-,501,2,10,2,mtjmdcwtvhdr,2,http://203.104.209.71/kcs/resources/swf/ships/mtjmdcwtvhdr.swf?VERSION=2
-Destroyer Ro-Class,駆逐ロ級,-,502,2,10,2,pbgkfylkbjuy,2,http://203.104.209.71/kcs/resources/swf/ships/pbgkfylkbjuy.swf?VERSION=2
-Destroyer Ha-Class,駆逐ハ級,-,503,2,10,2,pcumlrymlujh,2,http://203.104.209.71/kcs/resources/swf/ships/pcumlrymlujh.swf?VERSION=2
-Destroyer Ni-Class,駆逐ニ級,-,504,2,10,2,itbrdpdbkynm,2,http://203.104.209.71/kcs/resources/swf/ships/itbrdpdbkynm.swf?VERSION=2
-Light Cruiser Ho-Class,軽巡ホ級,-,505,3,10,2,itslcqtmrxtf,2,http://203.104.209.71/kcs/resources/swf/ships/itslcqtmrxtf.swf?VERSION=2
-Light Cruiser He-Class,軽巡ヘ級,-,506,3,10,2,wuhnhojjxmke,2,http://203.104.209.71/kcs/resources/swf/ships/wuhnhojjxmke.swf?VERSION=2
-Light Cruiser To-Class,軽巡ト級,-,507,3,10,3,xlqcmisdyfiu,2,http://203.104.209.71/kcs/resources/swf/ships/xlqcmisdyfiu.swf?VERSION=2
-Torpedo Cruiser Chi-Class,雷巡チ級,-,508,4,10,3,mcouotbbbzpx,2,http://203.104.209.71/kcs/resources/swf/ships/mcouotbbbzpx.swf?VERSION=2
-Heavy Cruiser Ri-Class,重巡リ級,-,509,5,10,3,iwztvmesrrju,2,http://203.104.209.71/kcs/resources/swf/ships/iwztvmesrrju.swf?VERSION=2
-Light Carrier Nu-Class,軽母ヌ級,-,510,7,5,3,slxvncxmexin,2,http://203.104.209.71/kcs/resources/swf/ships/slxvncxmexin.swf?VERSION=2
-Battleship Ru-Class,戦艦ル級,-,511,9,5,3,pijdvoaebmxm,2,http://203.104.209.71/kcs/resources/swf/ships/pijdvoaebmxm.swf?VERSION=2
-Standard Carrier Wo-Class,空母ヲ級,-,512,11,10,3,yalxvbxgbojg,2,http://203.104.209.71/kcs/resources/swf/ships/yalxvbxgbojg.swf?VERSION=2
-Transport Ship Wa-Class,輸送ワ級,-,513,15,5,0,mednanfcfkil,2,http://203.104.209.71/kcs/resources/swf/ships/mednanfcfkil.swf?VERSION=2
-Destroyer I-Class Elite,駆逐イ級,elite,514,2,10,2,eusutfvohllh,3,http://203.104.209.71/kcs/resources/swf/ships/eusutfvohllh.swf?VERSION=3
-Destroyer Ro-Class Elite,駆逐ロ級,elite,515,2,10,2,tizkiyetefqx,2,http://203.104.209.71/kcs/resources/swf/ships/tizkiyetefqx.swf?VERSION=2
-Destroyer Ha-Class Elite,駆逐ハ級,elite,516,2,10,2,ycjcuuqbxywj,2,http://203.104.209.71/kcs/resources/swf/ships/ycjcuuqbxywj.swf?VERSION=2
-Destroyer Ni-Class Elite,駆逐ニ級,elite,517,2,10,2,zujcpyhiwhfk,2,http://203.104.209.71/kcs/resources/swf/ships/zujcpyhiwhfk.swf?VERSION=2
-Light Cruiser Ho-Class Elite,軽巡ホ級,elite,518,3,10,2,nylazbctwxxb,2,http://203.104.209.71/kcs/resources/swf/ships/nylazbctwxxb.swf?VERSION=2
-Light Cruiser He-Class Elite,軽巡ヘ級,elite,519,3,10,2,thxxajqkbcea,2,http://203.104.209.71/kcs/resources/swf/ships/thxxajqkbcea.swf?VERSION=2
-Light Cruiser To-Class Elite,軽巡ト級,elite,520,3,10,3,vxeposgfnulm,2,http://203.104.209.71/kcs/resources/swf/ships/vxeposgfnulm.swf?VERSION=2
-Torpedo Cruiser Chi-Class Elite,雷巡チ級,elite,521,4,10,3,kkdcshdnoqvd,2,http://203.104.209.71/kcs/resources/swf/ships/kkdcshdnoqvd.swf?VERSION=2
-Heavy Cruiser Ri-Class Elite,重巡リ級,elite,522,5,10,4,jgdkktwkyoep,2,http://203.104.209.71/kcs/resources/swf/ships/jgdkktwkyoep.swf?VERSION=2
-Light Carrier Nu-Class Elite,軽母ヌ級,elite,523,7,5,3,glsvfugrtdlv,2,http://203.104.209.71/kcs/resources/swf/ships/glsvfugrtdlv.swf?VERSION=2
-Battleship Ru-Class Elite,戦艦ル級,elite,524,9,5,4,jnaynrbswxny,2,http://203.104.209.71/kcs/resources/swf/ships/jnaynrbswxny.swf?VERSION=2
-Standard Carrier Wo-Class Elite,空母ヲ級,elite,525,11,10,3,lreivfnxjfik,2,http://203.104.209.71/kcs/resources/swf/ships/lreivfnxjfik.swf?VERSION=2
-Transport Ship Wa-Class Elite,輸送ワ級,elite,526,15,5,3,nfbfnyqdswvz,2,http://203.104.209.71/kcs/resources/swf/ships/nfbfnyqdswvz.swf?VERSION=2
-Heavy Cruiser Ri-Class Flagship,重巡リ級,flagship,527,5,10,4,cdgslqaonpst,2,http://203.104.209.71/kcs/resources/swf/ships/cdgslqaonpst.swf?VERSION=2
-Standard Carrier Wo-Class Flagship,空母ヲ級,flagship,528,11,10,3,kcjagtsviiyn,2,http://203.104.209.71/kcs/resources/swf/ships/kcjagtsviiyn.swf?VERSION=2
-Battleship Ru-Class Flagship,戦艦ル級,flagship,529,9,5,4,crlyrpscrtad,2,http://203.104.209.71/kcs/resources/swf/ships/crlyrpscrtad.swf?VERSION=2
-Submarine Ka-Class,潜水カ級,,530,13,5,2,zsrtdiesnmum,2,http://203.104.209.71/kcs/resources/swf/ships/zsrtdiesnmum.swf?VERSION=2
-Submarine Yo-Class,潜水ヨ級,,531,13,5,2,jyofolfguclj,2,http://203.104.209.71/kcs/resources/swf/ships/jyofolfguclj.swf?VERSION=2
-Submarine Ka-Class Elite,潜水カ級,elite,532,13,5,3,ebutrlbzkktc,2,http://203.104.209.71/kcs/resources/swf/ships/ebutrlbzkktc.swf?VERSION=2
-Submarine Yo-Class Elite,潜水ヨ級,elite,533,13,5,3,ppdicscudnmo,2,http://203.104.209.71/kcs/resources/swf/ships/ppdicscudnmo.swf?VERSION=2
-Submarine Ka-Class Flagship,潜水カ級,flagship,534,13,5,3,duwuexijckgq,2,http://203.104.209.71/kcs/resources/swf/ships/duwuexijckgq.swf?VERSION=2
-Submarine Yo-Class Flagship,潜水ヨ級,flagship,535,13,5,3,nvaipajbkgjn,2,http://203.104.209.71/kcs/resources/swf/ships/nvaipajbkgjn.swf?VERSION=2
-Floating Fortress A,浮遊要塞,,536,10,10,3,cchowgdxysfu,2,http://203.104.209.71/kcs/resources/swf/ships/cchowgdxysfu.swf?VERSION=2
-Floating Fortress B,浮遊要塞,,537,10,10,3,matbibgdovof,2,http://203.104.209.71/kcs/resources/swf/ships/matbibgdovof.swf?VERSION=2
-Floating Fortress C,浮遊要塞,,538,10,10,3,murfwykjiuog,2,http://203.104.209.71/kcs/resources/swf/ships/murfwykjiuog.swf?VERSION=2
-Anchorage Demon,泊地棲鬼,,539,10,5,3,cyfiwlhsgdji,2,http://203.104.209.71/kcs/resources/swf/ships/cyfiwlhsgdji.swf?VERSION=2
-Anchorage Princess,泊地棲姫,,540,10,5,3,vewvgeiqybub,2,http://203.104.209.71/kcs/resources/swf/ships/vewvgeiqybub.swf?VERSION=2
-Battleship Ta-Class,戦艦タ級,,541,8,10,4,mqzxufdjdjju,1,http://203.104.209.71/kcs/resources/swf/ships/mqzxufdjdjju.swf?VERSION=1
-Battleship Ta-Class Elite,戦艦タ級,elite,542,8,10,4,whhduavjmdki,1,http://203.104.209.71/kcs/resources/swf/ships/whhduavjmdki.swf?VERSION=1
-Battleship Ta-Class Flagship,戦艦タ級,flagship,543,8,10,4,zpzqybyepyte,1,http://203.104.209.71/kcs/resources/swf/ships/zpzqybyepyte.swf?VERSION=1
-Armored Carrier Demon,装甲空母鬼,,544,10,10,3,jndnkhfjvnjo,1,http://203.104.209.71/kcs/resources/swf/ships/jndnkhfjvnjo.swf?VERSION=1
-Armored Carrier Princess,装甲空母姫,,545,10,10,3,pnvdeewbfyfh,1,http://203.104.209.71/kcs/resources/swf/ships/pnvdeewbfyfh.swf?VERSION=1
-Southern Demon,南方棲鬼,,546,10,5,3,jcgarujexcrf,1,http://203.104.209.71/kcs/resources/swf/ships/jcgarujexcrf.swf?VERSION=1
-Southern War Demon,南方棲戦鬼,,547,10,5,3,jmlbqlrnajyq,1,http://203.104.209.71/kcs/resources/swf/ships/jmlbqlrnajyq.swf?VERSION=1
-Southern War Princess,南方棲戦姫,,548,10,5,3,vooogzpoblwf,1,http://203.104.209.71/kcs/resources/swf/ships/vooogzpoblwf.swf?VERSION=1
-Escort Fortress A,護衛要塞,,549,10,10,3,bwlykdyyjurx,2,http://203.104.209.71/kcs/resources/swf/ships/bwlykdyyjurx.swf?VERSION=2
-Escort Fortress B,護衛要塞,,550,10,10,3,fhjnljxxjpmk,2,http://203.104.209.71/kcs/resources/swf/ships/fhjnljxxjpmk.swf?VERSION=2
-Escort Fortress C,護衛要塞,,551,10,10,3,nmwnyjyfezro,2,http://203.104.209.71/kcs/resources/swf/ships/nmwnyjyfezro.swf?VERSION=2
-Destroyer Ro-Class Flagship,駆逐ロ級,flagship,552,2,10,3,szdhvxpyljqe,1,http://203.104.209.71/kcs/resources/swf/ships/szdhvxpyljqe.swf?VERSION=1
-Destroyer Ha-Class Flagship,駆逐ハ級,flagship,553,2,10,3,jhjcroxdngqe,1,http://203.104.209.71/kcs/resources/swf/ships/jhjcroxdngqe.swf?VERSION=1
-Light Cruiser Ho-Class Flagship,軽巡ホ級,flagship,554,3,10,3,afrplxszsxit,1,http://203.104.209.71/kcs/resources/swf/ships/afrplxszsxit.swf?VERSION=1
-Light Cruiser He-Class Flagship,軽巡ヘ級,flagship,555,3,10,4,eswghzpycwxb,1,http://203.104.209.71/kcs/resources/swf/ships/eswghzpycwxb.swf?VERSION=1
-Airfield Princess,飛行場姫,,556,10,0,4,qtygozpoceew,1,http://203.104.209.71/kcs/resources/swf/ships/qtygozpoceew.swf?VERSION=1
-Battleship Princess,戦艦棲姫,,557,9,5,4,glghkfswtxet,1,http://203.104.209.71/kcs/resources/swf/ships/glghkfswtxet.swf?VERSION=1
-Transport Ship Wa-Class Flagship,輸送ワ級,flagship,558,15,5,3,okkjcahxfltg,1,http://203.104.209.71/kcs/resources/swf/ships/okkjcahxfltg.swf?VERSION=1
-Torpedo Cruiser Chi-Class Flagship,雷巡チ級,flagship,559,4,10,3,cojscoppbivn,1,http://203.104.209.71/kcs/resources/swf/ships/cojscoppbivn.swf?VERSION=1
-Light Carrier Nu-Class Flagship,軽母ヌ級,flagship,560,7,5,4,pcmfcidohwga,1,http://203.104.209.71/kcs/resources/swf/ships/pcmfcidohwga.swf?VERSION=1
-Battleship Re-Class,戦艦レ級,,561,10,10,4,tkcshwnsnsqr,1,http://203.104.209.71/kcs/resources/swf/ships/tkcshwnsnsqr.swf?VERSION=1
-Battleship Re-Class Elite,戦艦レ級,elite,562,10,10,4,yrdhekgqgxtg,1,http://203.104.209.71/kcs/resources/swf/ships/yrdhekgqgxtg.swf?VERSION=1
-Destroyer I-Class Flagship,駆逐イ級,flagship,564,2,10,3,skifghbnovxl,1,http://203.104.209.71/kcs/resources/swf/ships/skifghbnovxl.swf?VERSION=1
-Standard Carrier Wo-Class Kai Flagship,空母ヲ級改,flagship,565,11,10,4,ckbtgxrnjvof,1,http://203.104.209.71/kcs/resources/swf/ships/ckbtgxrnjvof.swf?VERSION=1
-Heavy Cruiser Ri-Class Kai Flagship,重巡リ級改,flagship,566,5,10,4,lfpzrcpfngkf,1,http://203.104.209.71/kcs/resources/swf/ships/lfpzrcpfngkf.swf?VERSION=1
-Battleship Ru-Class Kai Flagship,戦艦ル級改,flagship,567,9,5,4,qyfevgdqedyw,1,http://203.104.209.71/kcs/resources/swf/ships/qyfevgdqedyw.swf?VERSION=1
-Submarine So-Class,潜水ソ級,,570,13,5,2,qfwkvipzxqey,1,http://203.104.209.71/kcs/resources/swf/ships/qfwkvipzxqey.swf?VERSION=1
-Submarine So-Class Elite,潜水ソ級,elite,571,13,5,3,gnnicfxddgut,1,http://203.104.209.71/kcs/resources/swf/ships/gnnicfxddgut.swf?VERSION=1
-Submarine So-Class Flagship,潜水ソ級,flagship,572,13,5,3,obxvexpgyajg,1,http://203.104.209.71/kcs/resources/swf/ships/obxvexpgyajg.swf?VERSION=1
-Harbour Princess,港湾棲姫,,573,10,0,4,mvqfkxbebqob,1,http://203.104.209.71/kcs/resources/swf/ships/mvqfkxbebqob.swf?VERSION=1
-Isolated Island Demon,離島棲鬼,,574,10,0,4,ihfrerqprpro,1,http://203.104.209.71/kcs/resources/swf/ships/ihfrerqprpro.swf?VERSION=1
-Destroyer I-Class Late Model,駆逐イ級後期型,,575,2,10,3,dsdrpxrroksm,1,http://203.104.209.71/kcs/resources/swf/ships/dsdrpxrroksm.swf?VERSION=1
-Destroyer Ro-Class Late Model,駆逐ロ級後期型,,576,2,10,3,wnftypfgkdkr,1,http://203.104.209.71/kcs/resources/swf/ships/wnftypfgkdkr.swf?VERSION=1
-Destroyer Ha-Class Late Model,駆逐ハ級後期型,,577,2,10,3,icwosohxkvbd,1,http://203.104.209.71/kcs/resources/swf/ships/icwosohxkvbd.swf?VERSION=1
-Destroyer Ni-Class Late Model,駆逐ニ級後期型,,578,2,10,3,ohcikvnwgsuh,1,http://203.104.209.71/kcs/resources/swf/ships/ohcikvnwgsuh.swf?VERSION=1
-Standard Carrier Wo-Class Flagship II,空母ヲ級,flagship,579,11,10,3,lhdxfbtoyfer,1,http://203.104.209.71/kcs/resources/swf/ships/lhdxfbtoyfer.swf?VERSION=1
-Northern Princess,北方棲姫,,581,10,0,4,lwrljvbgvkxe,1,http://203.104.209.71/kcs/resources/swf/ships/lwrljvbgvkxe.swf?VERSION=1
-Northern Princess (Final Form),北方棲姫,,582,10,0,4,rgjwnwdygctr,1,http://203.104.209.71/kcs/resources/swf/ships/rgjwnwdygctr.swf?VERSION=1
-Midway Princess,中間棲姫,,583,10,0,5,naucyhpcdjwf,1,http://203.104.209.71/kcs/resources/swf/ships/naucyhpcdjwf.swf?VERSION=1
-Midway Princess (Final Form),中間棲姫,,584,10,0,5,fcaeosgyrckf,1,http://203.104.209.71/kcs/resources/swf/ships/fcaeosgyrckf.swf?VERSION=1
-Aircraft Carrier Demon,空母棲鬼,,585,11,10,4,kvllndxefqyr,1,http://203.104.209.71/kcs/resources/swf/ships/kvllndxefqyr.swf?VERSION=1
-Aircraft Carrier Princess,空母棲姫,,586,11,10,4,eoaivzseqtwo,1,http://203.104.209.71/kcs/resources/swf/ships/eoaivzseqtwo.swf?VERSION=1
-Northern Princess (EO),北方棲姫,,587,10,0,4,bcvjduazbvue,5,http://203.104.209.71/kcs/resources/swf/ships/bcvjduazbvue.swf?VERSION=5
-Northern Princess (EO Final Form),北方棲姫,,588,10,0,4,jtokvqdkiidv,5,http://203.104.209.71/kcs/resources/swf/ships/jtokvqdkiidv.swf?VERSION=5
-Northern Princess (EO Weak),北方棲姫,,589,10,0,4,yqxjpfvbrghk,5,http://203.104.209.71/kcs/resources/swf/ships/yqxjpfvbrghk.swf?VERSION=5
-Northern Princess (EO Weak Final Form),北方棲姫,,590,10,0,4,xsjvtttdqhwy,5,http://203.104.209.71/kcs/resources/swf/ships/xsjvtttdqhwy.swf?VERSION=5
-Light Cruiser Tsu-Class,軽巡ツ級,,591,3,10,4,vwaghxaewzdw,1,http://203.104.209.71/kcs/resources/swf/ships/vwaghxaewzdw.swf?VERSION=1
-Light Cruiser Tsu-Class Elite,軽巡ツ級,elite,592,3,10,4,ypbbvxgczbph,1,http://203.104.209.71/kcs/resources/swf/ships/ypbbvxgczbph.swf?VERSION=1
-Heavy Cruiser Ne-Class,重巡ネ級,,594,5,10,4,yowvcxyrqiqe,1,http://203.104.209.71/kcs/resources/swf/ships/yowvcxyrqiqe.swf?VERSION=1
-Heavy Cruiser Ne-Class Elite,重巡ネ級,elite,595,5,10,4,aaklgdwughjy,1,http://203.104.209.71/kcs/resources/swf/ships/aaklgdwughjy.swf?VERSION=1
-Destroyer Princess,駆逐棲姫,,597,2,10,3,xdcuopswoflo,1,http://203.104.209.71/kcs/resources/swf/ships/xdcuopswoflo.swf?VERSION=1
-Destroyer Princess (Final Form),駆逐棲姫,,598,2,10,3,ogjyulhxjvhr,1,http://203.104.209.71/kcs/resources/swf/ships/ogjyulhxjvhr.swf?VERSION=1
-Aircraft Carrier Water Demon,空母水鬼,,599,11,10,4,zkkzcjehulfi,1,http://203.104.209.71/kcs/resources/swf/ships/zkkzcjehulfi.swf?VERSION=1
-Aircraft Carrier Water Demon (Final Form),空母水鬼,,600,11,10,4,ptotvjxlwqgh,1,http://203.104.209.71/kcs/resources/swf/ships/ptotvjxlwqgh.swf?VERSION=1
-Light Cruiser Demon,軽巡棲鬼,,601,3,10,4,dpmgoqtslers,1,http://203.104.209.71/kcs/resources/swf/ships/dpmgoqtslers.swf?VERSION=1
-Light Cruiser Demon (Final Form),軽巡棲鬼,,602,3,10,4,jzweeqxgragj,1,http://203.104.209.71/kcs/resources/swf/ships/jzweeqxgragj.swf?VERSION=1
-Battleship Water Demon,戦艦水鬼,,603,9,5,4,iepccppipopa,1,http://203.104.209.71/kcs/resources/swf/ships/iepccppipopa.swf?VERSION=1
-Battleship Water Demon (Final Form),戦艦水鬼,,604,9,5,4,srqsizwuyvfm,1,http://203.104.209.71/kcs/resources/swf/ships/srqsizwuyvfm.swf?VERSION=1
-Harbour Water Demon,港湾水鬼,,605,10,0,4,jnwpsrxekmbn,1,http://203.104.209.71/kcs/resources/swf/ships/jnwpsrxekmbn.swf?VERSION=1
-Harbour Water Demon (Strong),港湾水鬼,,606,10,0,4,clqoqbjfvidf,1,http://203.104.209.71/kcs/resources/swf/ships/clqoqbjfvidf.swf?VERSION=1
-Harbour Water Demon (Final Form),港湾水鬼,,607,10,0,4,ysteufhuvuuk,1,http://203.104.209.71/kcs/resources/swf/ships/ysteufhuvuuk.swf?VERSION=1
-Harbour Water Demon (Strong Final Form),港湾水鬼,,608,10,0,4,octsmbzvtknp,1,http://203.104.209.71/kcs/resources/swf/ships/octsmbzvtknp.swf?VERSION=1
-Anchorage Water Demon,泊地水鬼,,609,10,0,4,qvjxstjsucxx,1,http://203.104.209.71/kcs/resources/swf/ships/qvjxstjsucxx.swf?VERSION=1
-Anchorage Water Demon (Strong),泊地水鬼,,610,10,0,4,vjgqyiisflxo,1,http://203.104.209.71/kcs/resources/swf/ships/vjgqyiisflxo.swf?VERSION=1
-Anchorage Water Demon (Final Form),泊地水鬼,,611,10,0,4,yqbbctkwbtgd,1,http://203.104.209.71/kcs/resources/swf/ships/yqbbctkwbtgd.swf?VERSION=1
-Anchorage Water Demon (Strong Final Form),泊地水鬼,,612,10,0,4,iinthvbcxohn,1,http://203.104.209.71/kcs/resources/swf/ships/iinthvbcxohn.swf?VERSION=1
-Harbour Princess Final,港湾棲姫,,613,10,0,4,fwbonbofgcwe,1,http://203.104.209.71/kcs/resources/swf/ships/fwbonbofgcwe.swf?VERSION=1
-Standard Carrier Wo-Class Flagship III,空母ヲ級,flagship,614,11,10,3,xwkafpsvohsx,1,http://203.104.209.71/kcs/resources/swf/ships/xwkafpsvohsx.swf?VERSION=1
-Standard Carrier Wo-Class Flagship IV,空母ヲ級,flagship,615,11,10,3,swtqydoaxery,1,http://203.104.209.71/kcs/resources/swf/ships/swtqydoaxery.swf?VERSION=1
-Standard Carrier Wo-Class Kai Flagship II,空母ヲ級改,flagship,616,11,10,3,kevftdefeysm,1,http://203.104.209.71/kcs/resources/swf/ships/kevftdefeysm.swf?VERSION=1
-Standard Carrier Wo-Class Kai Flagship III,空母ヲ級改,flagship,617,11,10,3,oclehydqqwtr,1,http://203.104.209.71/kcs/resources/swf/ships/oclehydqqwtr.swf?VERSION=1
-Standard Carrier Wo-Class Kai Flagship IV,空母ヲ級改,flagship,618,11,10,3,whfpobwysexc,1,http://203.104.209.71/kcs/resources/swf/ships/whfpobwysexc.swf?VERSION=1
-Aircraft Carrier Demon (Strong),空母棲鬼,,619,11,10,4,wnnfthmvobbc,1,http://203.104.209.71/kcs/resources/swf/ships/wnnfthmvobbc.swf?VERSION=1
-Aircraft Carrier Princess (Strong),空母棲姫,,620,11,10,4,mowniqrfpjjw,1,http://203.104.209.71/kcs/resources/swf/ships/mowniqrfpjjw.swf?VERSION=1
-Destroyer I-Class Late Model Elite,駆逐イ級後期型,elite,621,2,10,3,mhgomfxjbdqg,1,http://203.104.209.71/kcs/resources/swf/ships/mhgomfxjbdqg.swf?VERSION=1
-Destroyer Ro-Class Late Model Elite,駆逐ロ級後期型,elite,622,2,10,3,oevqngeqykfc,1,http://203.104.209.71/kcs/resources/swf/ships/oevqngeqykfc.swf?VERSION=1
-Destroyer Ha-Class Late Model Elite,駆逐ハ級後期型,elite,623,2,10,3,hzegzqgicqnv,1,http://203.104.209.71/kcs/resources/swf/ships/hzegzqgicqnv.swf?VERSION=1
-Destroyer Ni-Class Late Model Elite,駆逐ニ級後期型,elite,624,2,10,3,mqboqqeinwaj,1,http://203.104.209.71/kcs/resources/swf/ships/mqboqqeinwaj.swf?VERSION=1
-Seaplane Tender Princess (A),水母棲姫,,625,16,5,4,wlmwstevvrwv,1,http://203.104.209.71/kcs/resources/swf/ships/wlmwstevvrwv.swf?VERSION=1
-Seaplane Tender Princess (B),水母棲姫,,626,16,5,4,yjylvwiustlg,1,http://203.104.209.71/kcs/resources/swf/ships/yjylvwiustlg.swf?VERSION=1
-Seaplane Tender Princess (C),水母棲姫,,627,16,5,4,bxslnscoclqv,1,http://203.104.209.71/kcs/resources/swf/ships/bxslnscoclqv.swf?VERSION=1
-Air Defense Princess (A),防空棲姫,,628,2,10,3,qyzjmmmamvqv,1,http://203.104.209.71/kcs/resources/swf/ships/qyzjmmmamvqv.swf?VERSION=1
-Air Defense Princess (B),防空棲姫,,629,2,10,3,cvhmavgxsrbr,1,http://203.104.209.71/kcs/resources/swf/ships/cvhmavgxsrbr.swf?VERSION=1
-Air Defense Princess (C),防空棲姫,,630,2,10,3,mxftnbimpfud,1,http://203.104.209.71/kcs/resources/swf/ships/mxftnbimpfud.swf?VERSION=1
-Airfield Princess (A),飛行場姫,,631,10,0,4,oequjjnzhgcw,1,http://203.104.209.71/kcs/resources/swf/ships/oequjjnzhgcw.swf?VERSION=1
-Airfield Princess (B),飛行場姫,,632,10,0,4,jdpebtsbhupn,1,http://203.104.209.71/kcs/resources/swf/ships/jdpebtsbhupn.swf?VERSION=1
-Airfield Princess (C),飛行場姫,,633,10,0,4,ozdxnvurmoyg,1,http://203.104.209.71/kcs/resources/swf/ships/ozdxnvurmoyg.swf?VERSION=1
-Isolated Island Demon (A),離島棲鬼,,634,10,0,4,oesmuxjcpwsl,1,http://203.104.209.71/kcs/resources/swf/ships/oesmuxjcpwsl.swf?VERSION=1
-Isolated Island Demon (B),離島棲鬼,,635,10,0,4,lxkovqjiqcue,1,http://203.104.209.71/kcs/resources/swf/ships/lxkovqjiqcue.swf?VERSION=1
-Isolated Island Demon (C),離島棲鬼,,636,10,0,4,idborkfjzpjt,1,http://203.104.209.71/kcs/resources/swf/ships/idborkfjzpjt.swf?VERSION=1
+Destroyer I-Class,駆逐イ級,-,501,2,10,2,mtjmdcwtvhdr,2,http://203.104.209.71/kcs/resources/swf/ships/mtjmdcwtvhdr.swf
+Destroyer Ro-Class,駆逐ロ級,-,502,2,10,2,pbgkfylkbjuy,2,http://203.104.209.71/kcs/resources/swf/ships/pbgkfylkbjuy.swf
+Destroyer Ha-Class,駆逐ハ級,-,503,2,10,2,pcumlrymlujh,2,http://203.104.209.71/kcs/resources/swf/ships/pcumlrymlujh.swf
+Destroyer Ni-Class,駆逐ニ級,-,504,2,10,2,itbrdpdbkynm,2,http://203.104.209.71/kcs/resources/swf/ships/itbrdpdbkynm.swf
+Light Cruiser Ho-Class,軽巡ホ級,-,505,3,10,2,itslcqtmrxtf,2,http://203.104.209.71/kcs/resources/swf/ships/itslcqtmrxtf.swf
+Light Cruiser He-Class,軽巡ヘ級,-,506,3,10,2,wuhnhojjxmke,2,http://203.104.209.71/kcs/resources/swf/ships/wuhnhojjxmke.swf
+Light Cruiser To-Class,軽巡ト級,-,507,3,10,3,xlqcmisdyfiu,2,http://203.104.209.71/kcs/resources/swf/ships/xlqcmisdyfiu.swf
+Torpedo Cruiser Chi-Class,雷巡チ級,-,508,4,10,3,mcouotbbbzpx,2,http://203.104.209.71/kcs/resources/swf/ships/mcouotbbbzpx.swf
+Heavy Cruiser Ri-Class,重巡リ級,-,509,5,10,3,iwztvmesrrju,2,http://203.104.209.71/kcs/resources/swf/ships/iwztvmesrrju.swf
+Light Carrier Nu-Class,軽母ヌ級,-,510,7,5,3,slxvncxmexin,2,http://203.104.209.71/kcs/resources/swf/ships/slxvncxmexin.swf
+Battleship Ru-Class,戦艦ル級,-,511,9,5,3,pijdvoaebmxm,2,http://203.104.209.71/kcs/resources/swf/ships/pijdvoaebmxm.swf
+Standard Carrier Wo-Class,空母ヲ級,-,512,11,10,3,yalxvbxgbojg,2,http://203.104.209.71/kcs/resources/swf/ships/yalxvbxgbojg.swf
+Transport Ship Wa-Class,輸送ワ級,-,513,15,5,0,mednanfcfkil,2,http://203.104.209.71/kcs/resources/swf/ships/mednanfcfkil.swf
+Destroyer I-Class Elite,駆逐イ級,elite,514,2,10,2,eusutfvohllh,3,http://203.104.209.71/kcs/resources/swf/ships/eusutfvohllh.swf
+Destroyer Ro-Class Elite,駆逐ロ級,elite,515,2,10,2,tizkiyetefqx,2,http://203.104.209.71/kcs/resources/swf/ships/tizkiyetefqx.swf
+Destroyer Ha-Class Elite,駆逐ハ級,elite,516,2,10,2,ycjcuuqbxywj,2,http://203.104.209.71/kcs/resources/swf/ships/ycjcuuqbxywj.swf
+Destroyer Ni-Class Elite,駆逐ニ級,elite,517,2,10,2,zujcpyhiwhfk,2,http://203.104.209.71/kcs/resources/swf/ships/zujcpyhiwhfk.swf
+Light Cruiser Ho-Class Elite,軽巡ホ級,elite,518,3,10,2,nylazbctwxxb,2,http://203.104.209.71/kcs/resources/swf/ships/nylazbctwxxb.swf
+Light Cruiser He-Class Elite,軽巡ヘ級,elite,519,3,10,2,thxxajqkbcea,2,http://203.104.209.71/kcs/resources/swf/ships/thxxajqkbcea.swf
+Light Cruiser To-Class Elite,軽巡ト級,elite,520,3,10,3,vxeposgfnulm,2,http://203.104.209.71/kcs/resources/swf/ships/vxeposgfnulm.swf
+Torpedo Cruiser Chi-Class Elite,雷巡チ級,elite,521,4,10,3,kkdcshdnoqvd,2,http://203.104.209.71/kcs/resources/swf/ships/kkdcshdnoqvd.swf
+Heavy Cruiser Ri-Class Elite,重巡リ級,elite,522,5,10,4,jgdkktwkyoep,2,http://203.104.209.71/kcs/resources/swf/ships/jgdkktwkyoep.swf
+Light Carrier Nu-Class Elite,軽母ヌ級,elite,523,7,5,3,glsvfugrtdlv,2,http://203.104.209.71/kcs/resources/swf/ships/glsvfugrtdlv.swf
+Battleship Ru-Class Elite,戦艦ル級,elite,524,9,5,4,jnaynrbswxny,2,http://203.104.209.71/kcs/resources/swf/ships/jnaynrbswxny.swf
+Standard Carrier Wo-Class Elite,空母ヲ級,elite,525,11,10,3,lreivfnxjfik,2,http://203.104.209.71/kcs/resources/swf/ships/lreivfnxjfik.swf
+Transport Ship Wa-Class Elite,輸送ワ級,elite,526,15,5,3,nfbfnyqdswvz,2,http://203.104.209.71/kcs/resources/swf/ships/nfbfnyqdswvz.swf
+Heavy Cruiser Ri-Class Flagship,重巡リ級,flagship,527,5,10,4,cdgslqaonpst,2,http://203.104.209.71/kcs/resources/swf/ships/cdgslqaonpst.swf
+Standard Carrier Wo-Class Flagship,空母ヲ級,flagship,528,11,10,3,kcjagtsviiyn,2,http://203.104.209.71/kcs/resources/swf/ships/kcjagtsviiyn.swf
+Battleship Ru-Class Flagship,戦艦ル級,flagship,529,9,5,4,crlyrpscrtad,2,http://203.104.209.71/kcs/resources/swf/ships/crlyrpscrtad.swf
+Submarine Ka-Class,潜水カ級,,530,13,5,2,zsrtdiesnmum,2,http://203.104.209.71/kcs/resources/swf/ships/zsrtdiesnmum.swf
+Submarine Yo-Class,潜水ヨ級,,531,13,5,2,jyofolfguclj,2,http://203.104.209.71/kcs/resources/swf/ships/jyofolfguclj.swf
+Submarine Ka-Class Elite,潜水カ級,elite,532,13,5,3,ebutrlbzkktc,2,http://203.104.209.71/kcs/resources/swf/ships/ebutrlbzkktc.swf
+Submarine Yo-Class Elite,潜水ヨ級,elite,533,13,5,3,ppdicscudnmo,2,http://203.104.209.71/kcs/resources/swf/ships/ppdicscudnmo.swf
+Submarine Ka-Class Flagship,潜水カ級,flagship,534,13,5,3,duwuexijckgq,2,http://203.104.209.71/kcs/resources/swf/ships/duwuexijckgq.swf
+Submarine Yo-Class Flagship,潜水ヨ級,flagship,535,13,5,3,nvaipajbkgjn,2,http://203.104.209.71/kcs/resources/swf/ships/nvaipajbkgjn.swf
+Floating Fortress A,浮遊要塞,,536,10,10,3,cchowgdxysfu,2,http://203.104.209.71/kcs/resources/swf/ships/cchowgdxysfu.swf
+Floating Fortress B,浮遊要塞,,537,10,10,3,matbibgdovof,2,http://203.104.209.71/kcs/resources/swf/ships/matbibgdovof.swf
+Floating Fortress C,浮遊要塞,,538,10,10,3,murfwykjiuog,2,http://203.104.209.71/kcs/resources/swf/ships/murfwykjiuog.swf
+Anchorage Demon,泊地棲鬼,,539,10,5,3,cyfiwlhsgdji,2,http://203.104.209.71/kcs/resources/swf/ships/cyfiwlhsgdji.swf
+Anchorage Princess,泊地棲姫,,540,10,5,3,vewvgeiqybub,2,http://203.104.209.71/kcs/resources/swf/ships/vewvgeiqybub.swf
+Battleship Ta-Class,戦艦タ級,,541,8,10,4,mqzxufdjdjju,1,http://203.104.209.71/kcs/resources/swf/ships/mqzxufdjdjju.swf
+Battleship Ta-Class Elite,戦艦タ級,elite,542,8,10,4,whhduavjmdki,1,http://203.104.209.71/kcs/resources/swf/ships/whhduavjmdki.swf
+Battleship Ta-Class Flagship,戦艦タ級,flagship,543,8,10,4,zpzqybyepyte,1,http://203.104.209.71/kcs/resources/swf/ships/zpzqybyepyte.swf
+Armored Carrier Demon,装甲空母鬼,,544,10,10,3,jndnkhfjvnjo,1,http://203.104.209.71/kcs/resources/swf/ships/jndnkhfjvnjo.swf
+Armored Carrier Princess,装甲空母姫,,545,10,10,3,pnvdeewbfyfh,1,http://203.104.209.71/kcs/resources/swf/ships/pnvdeewbfyfh.swf
+Southern Demon,南方棲鬼,,546,10,5,3,jcgarujexcrf,1,http://203.104.209.71/kcs/resources/swf/ships/jcgarujexcrf.swf
+Southern War Demon,南方棲戦鬼,,547,10,5,3,jmlbqlrnajyq,1,http://203.104.209.71/kcs/resources/swf/ships/jmlbqlrnajyq.swf
+Southern War Princess,南方棲戦姫,,548,10,5,3,vooogzpoblwf,1,http://203.104.209.71/kcs/resources/swf/ships/vooogzpoblwf.swf
+Escort Fortress A,護衛要塞,,549,10,10,3,bwlykdyyjurx,2,http://203.104.209.71/kcs/resources/swf/ships/bwlykdyyjurx.swf
+Escort Fortress B,護衛要塞,,550,10,10,3,fhjnljxxjpmk,2,http://203.104.209.71/kcs/resources/swf/ships/fhjnljxxjpmk.swf
+Escort Fortress C,護衛要塞,,551,10,10,3,nmwnyjyfezro,2,http://203.104.209.71/kcs/resources/swf/ships/nmwnyjyfezro.swf
+Destroyer Ro-Class Flagship,駆逐ロ級,flagship,552,2,10,3,szdhvxpyljqe,1,http://203.104.209.71/kcs/resources/swf/ships/szdhvxpyljqe.swf
+Destroyer Ha-Class Flagship,駆逐ハ級,flagship,553,2,10,3,jhjcroxdngqe,1,http://203.104.209.71/kcs/resources/swf/ships/jhjcroxdngqe.swf
+Light Cruiser Ho-Class Flagship,軽巡ホ級,flagship,554,3,10,3,afrplxszsxit,1,http://203.104.209.71/kcs/resources/swf/ships/afrplxszsxit.swf
+Light Cruiser He-Class Flagship,軽巡ヘ級,flagship,555,3,10,4,eswghzpycwxb,1,http://203.104.209.71/kcs/resources/swf/ships/eswghzpycwxb.swf
+Airfield Princess,飛行場姫,,556,10,0,4,qtygozpoceew,1,http://203.104.209.71/kcs/resources/swf/ships/qtygozpoceew.swf
+Battleship Princess,戦艦棲姫,,557,9,5,4,glghkfswtxet,1,http://203.104.209.71/kcs/resources/swf/ships/glghkfswtxet.swf
+Transport Ship Wa-Class Flagship,輸送ワ級,flagship,558,15,5,3,okkjcahxfltg,1,http://203.104.209.71/kcs/resources/swf/ships/okkjcahxfltg.swf
+Torpedo Cruiser Chi-Class Flagship,雷巡チ級,flagship,559,4,10,3,cojscoppbivn,1,http://203.104.209.71/kcs/resources/swf/ships/cojscoppbivn.swf
+Light Carrier Nu-Class Flagship,軽母ヌ級,flagship,560,7,5,4,pcmfcidohwga,1,http://203.104.209.71/kcs/resources/swf/ships/pcmfcidohwga.swf
+Battleship Re-Class,戦艦レ級,,561,10,10,4,tkcshwnsnsqr,1,http://203.104.209.71/kcs/resources/swf/ships/tkcshwnsnsqr.swf
+Battleship Re-Class Elite,戦艦レ級,elite,562,10,10,4,yrdhekgqgxtg,1,http://203.104.209.71/kcs/resources/swf/ships/yrdhekgqgxtg.swf
+Destroyer I-Class Flagship,駆逐イ級,flagship,564,2,10,3,skifghbnovxl,1,http://203.104.209.71/kcs/resources/swf/ships/skifghbnovxl.swf
+Standard Carrier Wo-Class Kai Flagship,空母ヲ級改,flagship,565,11,10,4,ckbtgxrnjvof,1,http://203.104.209.71/kcs/resources/swf/ships/ckbtgxrnjvof.swf
+Heavy Cruiser Ri-Class Kai Flagship,重巡リ級改,flagship,566,5,10,4,lfpzrcpfngkf,1,http://203.104.209.71/kcs/resources/swf/ships/lfpzrcpfngkf.swf
+Battleship Ru-Class Kai Flagship,戦艦ル級改,flagship,567,9,5,4,qyfevgdqedyw,1,http://203.104.209.71/kcs/resources/swf/ships/qyfevgdqedyw.swf
+Submarine So-Class,潜水ソ級,,570,13,5,2,qfwkvipzxqey,1,http://203.104.209.71/kcs/resources/swf/ships/qfwkvipzxqey.swf
+Submarine So-Class Elite,潜水ソ級,elite,571,13,5,3,gnnicfxddgut,1,http://203.104.209.71/kcs/resources/swf/ships/gnnicfxddgut.swf
+Submarine So-Class Flagship,潜水ソ級,flagship,572,13,5,3,obxvexpgyajg,1,http://203.104.209.71/kcs/resources/swf/ships/obxvexpgyajg.swf
+Harbour Princess,港湾棲姫,,573,10,0,4,mvqfkxbebqob,1,http://203.104.209.71/kcs/resources/swf/ships/mvqfkxbebqob.swf
+Isolated Island Demon,離島棲鬼,,574,10,0,4,ihfrerqprpro,1,http://203.104.209.71/kcs/resources/swf/ships/ihfrerqprpro.swf
+Destroyer I-Class Late Model,駆逐イ級後期型,,575,2,10,3,dsdrpxrroksm,1,http://203.104.209.71/kcs/resources/swf/ships/dsdrpxrroksm.swf
+Destroyer Ro-Class Late Model,駆逐ロ級後期型,,576,2,10,3,wnftypfgkdkr,1,http://203.104.209.71/kcs/resources/swf/ships/wnftypfgkdkr.swf
+Destroyer Ha-Class Late Model,駆逐ハ級後期型,,577,2,10,3,icwosohxkvbd,1,http://203.104.209.71/kcs/resources/swf/ships/icwosohxkvbd.swf
+Destroyer Ni-Class Late Model,駆逐ニ級後期型,,578,2,10,3,ohcikvnwgsuh,1,http://203.104.209.71/kcs/resources/swf/ships/ohcikvnwgsuh.swf
+Standard Carrier Wo-Class Flagship II,空母ヲ級,flagship,579,11,10,3,lhdxfbtoyfer,1,http://203.104.209.71/kcs/resources/swf/ships/lhdxfbtoyfer.swf
+Northern Princess,北方棲姫,,581,10,0,4,lwrljvbgvkxe,1,http://203.104.209.71/kcs/resources/swf/ships/lwrljvbgvkxe.swf
+Northern Princess (Final Form),北方棲姫,,582,10,0,4,rgjwnwdygctr,1,http://203.104.209.71/kcs/resources/swf/ships/rgjwnwdygctr.swf
+Midway Princess,中間棲姫,,583,10,0,5,naucyhpcdjwf,1,http://203.104.209.71/kcs/resources/swf/ships/naucyhpcdjwf.swf
+Midway Princess (Final Form),中間棲姫,,584,10,0,5,fcaeosgyrckf,1,http://203.104.209.71/kcs/resources/swf/ships/fcaeosgyrckf.swf
+Aircraft Carrier Demon,空母棲鬼,,585,11,10,4,kvllndxefqyr,1,http://203.104.209.71/kcs/resources/swf/ships/kvllndxefqyr.swf
+Aircraft Carrier Princess,空母棲姫,,586,11,10,4,eoaivzseqtwo,1,http://203.104.209.71/kcs/resources/swf/ships/eoaivzseqtwo.swf
+Northern Princess (EO),北方棲姫,,587,10,0,4,bcvjduazbvue,5,http://203.104.209.71/kcs/resources/swf/ships/bcvjduazbvue.swf
+Northern Princess (EO Final Form),北方棲姫,,588,10,0,4,jtokvqdkiidv,5,http://203.104.209.71/kcs/resources/swf/ships/jtokvqdkiidv.swf
+Northern Princess (EO Weak),北方棲姫,,589,10,0,4,yqxjpfvbrghk,5,http://203.104.209.71/kcs/resources/swf/ships/yqxjpfvbrghk.swf
+Northern Princess (EO Weak Final Form),北方棲姫,,590,10,0,4,xsjvtttdqhwy,5,http://203.104.209.71/kcs/resources/swf/ships/xsjvtttdqhwy.swf
+Light Cruiser Tsu-Class,軽巡ツ級,,591,3,10,4,vwaghxaewzdw,1,http://203.104.209.71/kcs/resources/swf/ships/vwaghxaewzdw.swf
+Light Cruiser Tsu-Class Elite,軽巡ツ級,elite,592,3,10,4,ypbbvxgczbph,1,http://203.104.209.71/kcs/resources/swf/ships/ypbbvxgczbph.swf
+Heavy Cruiser Ne-Class,重巡ネ級,,594,5,10,4,yowvcxyrqiqe,1,http://203.104.209.71/kcs/resources/swf/ships/yowvcxyrqiqe.swf
+Heavy Cruiser Ne-Class Elite,重巡ネ級,elite,595,5,10,4,aaklgdwughjy,1,http://203.104.209.71/kcs/resources/swf/ships/aaklgdwughjy.swf
+Destroyer Princess,駆逐棲姫,,597,2,10,3,xdcuopswoflo,1,http://203.104.209.71/kcs/resources/swf/ships/xdcuopswoflo.swf
+Destroyer Princess (Final Form),駆逐棲姫,,598,2,10,3,ogjyulhxjvhr,1,http://203.104.209.71/kcs/resources/swf/ships/ogjyulhxjvhr.swf
+Aircraft Carrier Water Demon,空母水鬼,,599,11,10,4,zkkzcjehulfi,1,http://203.104.209.71/kcs/resources/swf/ships/zkkzcjehulfi.swf
+Aircraft Carrier Water Demon (Final Form),空母水鬼,,600,11,10,4,ptotvjxlwqgh,1,http://203.104.209.71/kcs/resources/swf/ships/ptotvjxlwqgh.swf
+Light Cruiser Demon,軽巡棲鬼,,601,3,10,4,dpmgoqtslers,1,http://203.104.209.71/kcs/resources/swf/ships/dpmgoqtslers.swf
+Light Cruiser Demon (Final Form),軽巡棲鬼,,602,3,10,4,jzweeqxgragj,1,http://203.104.209.71/kcs/resources/swf/ships/jzweeqxgragj.swf
+Battleship Water Demon,戦艦水鬼,,603,9,5,4,iepccppipopa,1,http://203.104.209.71/kcs/resources/swf/ships/iepccppipopa.swf
+Battleship Water Demon (Final Form),戦艦水鬼,,604,9,5,4,srqsizwuyvfm,1,http://203.104.209.71/kcs/resources/swf/ships/srqsizwuyvfm.swf
+Harbour Water Demon,港湾水鬼,,605,10,0,4,jnwpsrxekmbn,1,http://203.104.209.71/kcs/resources/swf/ships/jnwpsrxekmbn.swf
+Harbour Water Demon (Strong),港湾水鬼,,606,10,0,4,clqoqbjfvidf,1,http://203.104.209.71/kcs/resources/swf/ships/clqoqbjfvidf.swf
+Harbour Water Demon (Final Form),港湾水鬼,,607,10,0,4,ysteufhuvuuk,1,http://203.104.209.71/kcs/resources/swf/ships/ysteufhuvuuk.swf
+Harbour Water Demon (Strong Final Form),港湾水鬼,,608,10,0,4,octsmbzvtknp,1,http://203.104.209.71/kcs/resources/swf/ships/octsmbzvtknp.swf
+Anchorage Water Demon,泊地水鬼,,609,10,0,4,qvjxstjsucxx,1,http://203.104.209.71/kcs/resources/swf/ships/qvjxstjsucxx.swf
+Anchorage Water Demon (Strong),泊地水鬼,,610,10,0,4,vjgqyiisflxo,1,http://203.104.209.71/kcs/resources/swf/ships/vjgqyiisflxo.swf
+Anchorage Water Demon (Final Form),泊地水鬼,,611,10,0,4,yqbbctkwbtgd,1,http://203.104.209.71/kcs/resources/swf/ships/yqbbctkwbtgd.swf
+Anchorage Water Demon (Strong Final Form),泊地水鬼,,612,10,0,4,iinthvbcxohn,1,http://203.104.209.71/kcs/resources/swf/ships/iinthvbcxohn.swf
+Harbour Princess Final,港湾棲姫,,613,10,0,4,fwbonbofgcwe,1,http://203.104.209.71/kcs/resources/swf/ships/fwbonbofgcwe.swf
+Standard Carrier Wo-Class Flagship III,空母ヲ級,flagship,614,11,10,3,xwkafpsvohsx,1,http://203.104.209.71/kcs/resources/swf/ships/xwkafpsvohsx.swf
+Standard Carrier Wo-Class Flagship IV,空母ヲ級,flagship,615,11,10,3,swtqydoaxery,1,http://203.104.209.71/kcs/resources/swf/ships/swtqydoaxery.swf
+Standard Carrier Wo-Class Kai Flagship II,空母ヲ級改,flagship,616,11,10,3,kevftdefeysm,1,http://203.104.209.71/kcs/resources/swf/ships/kevftdefeysm.swf
+Standard Carrier Wo-Class Kai Flagship III,空母ヲ級改,flagship,617,11,10,3,oclehydqqwtr,1,http://203.104.209.71/kcs/resources/swf/ships/oclehydqqwtr.swf
+Standard Carrier Wo-Class Kai Flagship IV,空母ヲ級改,flagship,618,11,10,3,whfpobwysexc,1,http://203.104.209.71/kcs/resources/swf/ships/whfpobwysexc.swf
+Aircraft Carrier Demon (Strong),空母棲鬼,,619,11,10,4,wnnfthmvobbc,1,http://203.104.209.71/kcs/resources/swf/ships/wnnfthmvobbc.swf
+Aircraft Carrier Princess (Strong),空母棲姫,,620,11,10,4,mowniqrfpjjw,1,http://203.104.209.71/kcs/resources/swf/ships/mowniqrfpjjw.swf
+Destroyer I-Class Late Model Elite,駆逐イ級後期型,elite,621,2,10,3,mhgomfxjbdqg,1,http://203.104.209.71/kcs/resources/swf/ships/mhgomfxjbdqg.swf
+Destroyer Ro-Class Late Model Elite,駆逐ロ級後期型,elite,622,2,10,3,oevqngeqykfc,1,http://203.104.209.71/kcs/resources/swf/ships/oevqngeqykfc.swf
+Destroyer Ha-Class Late Model Elite,駆逐ハ級後期型,elite,623,2,10,3,hzegzqgicqnv,1,http://203.104.209.71/kcs/resources/swf/ships/hzegzqgicqnv.swf
+Destroyer Ni-Class Late Model Elite,駆逐ニ級後期型,elite,624,2,10,3,mqboqqeinwaj,1,http://203.104.209.71/kcs/resources/swf/ships/mqboqqeinwaj.swf
+Seaplane Tender Princess (A),水母棲姫,,625,16,5,4,wlmwstevvrwv,1,http://203.104.209.71/kcs/resources/swf/ships/wlmwstevvrwv.swf
+Seaplane Tender Princess (B),水母棲姫,,626,16,5,4,yjylvwiustlg,1,http://203.104.209.71/kcs/resources/swf/ships/yjylvwiustlg.swf
+Seaplane Tender Princess (C),水母棲姫,,627,16,5,4,bxslnscoclqv,1,http://203.104.209.71/kcs/resources/swf/ships/bxslnscoclqv.swf
+Air Defense Princess (A),防空棲姫,,628,2,10,3,qyzjmmmamvqv,1,http://203.104.209.71/kcs/resources/swf/ships/qyzjmmmamvqv.swf
+Air Defense Princess (B),防空棲姫,,629,2,10,3,cvhmavgxsrbr,1,http://203.104.209.71/kcs/resources/swf/ships/cvhmavgxsrbr.swf
+Air Defense Princess (C),防空棲姫,,630,2,10,3,mxftnbimpfud,1,http://203.104.209.71/kcs/resources/swf/ships/mxftnbimpfud.swf
+Airfield Princess (A),飛行場姫,,631,10,0,4,oequjjnzhgcw,1,http://203.104.209.71/kcs/resources/swf/ships/oequjjnzhgcw.swf
+Airfield Princess (B),飛行場姫,,632,10,0,4,jdpebtsbhupn,1,http://203.104.209.71/kcs/resources/swf/ships/jdpebtsbhupn.swf
+Airfield Princess (C),飛行場姫,,633,10,0,4,ozdxnvurmoyg,1,http://203.104.209.71/kcs/resources/swf/ships/ozdxnvurmoyg.swf
+Isolated Island Demon (A),離島棲鬼,,634,10,0,4,oesmuxjcpwsl,1,http://203.104.209.71/kcs/resources/swf/ships/oesmuxjcpwsl.swf
+Isolated Island Demon (B),離島棲鬼,,635,10,0,4,lxkovqjiqcue,1,http://203.104.209.71/kcs/resources/swf/ships/lxkovqjiqcue.swf
+Isolated Island Demon (C),離島棲鬼,,636,10,0,4,idborkfjzpjt,1,http://203.104.209.71/kcs/resources/swf/ships/idborkfjzpjt.swf
