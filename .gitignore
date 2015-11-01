@@ -1,9 +1,9 @@
-Output
-node_modules
-typings
+Output/
+node_modules/
+typings/
 
-Voice
-SeasonalDrops
+Voice/
+SeasonalDrops/
 
 *.js
 *.njsproj
