@@ -1,5 +1,219 @@
 [
   {
+    "date": "10/31/2015",
+    "ships": {
+      "Zuikaku Kai2": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/giytrybpknos.swf?VERSION=2",
+        "size": 425397
+      },
+      "Zuikaku Kai2 A": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qgrxbhuvtrbf.swf?VERSION=2",
+        "size": 446979
+      }
+    }
+  },
+  {
+    "date": "10/30/2015",
+    "ships": {
+      "935": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/drnqclocqniv.swf?VERSION=1",
+        "size": 196994
+      },
+      "936": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/khzhuwdqwlfd.swf?VERSION=1",
+        "size": 178793
+      },
+      "937": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/oppmayouoaon.swf?VERSION=1",
+        "size": 172281
+      },
+      "938": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/kkvtzegqjmkf.swf?VERSION=1",
+        "size": 184440
+      },
+      "939": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/wmwkglylqfhc.swf?VERSION=1",
+        "size": 203615
+      },
+      "940": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/eqboowhrhakv.swf?VERSION=1",
+        "size": 212095
+      },
+      "941": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/kwduknmgsaex.swf?VERSION=1",
+        "size": 174850
+      },
+      "942": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ptdxmthckjut.swf?VERSION=1",
+        "size": 181713
+      },
+      "943": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/obicookwhnpj.swf?VERSION=1",
+        "size": 168863
+      },
+      "944": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/nrlysgpguqtd.swf?VERSION=1",
+        "size": 223173
+      },
+      "945": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mcfmpizxyhiu.swf?VERSION=1",
+        "size": 178370
+      },
+      "946": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/fizjatjjphkx.swf?VERSION=1",
+        "size": 222397
+      },
+      "947": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jywjvjcnbzsi.swf?VERSION=1",
+        "size": 188594
+      },
+      "948": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/svtoekyvdpju.swf?VERSION=1",
+        "size": 185807
+      },
+      "949": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/bmcvmonqyxoi.swf?VERSION=1",
+        "size": 177493
+      },
+      "950": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pggrpfnrqfhg.swf?VERSION=1",
+        "size": 215904
+      },
+      "Hamakaze": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/rubtymuqfeuq.swf?VERSION=12",
+        "size": 350831
+      },
+      "Hamakaze Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ojkgkujsenly.swf?VERSION=12",
+        "size": 353625
+      },
+      "Ikazuchi": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/aejfywpsegbv.swf?VERSION=3",
+        "size": 301049
+      },
+      "Ikazuchi Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/eathbqlrqvda.swf?VERSION=3",
+        "size": 318308
+      },
+      "Inazuma": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/uuilouoffjoj.swf?VERSION=3",
+        "size": 307027
+      },
+      "Inazuma Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/bqvrrfdcuvdr.swf?VERSION=3",
+        "size": 324692
+      },
+      "Isokaze": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/bctrxdxrugqp.swf?VERSION=3",
+        "size": 410899
+      },
+      "Isokaze Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/dyupugfxshtd.swf?VERSION=3",
+        "size": 412261
+      },
+      "Jintsuu Kai2": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/xyqotgpmnjih.swf?VERSION=8",
+        "size": 363177
+      },
+      "Kawakaze": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jdpiljspxgpz.swf?VERSION=3",
+        "size": 394047
+      },
+      "Kawakaze Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/litugbpkilsf.swf?VERSION=3",
+        "size": 396446
+      },
+      "Kuma": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zrmviexnupjy.swf?VERSION=7",
+        "size": 423212
+      },
+      "Kuma Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mbgjkzlvemui.swf?VERSION=7",
+        "size": 427140
+      },
+      "Libeccio": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/nsutzbtifami.swf?VERSION=3",
+        "size": 380498
+      },
+      "Libeccio Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/rgfuelwdntmb.swf?VERSION=3",
+        "size": 384915
+      },
+      "Mizuho": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zqwwomufsbpq.swf?VERSION=3",
+        "size": 477725
+      },
+      "Mizuho Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ycgllqsxwdgy.swf?VERSION=3",
+        "size": 477619
+      },
+      "Nagara": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/debsnofmttkx.swf?VERSION=3",
+        "size": 340090
+      },
+      "Nagara Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jmpkkzqwgxtc.swf?VERSION=4",
+        "size": 349752
+      },
+      "Natori": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/bqwjdltjktls.swf?VERSION=3",
+        "size": 373858
+      },
+      "Natori Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/aqgjvutybsbk.swf?VERSION=4",
+        "size": 361000
+      },
+      "Oboro": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jqexjuembtvh.swf?VERSION=9",
+        "size": 472991
+      },
+      "Oboro Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/sbdfpooechyn.swf?VERSION=9",
+        "size": 490293
+      },
+      "Ooyodo Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/gixbrtnuabge.swf?VERSION=10",
+        "size": 486983
+      },
+      "Roma": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/gyywcqqfnjmc.swf?VERSION=7",
+        "size": 367166
+      },
+      "Roma Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/yfpnftpuwkmx.swf?VERSION=7",
+        "size": 378894
+      },
+      "Tama": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jiftwdxqwtin.swf?VERSION=7",
+        "size": 339617
+      },
+      "Tama Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/cxhxktltjtbg.swf?VERSION=7",
+        "size": 359621
+      },
+      "Urakaze": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/cmupwurocdpn.swf?VERSION=7",
+        "size": 400987
+      },
+      "Urakaze Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/exedxncqauws.swf?VERSION=7",
+        "size": 403439
+      },
+      "Z1": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pvhdtbuddjhb.swf?VERSION=4",
+        "size": 310629
+      },
+      "Z1 Kai": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vbuxfozqoemo.swf?VERSION=3",
+        "size": 304188
+      },
+      "Z1 Zwei": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qgkjswznylty.swf?VERSION=3",
+        "size": 313999
+      }
+    }
+  },
+  {
     "date": "10/9/2015",
     "ships": {
       "Akebono": {
@@ -9,14 +223,6 @@
       "Akebono Kai": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/wnocckxgfmnh.swf?VERSION=11",
         "size": 398213
-      },
-      "Isokaze": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/bctrxdxrugqp.swf?VERSION=2",
-        "size": 357773
-      },
-      "Isokaze Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/dyupugfxshtd.swf?VERSION=2",
-        "size": 357289
       },
       "Murasame": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/fhaelooubkbi.swf?VERSION=15",
@@ -99,30 +305,6 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/cispmgxqaedk.swf?VERSION=3",
         "size": 377869
       },
-      "Ikazuchi": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/aejfywpsegbv.swf?VERSION=2",
-        "size": 301365
-      },
-      "Ikazuchi Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/eathbqlrqvda.swf?VERSION=2",
-        "size": 318292
-      },
-      "Inazuma": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/uuilouoffjoj.swf?VERSION=2",
-        "size": 302969
-      },
-      "Inazuma Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/bqvrrfdcuvdr.swf?VERSION=2",
-        "size": 320417
-      },
-      "Kuma": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/zrmviexnupjy.swf?VERSION=6",
-        "size": 428769
-      },
-      "Kuma Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/mbgjkzlvemui.swf?VERSION=6",
-        "size": 430710
-      },
       "Shoukaku Kai2": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/hpxsthymxmki.swf?VERSION=1",
         "size": 407124
@@ -130,104 +312,79 @@
       "Shoukaku Kai2 A": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ekuxnovhattm.swf?VERSION=1",
         "size": 406666
-      },
-      "Tama": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/jiftwdxqwtin.swf?VERSION=6",
-        "size": 358921
-      },
-      "Tama Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/cxhxktltjtbg.swf?VERSION=6",
-        "size": 378876
-      }
-    }
-  },
-  {
-    "date": "9/20/2015",
-    "ships": {
-      "Z1": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/pvhdtbuddjhb.swf?VERSION=3",
-        "size": 319986
-      },
-      "Z1 Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/vbuxfozqoemo.swf?VERSION=2",
-        "size": 313459
-      },
-      "Z1 Zwei": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/qgkjswznylty.swf?VERSION=2",
-        "size": 321746
       }
     }
   },
   {
     "date": "9/7/2015",
     "ships": {
+      "921": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/cdsgfutghqlr.swf?VERSION=1",
+        "size": 172984
+      },
+      "922": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/rqxbjmdizgzp.swf?VERSION=1",
+        "size": 171685
+      },
+      "923": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/yfrcebhkfeme.swf?VERSION=1",
+        "size": 181702
+      },
+      "924": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/wlvqxbzvynds.swf?VERSION=1",
+        "size": 168785
+      },
+      "925": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ojdsvkgrgyun.swf?VERSION=1",
+        "size": 186763
+      },
+      "926": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ftowpnpiekhh.swf?VERSION=1",
+        "size": 191152
+      },
+      "927": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ecwcfrvdtktj.swf?VERSION=1",
+        "size": 170888
+      },
+      "928": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/iakggseprkmv.swf?VERSION=1",
+        "size": 191907
+      },
+      "929": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/syrrbygrimvl.swf?VERSION=1",
+        "size": 203426
+      },
+      "930": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/kjftklsgiiqw.swf?VERSION=1",
+        "size": 184226
+      },
+      "931": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/khkhnfcvzhlh.swf?VERSION=1",
+        "size": 201275
+      },
+      "932": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jkvjvdnyjvkg.swf?VERSION=1",
+        "size": 232833
+      },
+      "933": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/xgsjrrdbdkep.swf?VERSION=1",
+        "size": 175325
+      },
+      "934": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pmqlugofbygx.swf?VERSION=1",
+        "size": 182970
+      },
       "Akashi Kai": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/scobmrrdbmsw.swf?VERSION=12",
         "size": 522291
-      },
-      "Hamakaze": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/rubtymuqfeuq.swf?VERSION=11",
-        "size": 344865
-      },
-      "Hamakaze Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/ojkgkujsenly.swf?VERSION=11",
-        "size": 347595
       },
       "Italia": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/feyfhhruhjse.swf?VERSION=6",
         "size": 494870
       },
-      "Jintsuu Kai2": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/xyqotgpmnjih.swf?VERSION=7",
-        "size": 352063
-      },
-      "Kawakaze": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/jdpiljspxgpz.swf?VERSION=2",
-        "size": 422829
-      },
-      "Kawakaze Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/litugbpkilsf.swf?VERSION=2",
-        "size": 425273
-      },
       "Littorio": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/hkhkiqkleprp.swf?VERSION=6",
         "size": 481239
-      },
-      "Mizuho": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/zqwwomufsbpq.swf?VERSION=2",
-        "size": 458435
-      },
-      "Mizuho Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/ycgllqsxwdgy.swf?VERSION=2",
-        "size": 445061
-      },
-      "Nagara": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/debsnofmttkx.swf?VERSION=2",
-        "size": 359878
-      },
-      "Nagara Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/jmpkkzqwgxtc.swf?VERSION=3",
-        "size": 368133
-      },
-      "Natori": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/bqwjdltjktls.swf?VERSION=2",
-        "size": 315483
-      },
-      "Natori Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/aqgjvutybsbk.swf?VERSION=3",
-        "size": 333551
-      },
-      "Oboro": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/jqexjuembtvh.swf?VERSION=8",
-        "size": 379315
-      },
-      "Oboro Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/sbdfpooechyn.swf?VERSION=8",
-        "size": 396100
-      },
-      "Ooyodo Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/gixbrtnuabge.swf?VERSION=9",
-        "size": 446541
       },
       "Sazanami": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/lnarycubyzrr.swf?VERSION=10",
@@ -261,14 +418,6 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/wjcrloeyiyxw.swf?VERSION=7",
         "size": 346415
       },
-      "Urakaze": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/cmupwurocdpn.swf?VERSION=6",
-        "size": 384479
-      },
-      "Urakaze Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/exedxncqauws.swf?VERSION=6",
-        "size": 386873
-      },
       "Yuudachi Kai2": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/lngqiqvigduj.swf?VERSION=15",
         "size": 437065
@@ -294,14 +443,6 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/gykqxdkfpzih.swf?VERSION=2",
         "size": 398012
       },
-      "Libeccio": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/nsutzbtifaji.swf?VERSION=2",
-        "size": 405432
-      },
-      "Libeccio Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/rgfuelwdntub.swf?VERSION=2",
-        "size": 409830
-      },
       "Teruzuki": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/fvcfdjvmxlko.swf?VERSION=2",
         "size": 338486
@@ -317,6 +458,54 @@
       "Umikaze Kai": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/djszrxlnhbuv.swf?VERSION=2",
         "size": 358209
+      },
+      "水母棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/bxslnscoclqv.swf?VERSION=1",
+        "size": 73103
+      },
+      "空母ヲ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/xwkafpsvohsx.swf?VERSION=1",
+        "size": 323525
+      },
+      "空母ヲ級改": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/oclehydqqwtr.swf?VERSION=1",
+        "size": 258565
+      },
+      "空母棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mowniqrfpjjw.swf?VERSION=1",
+        "size": 93552
+      },
+      "空母棲鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/wnnfthmvobbc.swf?VERSION=1",
+        "size": 77785
+      },
+      "防空棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qyzjmmmamvqv.swf?VERSION=1",
+        "size": 90298
+      },
+      "離島棲鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/oesmuxjcpwsl.swf?VERSION=1",
+        "size": 79145
+      },
+      "飛行場姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jdpebtsbhupn.swf?VERSION=1",
+        "size": 98717
+      },
+      "駆逐イ級後期型": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mhgomfxjbdqg.swf?VERSION=1",
+        "size": 65387
+      },
+      "駆逐ニ級後期型": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mqboqqeinwaj.swf?VERSION=1",
+        "size": 74477
+      },
+      "駆逐ハ級後期型": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/hzegzqgicqnv.swf?VERSION=1",
+        "size": 60104
+      },
+      "駆逐ロ級後期型": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/oevqngeqykfc.swf?VERSION=1",
+        "size": 61120
       }
     }
   },
@@ -341,6 +530,18 @@
   {
     "date": "6/26/2015",
     "ships": {
+      "918": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vdtwxormhevo.swf?VERSION=1",
+        "size": 166059
+      },
+      "919": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/scronrcptbfd.swf?VERSION=1",
+        "size": 208634
+      },
+      "920": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/uhmnbrdfrxjx.swf?VERSION=1",
+        "size": 197129
+      },
       "Shouhou": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/qihrkkfwekpo.swf?VERSION=9",
         "size": 336382
@@ -356,6 +557,10 @@
       "Takanami Kai": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ydsbnsiogwij.swf?VERSION=5",
         "size": 358853
+      },
+      "北方棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/xsjvtttdqhwy.swf?VERSION=7",
+        "size": 71352
       }
     }
   },
@@ -365,6 +570,10 @@
       "Kako Kai2": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/riiwaegupstv.swf?VERSION=4",
         "size": 445590
+      },
+      "港湾棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/fwbonbofgcwe.swf?VERSION=1",
+        "size": 90625
       }
     }
   },
@@ -405,13 +614,13 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/bohmlbbvqtfs.swf?VERSION=2",
         "size": 480262
       },
-      "Roma": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/gyywcqqfnjkc.swf?VERSION=6",
-        "size": 429970
+      "泊地水鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vjgqyiisflxo.swf?VERSION=1",
+        "size": 75015
       },
-      "Roma Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/yfpnftpuwkrx.swf?VERSION=6",
-        "size": 453207
+      "港湾水鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ysteufhuvuuk.swf?VERSION=1",
+        "size": 116054
       }
     }
   },
@@ -627,12 +836,36 @@
       "Zuikaku Kai": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ihwgeegenykh.swf?VERSION=8",
         "size": 402298
+      },
+      "護衛要塞": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/fhjnljxxjpmk.swf?VERSION=2",
+        "size": 128230
       }
     }
   },
   {
     "date": "2/23/2015",
     "ships": {
+      "913": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qwbicuxeliqj.swf?VERSION=1",
+        "size": 158631
+      },
+      "914": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vptgugtdxqec.swf?VERSION=1",
+        "size": 190132
+      },
+      "915": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pgazsjgtftrv.swf?VERSION=1",
+        "size": 208139
+      },
+      "916": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ggxbxoylnlkv.swf?VERSION=1",
+        "size": 164108
+      },
+      "917": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jfpblepvbqlv.swf?VERSION=1",
+        "size": 168899
+      },
       "Katori": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/jtyqmhgstese.swf?VERSION=6",
         "size": 366592
@@ -693,18 +926,50 @@
       "U-511 Kai": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/dfrmfmjvschh.swf?VERSION=3",
         "size": 316485
+      },
+      "戦艦水鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/iepccppipopa.swf?VERSION=1",
+        "size": 104780
+      },
+      "軽巡棲鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jzweeqxgragj.swf?VERSION=1",
+        "size": 72355
       }
     }
   },
   {
     "date": "1/9/2015",
     "ships": {
+      "907": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/hfqetnvodyhm.swf?VERSION=1",
+        "size": 205987
+      },
+      "908": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/xfvfvoryqbyi.swf?VERSION=1",
+        "size": 227523
+      },
+      "909": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/krnmyizepihr.swf?VERSION=1",
+        "size": 260923
+      },
+      "910": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/dvxetgdwyopk.swf?VERSION=1",
+        "size": 247125
+      },
+      "911": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/wodfmwagpixg.swf?VERSION=1",
+        "size": 228549
+      },
+      "912": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/klargseqljrb.swf?VERSION=1",
+        "size": 232467
+      },
       "Akashi": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/kynputhclcdl.swf?VERSION=11",
         "size": 603017
       },
       "Ooyodo": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/uockopeurqdf.swf?VERSION=8",
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/uockopeurqdf.swf?VERSION=9",
         "size": 450897
       }
     }
@@ -712,6 +977,30 @@
   {
     "date": "12/26/2014",
     "ships": {
+      "901": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/rrbdyhfiywqg.swf?VERSION=1",
+        "size": 191472
+      },
+      "902": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/nkxhelerqbjl.swf?VERSION=1",
+        "size": 203690
+      },
+      "903": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/rnofsrlqiegx.swf?VERSION=1",
+        "size": 186892
+      },
+      "904": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qzsmwrrbnefu.swf?VERSION=1",
+        "size": 180373
+      },
+      "905": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/khvcelmbxlsq.swf?VERSION=1",
+        "size": 224257
+      },
+      "906": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jsmytovrrxyx.swf?VERSION=1",
+        "size": 197284
+      },
       "Naka": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/vopfxipptsrt.swf?VERSION=9",
         "size": 360991
@@ -768,6 +1057,18 @@
       "Prinz Eugen": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/shcsmfegtxhf.swf?VERSION=9",
         "size": 387725
+      },
+      "空母水鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zkkzcjehulfi.swf?VERSION=1",
+        "size": 76994
+      },
+      "重巡ネ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/aaklgdwughjy.swf?VERSION=1",
+        "size": 146847
+      },
+      "駆逐棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ogjyulhxjvhr.swf?VERSION=1",
+        "size": 63605
       }
     }
   },
@@ -802,6 +1103,19 @@
       "Bismarck Drei": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/twvnkvqgyiru.swf?VERSION=5",
         "size": 401872
+      },
+      "軽巡ツ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ypbbvxgczbph.swf?VERSION=1",
+        "size": 114124
+      }
+    }
+  },
+  {
+    "date": "9/12/2014",
+    "ships": {
+      "軽巡ツ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vwaghxaewzdw.swf?VERSION=1",
+        "size": 53720
       }
     }
   },
@@ -848,6 +1162,46 @@
       "Tokitsukaze Kai": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/svglgiwjfyxn.swf?VERSION=8",
         "size": 308912
+      },
+      "中間棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/naucyhpcdjwf.swf?VERSION=1",
+        "size": 107233
+      },
+      "北方棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/rgjwnwdygctr.swf?VERSION=1",
+        "size": 71352
+      },
+      "潜水ソ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/obxvexpgyajg.swf?VERSION=1",
+        "size": 104115
+      },
+      "空母ヲ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/lhdxfbtoyfer.swf?VERSION=1",
+        "size": 323525
+      },
+      "空母棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/eoaivzseqtwo.swf?VERSION=1",
+        "size": 93552
+      },
+      "空母棲鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/kvllndxefqyr.swf?VERSION=1",
+        "size": 77785
+      },
+      "駆逐イ級後期型": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/dsdrpxrroksm.swf?VERSION=1",
+        "size": 28192
+      },
+      "駆逐ニ級後期型": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ohcikvnwgsuh.swf?VERSION=1",
+        "size": 33987
+      },
+      "駆逐ハ級後期型": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/icwosohxkvbd.swf?VERSION=1",
+        "size": 25629
+      },
+      "駆逐ロ級後期型": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/wnftypfgkdkr.swf?VERSION=1",
+        "size": 26402
       }
     }
   },
@@ -876,6 +1230,18 @@
   {
     "date": "4/23/2014",
     "ships": {
+      "3": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mhqqhhvvpzxg.swf?VERSION=1",
+        "size": 364350
+      },
+      "4": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/rzgndzraoddu.swf?VERSION=1",
+        "size": 366662
+      },
+      "315": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/igezlfrivcar.swf?VERSION=1",
+        "size": 375343
+      },
       "Abukuma": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/sgwumdfgzais.swf?VERSION=8",
         "size": 436871
@@ -1173,11 +1539,11 @@
         "size": 388644
       },
       "Jintsuu": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/icmlpbiditqy.swf?VERSION=5",
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/icmlpbiditqy.swf?VERSION=6",
         "size": 272216
       },
       "Jintsuu Kai": {
-        "link": "http://203.104.209.71/kcs/resources/swf/ships/ncijtxixkghu.swf?VERSION=5",
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ncijtxixkghu.swf?VERSION=6",
         "size": 293654
       },
       "Jun'you": {
@@ -1663,6 +2029,138 @@
       "Zuikaku": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/suivtkpjnmpt.swf?VERSION=7",
         "size": 399516
+      },
+      "南方棲戦姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vooogzpoblwf.swf?VERSION=1",
+        "size": 153893
+      },
+      "南方棲戦鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jmlbqlrnajyq.swf?VERSION=1",
+        "size": 140642
+      },
+      "南方棲鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jcgarujexcrf.swf?VERSION=1",
+        "size": 91484
+      },
+      "戦艦タ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zpzqybyepyte.swf?VERSION=1",
+        "size": 168859
+      },
+      "戦艦ル級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jnaynrbswxny.swf?VERSION=2",
+        "size": 231744
+      },
+      "戦艦ル級改": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qyfevgdqedyw.swf?VERSION=1",
+        "size": 218618
+      },
+      "戦艦レ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/yrdhekgqgxtg.swf?VERSION=1",
+        "size": 167292
+      },
+      "戦艦棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/glghkfswtxet.swf?VERSION=1",
+        "size": 83439
+      },
+      "泊地棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vewvgeiqybub.swf?VERSION=2",
+        "size": 151870
+      },
+      "泊地棲鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/cyfiwlhsgdji.swf?VERSION=2",
+        "size": 127261
+      },
+      "浮遊要塞": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/matbibgdovof.swf?VERSION=2",
+        "size": 128230
+      },
+      "港湾棲姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mvqfkxbebqob.swf?VERSION=1",
+        "size": 88513
+      },
+      "潜水カ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/duwuexijckgq.swf?VERSION=2",
+        "size": 105972
+      },
+      "潜水ソ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/gnnicfxddgut.swf?VERSION=1",
+        "size": 84782
+      },
+      "潜水ヨ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/nvaipajbkgjn.swf?VERSION=2",
+        "size": 140427
+      },
+      "空母ヲ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/lreivfnxjfik.swf?VERSION=2",
+        "size": 204563
+      },
+      "空母ヲ級改": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ckbtgxrnjvof.swf?VERSION=1",
+        "size": 258565
+      },
+      "装甲空母姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pnvdeewbfyfh.swf?VERSION=1",
+        "size": 229528
+      },
+      "装甲空母鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jndnkhfjvnjo.swf?VERSION=1",
+        "size": 173483
+      },
+      "軽巡ト級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vxeposgfnulm.swf?VERSION=2",
+        "size": 134019
+      },
+      "軽巡ヘ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/eswghzpycwxb.swf?VERSION=1",
+        "size": 180309
+      },
+      "軽巡ホ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/afrplxszsxit.swf?VERSION=1",
+        "size": 198714
+      },
+      "軽母ヌ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pcmfcidohwga.swf?VERSION=1",
+        "size": 171315
+      },
+      "輸送ワ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/okkjcahxfltg.swf?VERSION=1",
+        "size": 142797
+      },
+      "重巡リ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/cdgslqaonpst.swf?VERSION=2",
+        "size": 221553
+      },
+      "重巡リ級改": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/lfpzrcpfngkf.swf?VERSION=1",
+        "size": 186169
+      },
+      "離島棲鬼": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ihfrerqprpro.swf?VERSION=1",
+        "size": 79145
+      },
+      "雷巡チ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/cojscoppbivn.swf?VERSION=1",
+        "size": 168197
+      },
+      "飛行場姫": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qtygozpoceew.swf?VERSION=1",
+        "size": 89136
+      },
+      "駆逐イ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/skifghbnovxl.swf?VERSION=1",
+        "size": 107775
+      },
+      "駆逐ニ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zujcpyhiwhfk.swf?VERSION=2",
+        "size": 73675
+      },
+      "駆逐ハ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jhjcroxdngqe.swf?VERSION=1",
+        "size": 124217
+      },
+      "駆逐ロ級": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/szdhvxpyljqe.swf?VERSION=1",
+        "size": 139111
       }
     }
   }

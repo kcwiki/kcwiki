@@ -2,4 +2,9 @@ Output
 node_modules
 typings
 
+Voice
+SeasonalDrops
+
 *.js
+*.njsproj
+*.sln

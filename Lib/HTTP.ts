@@ -4,11 +4,12 @@
 /// <reference path="../typings/lodash/lodash.d.ts" />
 
 import http = require("http");
+import url = require("url")
 import request = require("request");
 import async = require("async");
 import _ = require("lodash");
 
-export type Request = { method: string, server: string, port: number, path: string, data: any };
+export type Request = { method?: string, url: string, data: any };
 export type Next = (error?: any) => void;
 export type ProcessRequest = (link: Request, response: any, next: any) => void;
 
@@ -25,23 +26,28 @@ export class Fetcher {
     }
 
     fetch = (r: Request, next: Next) => {
+        if (!r.url) {
+            next();
+            return;
+        }
         if (r.method) {
-            const options = { method: r.method, hostname: r.server, port: r.port, path: r.path }
+            const u = url.parse(r.url);
+            const options = { method: r.method, hostname: u.hostname, port: u.port, path: u.path };
             const req = http.request(options, (res) => { this.processRequest(r, res, next); });
             req.on("error", (err: any) => {
-                console.log("HTTP/Fetcher:", r.path, err);
+                console.log("HTTP/Fetcher:", r.url, err);
                 this.errors.push(r);
-                next(err);
+                next();
             });
             req.end();
         } else {
-            request(r.path, (err, response, body) => {
+            request(r.url, (err, response, body) => {
                 if (!err && response.statusCode === 200) {
                     this.processRequest(r, body, next);
                 } else {
-                    console.log("HTTP/Fetcher:", r.path, err);
+                    console.log("HTTP/Fetcher:", r.url, err);
                     this.errors.push(r);
-                    next(err);
+                    next();
                 }
             });
         }
@@ -49,13 +55,10 @@ export class Fetcher {
 
     fetchAll = (next: any) => {
         async.each(this.requests, this.fetch, (err) => {
-            if (err) {
-                console.log("HTTP/Fetcher:", err);
-                next(err);
-            } else if (this.errors.length > 0) {
-                this.requests = <Request[]>[];
+            if (this.errors.length > 0) {
+                this.requests = [];
                 for (const e of this.errors) this.requests.push(e);
-                this.errors = <Request[]>[];
+                this.errors = [];
                 this.fetchAll(next);
             } else {
                 next();
@@ -83,9 +86,8 @@ export class GroupFetcher {
         async.eachSeries(this.groups, this.fetchGroup, (err) => {
             if (err) {
                 console.log("HTTP/GroupFetcher:", err);
-                next(err);
-            } else
-                next();
+            }
+            next();
         });
     }
     
@@ -107,22 +109,41 @@ export class UpdateChecker {
         this.requests = requests;
         this.fetcher = new GroupFetcher(requests, nPar, (r: Request, res: any, next: any) => {
             if (res.statusCode == 200) {
+                const time = formatDate(new Date(res.headers['last-modified']));
+                if (!this.hash[time]) this.hash[time] = {};
                 const data = r.data
-                const date = formatDate(new Date(res.headers['last-modified']));
-                if (!this.hash[date]) this.hash[date] = {};
-                this.hash[date][data] = {
-                    link: r.path,
-                    size: parseInt(res.headers['content-length'])
-                };
+                if (typeof(data) === "string") {
+                    this.hash[time][data] = {
+                        link: r.url,
+                        size: parseInt(res.headers['content-length'])
+                    };
+                    ++this.counter;
+                    const p = Math.round(100.0 * this.counter / requests.length)
+                    console.log(`${this.counter} ${data} done, ${p}% overall`);
+                } else {
+                    const d1 = r.data[0]
+                    const d2 = r.data[1]
+                    if (!this.hash[time][d1]) this.hash[time][d1] = {}
+                    this.hash[time][d1][d2] = {
+                        line: d2,
+                        link: r.url,
+                        size: parseInt(res.headers['content-length'])
+                    }
+                    ++this.counter;
+                    const p = Math.round(100.0 * this.counter / requests.length)
+                    console.log(`${this.counter} ${data[0]}/${data[1]} done, ${p}% overall`);
+                }
+
+            } else {
                 ++this.counter;
                 const p = Math.round(100.0 * this.counter / requests.length)
-                console.log(`${this.counter} ${data} done, ${p}% overall`);
+                console.log(`${this.counter} ${r.data} status: ${res.statusCode}, ${p}% overall`);
             }
             next()
         });
     }
 
-    check(done: any) {
+    check = (done: any) => {
         this.fetcher.fetch(() => {
             console.log("done");
             const times: any = [];

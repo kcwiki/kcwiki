@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true
+    },
+    "files": [
+        "Lib/HTTP.ts",
+        "Lib/Server.ts",
+        "Lib/Ship.ts",
+        "CheckCG.ts",
+        "GenCSV.ts"
+    ]
+}

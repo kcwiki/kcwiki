@@ -5,14 +5,18 @@ import HTTP = require("./Lib/HTTP");
 import Ship = require("./Lib/Ship");
 import Server = require("./Lib/Server")
 
-const requests: HTTP.Request[] = Ship.names.map((name) => {
-    return { data: name, method: "HEAD", server: Server.ips.get("Yokosuka"), port: 80, path: Ship.en2Swf(name) }
+const requests: HTTP.Request[] = Ship.mst_shipgraph_ships.map((s) => {
+    var name = Ship.mst_shipgraph_ship2Jp(s);
+    name = Ship.jp2En[name] || name;
+    return { data: name || s.api_id.toString(), method: "HEAD", url: Ship.mst_shipgraph2Swf(s) }
 });
 
-const updateChecker = new HTTP.UpdateChecker(requests, 32);
+const updateChecker = new HTTP.UpdateChecker(requests, 64);
+
+const updateNumber = parseInt(process.argv[2]) || 0;
 
 updateChecker.check((times: any) => {
-    var current = times[0];
+    var current = times[updateNumber];
     console.log("latest update:", current.date);
     var updatedFiles = "";
     for (let [ship, swf] of _.pairs(current.ships))

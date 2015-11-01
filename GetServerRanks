@@ -1,0 +1,38 @@
+#!/bin/sh
+
+# Using senka.me
+
+echo > ranks.js
+
+for i in `seq 1 20` ; do
+  sleep 1
+  echo $i
+  curl -s https://www.senka.me/server/$i/ \
+    | grep rankPointData \
+    | sed "s/rankPointData/rankPointData$i/" \
+    | sed 's/^[ \t]*//' \
+    | sed 's/位//g' \
+    >> ranks.js
+done
+
+cat >> ranks.js << GenJS
+
+var servers = [
+    rankPointData1, rankPointData2, rankPointData3, rankPointData4, rankPointData5,
+    rankPointData6, rankPointData7, rankPointData8, rankPointData9, rankPointData10,
+    rankPointData11, rankPointData12, rankPointData13, rankPointData14, rankPointData15,
+    rankPointData16, rankPointData17, rankPointData18, rankPointData19, rankPointData20
+];
+
+var s = "";
+for (var i = 0; i < servers.length; ++i) {
+    s += "|-\n|" + (i + 1) + "\n";
+    for (var ranking of servers[i]) {
+        s += "|" + ranking.value[ranking.value.length - 1] + "\n";
+    }
+}
+console.log(s);
+
+GenJS
+
+node ranks.js > Output/ranks
