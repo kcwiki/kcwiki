@@ -1,28 +1,24 @@
-﻿///<reference path='../node_modules/immutable/dist/Immutable.d.ts'/>
+﻿const servers: {[name: string]: string} = require("./Data/Servers.json");
 
-import immutable = require("immutable");
+export const ips = servers;
 
-const servers: { [name: string]: string } = require("../Data/Servers.json");
-
-export const ips = immutable.Map<string, string>(servers);
-
-export const Yokosuka = servers["Yokosuka"];
-export const Kure = servers["Kure"];
-export const Sasebo = servers["Sasebo"];
-export const Maizuru = servers["Maizuru"];
-export const Oominato = servers["Oominato"];
-export const Torakku = servers["Torakku"];
-export const Ringa = servers["Ringa"];
-export const Rabauru = servers["Rabauru"];
-export const Shootorando = servers["Shootorando"];
-export const Buin = servers["Buin"];
-export const Tauitaui = servers["Tauitaui"];
-export const Parao = servers["Parao"];
-export const Burunei = servers["Burunei"];
-export const Paramushiru = servers["Paramushiru"];
-export const Hitokappu = servers["Hitokappu"];
-export const Sukumo = servers["Sukumo"];
-export const Kanoya = servers["Kanoya"];
-export const Iwagawa = servers["Iwagawa"];
-export const Saiki = servers["Saiki"];
-export const Hashirajima = servers["Hashirajima"];
+export const yokosuka = servers["Yokosuka"];
+export const kure = servers["Kure"];
+export const sasebo = servers["Sasebo"];
+export const maizuru = servers["Maizuru"];
+export const oominato = servers["Oominato"];
+export const torakku = servers["Torakku"];
+export const ringa = servers["Ringa"];
+export const rabauru = servers["Rabauru"];
+export const shootorando = servers["Shootorando"];
+export const buin = servers["Buin"];
+export const tauitaui = servers["Tauitaui"];
+export const parao = servers["Parao"];
+export const burunei = servers["Burunei"];
+export const paramushiru = servers["Paramushiru"];
+export const hitokappu = servers["Hitokappu"];
+export const sukumo = servers["Sukumo"];
+export const kanoya = servers["Kanoya"];
+export const iwagawa = servers["Iwagawa"];
+export const saiki = servers["Saiki"];
+export const hashirajima = servers["Hashirajima"];

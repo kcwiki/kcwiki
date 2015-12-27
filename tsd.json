@@ -22,6 +22,9 @@
     },
     "xml2js/xml2js.d.ts": {
       "commit": "62eedc3121a5e28c50473d2e4a9cefbcb9c3957f"
+    },
+    "cheerio/cheerio.d.ts": {
+      "commit": "0ea013a775ce1fb90c5e41b255e1d038714ffbe5"
     }
   }
 }

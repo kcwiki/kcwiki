@@ -1,9 +1,8 @@
 Output/
+Other/
+
 node_modules/
 typings/
-
-Voice/
-SeasonalDrops/
 
 *.js
 *.njsproj

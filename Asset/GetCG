@@ -1,0 +1,14 @@
+#!/bin/sh
+
+dir=`dirname $0`
+mkdir -p "$dir/Output/CG"
+
+while read line
+do
+    arr=($line)
+    url=${arr[0]}
+    file=${arr[1]}
+    echo $file
+    curl -v "$url" 2>&1 > "$dir/Output/CG/$file.swf" | grep Last-Modified
+    java -jar "/c/Program Files (x86)/FFDec/ffdec.jar" -format image:png -export image "$dir/Output/CG/$file" "$dir/Output/CG/$file.swf" | grep finished
+done < "$dir/Data/CG/Updated"

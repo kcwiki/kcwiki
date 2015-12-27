@@ -1,0 +1,25 @@
+import * as fs from "fs";
+import * as _ from "lodash";
+import * as HTTP from "../Lib/HTTP";
+import * as Ship from "../Lib/Ship";
+
+const requests: HTTP.Request[] = Ship.mstShipgraphShips.map((s: any) => {
+    let name = Ship.mst_shipgraph_ship2Jp(s);
+    name = Ship.jp2En[name] || name;
+    return { data: name || s.api_id.toString(), method: "HEAD", url: Ship.mst_shipgraph2Swf(s) };
+});
+
+const updateChecker = new HTTP.UpdateChecker(requests, 64);
+
+const updateNumber = parseInt(process.argv[2]) || 0;
+
+updateChecker.check((times: any) => {
+    const current = times[updateNumber];
+    console.log("latest update:", current.date);
+    let updatedFiles = "";
+    for (const [ship, swf] of _.pairs(current.ships)) {
+        updatedFiles += `${swf.link} ${ship.replace(/\ /g, "_") }\n`;
+    }
+    fs.writeFileSync(`${__dirname}/Data/CG/Updated`, updatedFiles);
+    fs.writeFileSync(`${__dirname}/Data/CG/Updates.json`, JSON.stringify(times, undefined, 2));
+});

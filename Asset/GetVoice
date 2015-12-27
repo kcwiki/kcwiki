@@ -1,0 +1,28 @@
+#!/bin/sh
+
+dir=`dirname $0`
+mkdir -p "$dir/Output/mp3"
+mkdir -p "$dir/Output/ogg"
+
+function get {
+
+    while read line
+    do
+        arr=($line)
+        url=${arr[0]}
+        file=${arr[1]}
+        curl --silent -C - -o "$dir/Output/mp3/$file.mp3" "$url"
+        ~/app/ffmpeg -y -i "$dir/Output/mp3/$file.mp3" "$dir/Output/ogg/$file.ogg" 
+        echo $file
+    done < $1
+
+}
+
+rm -f "$dir/Output/voice_list*"
+split --lines=50 "$dir/Data/Voice/Updated" "$dir/Output/voice_list"
+
+for f in `ls $dir/Output/voice_list*` ; do
+    get $f
+done
+
+rm -f "$dir/Output/voice_list*"
