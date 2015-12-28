@@ -25,6 +25,9 @@
     },
     "cheerio/cheerio.d.ts": {
       "commit": "0ea013a775ce1fb90c5e41b255e1d038714ffbe5"
+    },
+    "mkdirp/mkdirp.d.ts": {
+      "commit": "dc9dabe74a5be62613b17a3605309783a12ff28a"
     }
   }
 }

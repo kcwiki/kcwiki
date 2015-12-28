@@ -29,7 +29,9 @@ Requires `Lua/Output/enemy.json` for enemy names translations (not supported in 
 
 # Lua
 
-TBD: JSON for ship/enemy modules, check vs `api_start2`, `port`, etc.
+* Download Lua modules: `./ts Lua/Get` for ship modules, `./ts Lua/Get enemy` for enemy modules (write `Lua/Output/Lua/*`).
+* Convert to JSON: `lua Lua/Convert.lua > Lua/Output/Ships.json`, `lua Lua/Convert.lua enemy > Lua/Output/Enemy.json`.
+* Check JSON vs `api_start2`, `port`, etc.: TBD.
 
 # Wiki
 
