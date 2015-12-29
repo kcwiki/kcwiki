@@ -10,7 +10,7 @@
 ## CG
 
 * Get `Lib/Data/api_start2.json` first (or use the old one).
-* Make sure `Lib/KanColleViewer-Translations/Ships.xml` is synced with `Lib/Data/api_start2.json` (or ship names will be untranslated).
+* Make sure `Lib/KanColleViewer-Translations/Ships.xml` is synced with `Lib/Data/api_start2.json` (or names for new ships will be untranslated).
 * Check ship/enemy/seasonal ship/unknown ship SWF updates (write `Asset/Data/CG/*`): `./ts Asset/CheckCG` for latest update or `./ts Asset/CheckCG <update-number>` for previous update (previous updates get overridden by new updates).
 * Check `Asset/Data/CG/*` files.
 * Download updated SWF and extract CG for specified update (in `Asset/Output/CG/*`): `./Asset/GetCG`.
@@ -23,7 +23,7 @@
 
 # CSV stats
 
-Requires `Lua/Output/enemy.json` for enemy names translations (not supported in by `KanColleViewer-Translations`).
+Requires `Lua/Output/enemy.json` for enemy names translations (not supported by `KanColleViewer-Translations`).
 
 * `./ts CSV/Gen` to generate CSV files in `CSV` directory (ship and enemy stats from `api_start2`).
 
@@ -35,7 +35,10 @@ Requires `Lua/Output/enemy.json` for enemy names translations (not supported in 
 
 # Wiki
 
-TBD
+TBD:
+
+* Fetcher/checker for ship pages.
+* Voice list and update report scripts.
 
 # Misc
 

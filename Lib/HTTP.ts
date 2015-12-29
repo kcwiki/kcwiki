@@ -15,15 +15,30 @@ export type ProcessRequest = (_link: Request, _response: any, _next: any) => voi
 
 export class Fetcher {
 
-    private requests: Request[];
-    private errors: Request[];
-    private processRequest: ProcessRequest;
-
     constructor(requests: Request[], processRequest: ProcessRequest) {
         this.requests = requests;
         this.errors = [];
         this.processRequest = processRequest;
     }
+
+    public fetchAll = (next: any) => {
+        async.each(this.requests, this.fetch, () => {
+            if (this.errors.length > 0) {
+                this.requests = [];
+                for (const e of this.errors) {
+                    this.requests.push(e);
+                }
+                this.errors = [];
+                this.fetchAll(next);
+            } else {
+                next();
+            }
+        });
+    };
+
+    private requests: Request[];
+    private errors: Request[];
+    private processRequest: ProcessRequest;
 
     private fetch = (r: Request, next: Next): void => {
         if (!r.url) {
@@ -51,21 +66,6 @@ export class Fetcher {
                 }
             });
         }
-    };
-
-    public fetchAll = (next: any) => {
-        async.each(this.requests, this.fetch, () => {
-            if (this.errors.length > 0) {
-                this.requests = [];
-                for (const e of this.errors) {
-                    this.requests.push(e);
-                }
-                this.errors = [];
-                this.fetchAll(next);
-            } else {
-                next();
-            }
-        });
     };
 
 }
@@ -102,13 +102,30 @@ function formatDate(date: Date): string {
     return `${date.getMonth() + 1}/${date.getDate() }/${date.getFullYear() }`;
 }
 
+function sortObject(o: any): any {
+    if (typeof o !== "object") {
+        return o;
+    }
+    let x: any = {};
+    for (const k of Object.keys(o).sort()) {
+        x[k] = o[k];
+    }
+    return x;
+}
+
+function sortSubObjects(o: any): void {
+    for (const [k, v] of _.pairs(o)) {
+        o[k] = sortObject(v);
+    }
+}
+
 export class UpdateChecker {
 
     private requests: Request[];
     private fetcher: GroupFetcher;
 
     private counter: number = 0;
-    private hash: { [date: string]: { [key: string]: any } } = {};
+    private hash: { [date: string]: { [key: string]: { [key: string]: any } } } = {};
     private responses: { [ship: string]: { [line: string]: { modified: string, size: string } } } = {};
 
     constructor(requests: Request[], nPar: number) {
@@ -124,6 +141,13 @@ export class UpdateChecker {
                     this.hash[time][data] = {
                         link: r.url,
                         size: parseInt(res.headers["content-length"]),
+                    };
+                    if (!this.responses[data]) {
+                        this.responses[data] = {};
+                    }
+                    this.responses[data] = {
+                        modified: res.headers["last-modified"],
+                        size: res.headers["content-length"],
                     };
                     ++this.counter;
                     const p = Math.round(100.0 * this.counter / requests.length);
@@ -161,20 +185,31 @@ export class UpdateChecker {
 
     public check(done: any): void {
         this.fetcher.fetch((errors: number) => {
+
             console.log(`group fetch done with ${errors} errors`);
-            const times: any = [];
+
+            // convert to a list of objects
+            const times = <[{date: string, ships: {[key: string]: any} }]>[];
             for (const [t, o] of _.pairs(this.hash)) {
                 times.push({ date: t, ships: o });
             }
-            times.sort((a: any, b: any) => { return new Date(b.date).getTime() - new Date(a.date).getTime(); });
+
+            // sort by date
+            times.sort((a: any, b: any) => {
+                return new Date(b.date).getTime() - new Date(a.date).getTime();
+            });
+
+            // sort alphabetically
+            // TODO: might move UpdateChecker to a module and sort by ship/line ids using Ship 
             for (const t of times) {
-                let x: any = {};
-                for (const k of Object.keys(t.ships).sort()) {
-                    x[k] = t.ships[k];
-                }
-                t.ships = x;
+                t.ships = sortObject(t.ships);
+                sortSubObjects(t.ships);
             }
+            this.responses = sortObject(this.responses);
+            sortSubObjects(this.responses);
+
             done(times, this.responses);
+
         });
     }
 

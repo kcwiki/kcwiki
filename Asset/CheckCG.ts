@@ -13,13 +13,14 @@ const updateChecker = new HTTP.UpdateChecker(requests, 64);
 
 const updateNumber = parseInt(process.argv[2]) || 0;
 
-updateChecker.check((times: any) => {
+updateChecker.check((times: any, responses: any) => {
     const current = times[updateNumber];
     console.log("latest update:", current.date);
     let updatedFiles = "";
     for (const [ship, swf] of _.pairs(current.ships)) {
         updatedFiles += `${swf.link} ${ship.replace(/\ /g, "_") }\n`;
     }
+    fs.writeFileSync(`${__dirname}/Data/CG/Responses.json`, JSON.stringify(responses, undefined, 2));
     fs.writeFileSync(`${__dirname}/Data/CG/Updated`, updatedFiles);
     fs.writeFileSync(`${__dirname}/Data/CG/Updates.json`, JSON.stringify(times, undefined, 2));
 });
