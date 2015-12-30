@@ -2,21 +2,50 @@
 
 # Using senka.me
 
-echo > ranks.js
+dir=`dirname $0`
+
+mkdir -p $dir/Output
+
+echo "fetching data from senka.me..."
+
+for i in `seq ${1-1} ${2-20}` ; do
+  if [ ! -s $dir/Output/$i ]; then
+    echo "  server #$i"
+    curl -s https://www.senka.me/server/$i/ > $dir/Output/$i
+    if grep --quiet cloudflare $dir/Output/$i ; then
+      echo "    cloudflared"
+      rm $dir/Output/$i
+      echo "  waiting..."
+      sleep 5
+    elif [ ! -s $dir/Output/$i ]; then
+      echo "    dropped"
+      rm $dir/Output/$i
+    else
+      echo "    done"
+      echo "  waiting..."
+      sleep 5
+    fi
+  fi
+done
+
+echo > $dir/Output/ranks.js
 
 for i in `seq 1 20` ; do
-  sleep 1
-  echo $i
-  curl -s https://www.senka.me/server/$i/ > $i
-  curl -s https://www.senka.me/server/$i/ \
+  if [ -s $dir/Output/$i ]; then
+    cat $dir/Output/$i \
     | grep rankPointData \
     | sed "s/rankPointData/rankPointData$i/" \
     | sed 's/^[ \t]*//' \
     | sed 's/位//g' \
-    >> ranks.js
+    >> $dir/Output/ranks.js
+  else
+    rm $dir/Output/ranks.js
+    echo "rerun required"
+    exit
+  fi
 done
 
-cat >> ranks.js << GenJS
+cat >> $dir/Output/ranks.js << GenJS
 
 var servers = [
     rankPointData1, rankPointData2, rankPointData3, rankPointData4, rankPointData5,
@@ -36,4 +65,6 @@ console.log(s);
 
 GenJS
 
-node ranks.js > Output/ranks
+node $dir/Output/ranks.js > $dir/Output/ranks
+
+echo "done"

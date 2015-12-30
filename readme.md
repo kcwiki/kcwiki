@@ -42,7 +42,7 @@ TBD:
 
 # Misc
 
-* Get current ranking points for all servers (using http://senka.me/): `./GetServerRanks` (write `Output/ranks`).
+* Get current ranking points for all servers (using http://senka.me/): `Misc/GetServerRanks` (write `Misc/Output/ranks` wikitext), rerun if required (CloudFlare/connection issues), clean `Misc/Output/*` and rerun to update.
 
 # In plans
 
