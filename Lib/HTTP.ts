@@ -47,7 +47,7 @@ export class Fetcher {
         }
         if (r.method) {
             const u = url.parse(r.url);
-            const options = { hostname: u.hostname, method: r.method, path: u.path, port: u.port };
+            const options = { hostname: u.hostname, method: r.method, path: u.path, port: parseInt(u.port) };
             const req = http.request(options, (res: any) => { this.processRequest(r, res, next); });
             req.on("error", (err: any) => {
                 console.log("HTTP/Fetcher:", r.url, err);
