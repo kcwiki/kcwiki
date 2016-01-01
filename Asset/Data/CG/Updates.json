@@ -142,8 +142,20 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/zzzxmzltsfer.swf?VERSION=14",
         "size": 338060
       },
-      "北方棲姫": {
+      "北方棲姫_587": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/zzzbcvjduazb.swf?VERSION=10",
+        "size": 74190
+      },
+      "北方棲姫_588": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zzzjtokvqdki.swf?VERSION=10",
+        "size": 74190
+      },
+      "北方棲姫_589": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zzzyqxjpfvbr.swf?VERSION=10",
+        "size": 74190
+      },
+      "北方棲姫_590": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zzzxsjvtttdq.swf?VERSION=10",
         "size": 74190
       }
     }
@@ -429,24 +441,60 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/vbqucvbohcex.swf?VERSION=4",
         "size": 336241
       },
-      "PT小鬼群": {
+      "PT小鬼群_637": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/bqucqmrihwuh.swf?VERSION=1",
+        "size": 53979
+      },
+      "PT小鬼群_638": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/dsstfcxfwiui.swf?VERSION=1",
+        "size": 53979
+      },
+      "PT小鬼群_639": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/nmxeowqlleay.swf?VERSION=1",
+        "size": 53979
+      },
+      "PT小鬼群_640": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ldsiznnfxhsi.swf?VERSION=1",
         "size": 53979
       },
       "Ro-500": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/wnibjvejengh.swf?VERSION=9",
         "size": 308381
       },
-      "潜水棲姫": {
+      "潜水棲姫_644": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/xqhnwnncqfsb.swf?VERSION=1",
+        "size": 69689
+      },
+      "潜水棲姫_645": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/iunhutnvrvpw.swf?VERSION=1",
         "size": 69689
       },
-      "軽巡棲姫": {
+      "潜水棲姫_646": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ydnymnspgijb.swf?VERSION=1",
+        "size": 69689
+      },
+      "軽巡棲姫_641": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ovecdselmpus.swf?VERSION=1",
+        "size": 104519
+      },
+      "軽巡棲姫_642": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/disbkhsrvdyz.swf?VERSION=1",
+        "size": 104519
+      },
+      "軽巡棲姫_643": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/zpgkgrqnfbgw.swf?VERSION=1",
         "size": 104519
       },
-      "駆逐水鬼": {
+      "駆逐水鬼_647": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ebsfauvzpldv.swf?VERSION=1",
+        "size": 63811
+      },
+      "駆逐水鬼_648": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/fhpklciryypc.swf?VERSION=1",
+        "size": 63811
+      },
+      "駆逐水鬼_649": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vbihybmotyce.swf?VERSION=1",
         "size": 63811
       }
     }
@@ -754,51 +802,95 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/djszrxlnhbuv.swf?VERSION=6",
         "size": 358209
       },
-      "水母棲姫": {
+      "水母棲姫_625": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/wlmwstevvrwv.swf?VERSION=1",
         "size": 73103
       },
-      "空母ヲ級": {
+      "水母棲姫_626": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/yjylvwiustlg.swf?VERSION=1",
+        "size": 73103
+      },
+      "水母棲姫_627": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/bxslnscoclqv.swf?VERSION=1",
+        "size": 73103
+      },
+      "空母ヲ級_614": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/xwkafpsvohsx.swf?VERSION=1",
         "size": 323525
       },
-      "空母ヲ級改": {
+      "空母ヲ級_615": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/swtqydoaxery.swf?VERSION=1",
+        "size": 323525
+      },
+      "空母ヲ級改_616": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/kevftdefeysm.swf?VERSION=1",
+        "size": 258565
+      },
+      "空母ヲ級改_617": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/oclehydqqwtr.swf?VERSION=1",
+        "size": 258565
+      },
+      "空母ヲ級改_618": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/whfpobwysexc.swf?VERSION=1",
         "size": 258565
       },
-      "空母棲姫": {
+      "空母棲姫_620": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/mowniqrfpjjw.swf?VERSION=1",
         "size": 93552
       },
-      "空母棲鬼": {
+      "空母棲鬼_619": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/wnnfthmvobbc.swf?VERSION=1",
         "size": 77785
       },
-      "防空棲姫": {
+      "防空棲姫_628": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qyzjmmmamvqv.swf?VERSION=1",
+        "size": 90298
+      },
+      "防空棲姫_629": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/cvhmavgxsrbr.swf?VERSION=1",
         "size": 90298
       },
-      "離島棲鬼": {
+      "防空棲姫_630": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mxftnbimpfud.swf?VERSION=1",
+        "size": 90298
+      },
+      "離島棲鬼_634": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/oesmuxjcpwsl.swf?VERSION=1",
+        "size": 79145
+      },
+      "離島棲鬼_635": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/lxkovqjiqcue.swf?VERSION=1",
+        "size": 79145
+      },
+      "離島棲鬼_636": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/idborkfjzpjt.swf?VERSION=1",
         "size": 79145
       },
-      "飛行場姫": {
+      "飛行場姫_631": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/oequjjnzhgcw.swf?VERSION=1",
+        "size": 98717
+      },
+      "飛行場姫_632": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jdpebtsbhupn.swf?VERSION=1",
+        "size": 98717
+      },
+      "飛行場姫_633": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ozdxnvurmoyg.swf?VERSION=1",
         "size": 98717
       },
-      "駆逐イ級後期型": {
+      "駆逐イ級後期型_621": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/mhgomfxjbdqg.swf?VERSION=1",
         "size": 65387
       },
-      "駆逐ニ級後期型": {
+      "駆逐ニ級後期型_624": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/mqboqqeinwaj.swf?VERSION=1",
         "size": 74477
       },
-      "駆逐ハ級後期型": {
+      "駆逐ハ級後期型_623": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/hzegzqgicqnv.swf?VERSION=1",
         "size": 60104
       },
-      "駆逐ロ級後期型": {
+      "駆逐ロ級後期型_622": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/oevqngeqykfc.swf?VERSION=1",
         "size": 61120
       }
@@ -853,7 +945,7 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/riiwaegupstv.swf?VERSION=6",
         "size": 445590
       },
-      "港湾棲姫": {
+      "港湾棲姫_613": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/fwbonbofgcwe.swf?VERSION=1",
         "size": 90625
       }
@@ -888,12 +980,36 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/bohmlbbvqtfs.swf?VERSION=5",
         "size": 480262
       },
-      "泊地水鬼": {
+      "泊地水鬼_609": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/qvjxstjsucxx.swf?VERSION=1",
+        "size": 75015
+      },
+      "泊地水鬼_610": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/vjgqyiisflxo.swf?VERSION=1",
+        "size": 75015
+      },
+      "泊地水鬼_611": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/yqbbctkwbtgd.swf?VERSION=1",
         "size": 72548
       },
-      "港湾水鬼": {
+      "泊地水鬼_612": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/iinthvbcxohn.swf?VERSION=1",
+        "size": 72548
+      },
+      "港湾水鬼_605": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jnwpsrxekmbn.swf?VERSION=1",
+        "size": 116054
+      },
+      "港湾水鬼_606": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/clqoqbjfvidf.swf?VERSION=1",
+        "size": 116054
+      },
+      "港湾水鬼_607": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ysteufhuvuuk.swf?VERSION=1",
+        "size": 116054
+      },
+      "港湾水鬼_608": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/octsmbzvtknp.swf?VERSION=1",
         "size": 116054
       }
     }
@@ -1087,7 +1203,15 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ihwgeegenykh.swf?VERSION=11",
         "size": 402298
       },
-      "護衛要塞": {
+      "護衛要塞_549": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/bwlykdyyjurx.swf?VERSION=2",
+        "size": 116822
+      },
+      "護衛要塞_550": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/fhjnljxxjpmk.swf?VERSION=2",
+        "size": 128230
+      },
+      "護衛要塞_551": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/nmwnyjyfezro.swf?VERSION=2",
         "size": 109011
       }
@@ -1161,11 +1285,19 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/dfrmfmjvschh.swf?VERSION=5",
         "size": 316485
       },
-      "戦艦水鬼": {
+      "戦艦水鬼_603": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/iepccppipopa.swf?VERSION=1",
+        "size": 104780
+      },
+      "戦艦水鬼_604": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/srqsizwuyvfm.swf?VERSION=1",
         "size": 79335
       },
-      "軽巡棲鬼": {
+      "軽巡棲鬼_601": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/dpmgoqtslers.swf?VERSION=1",
+        "size": 53901
+      },
+      "軽巡棲鬼_602": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/jzweeqxgragj.swf?VERSION=1",
         "size": 72355
       }
@@ -1260,15 +1392,27 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/shcsmfegtxhf.swf?VERSION=12",
         "size": 387725
       },
-      "空母水鬼": {
+      "空母水鬼_599": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zkkzcjehulfi.swf?VERSION=1",
+        "size": 76994
+      },
+      "空母水鬼_600": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ptotvjxlwqgh.swf?VERSION=1",
         "size": 76994
       },
-      "重巡ネ級": {
+      "重巡ネ級_594": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/yowvcxyrqiqe.swf?VERSION=1",
         "size": 68181
       },
-      "駆逐棲姫": {
+      "重巡ネ級_595": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/aaklgdwughjy.swf?VERSION=1",
+        "size": 146847
+      },
+      "駆逐棲姫_597": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/xdcuopswoflo.swf?VERSION=1",
+        "size": 63605
+      },
+      "駆逐棲姫_598": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ogjyulhxjvhr.swf?VERSION=1",
         "size": 63605
       }
@@ -1306,7 +1450,7 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/twvnkvqgyiru.swf?VERSION=8",
         "size": 401872
       },
-      "軽巡ツ級": {
+      "軽巡ツ級_592": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ypbbvxgczbph.swf?VERSION=1",
         "size": 114124
       }
@@ -1315,7 +1459,7 @@
   {
     "date": "9/12/2014",
     "ships": {
-      "軽巡ツ級": {
+      "軽巡ツ級_591": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/vwaghxaewzdw.swf?VERSION=1",
         "size": 53720
       }
@@ -1365,43 +1509,51 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/svglgiwjfyxn.swf?VERSION=11",
         "size": 308912
       },
-      "中間棲姫": {
+      "中間棲姫_583": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/naucyhpcdjwf.swf?VERSION=1",
+        "size": 107233
+      },
+      "中間棲姫_584": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/fcaeosgyrckf.swf?VERSION=1",
         "size": 105530
       },
-      "北方棲姫": {
+      "北方棲姫_581": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/lwrljvbgvkxe.swf?VERSION=1",
+        "size": 46413
+      },
+      "北方棲姫_582": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/rgjwnwdygctr.swf?VERSION=1",
         "size": 71352
       },
-      "潜水ソ級": {
+      "潜水ソ級_572": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/obxvexpgyajg.swf?VERSION=1",
         "size": 104115
       },
-      "空母ヲ級": {
+      "空母ヲ級_579": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/lhdxfbtoyfer.swf?VERSION=1",
         "size": 323525
       },
-      "空母棲姫": {
+      "空母棲姫_586": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/eoaivzseqtwo.swf?VERSION=1",
         "size": 93552
       },
-      "空母棲鬼": {
+      "空母棲鬼_585": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/kvllndxefqyr.swf?VERSION=1",
         "size": 77785
       },
-      "駆逐イ級後期型": {
+      "駆逐イ級後期型_575": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/dsdrpxrroksm.swf?VERSION=1",
         "size": 28192
       },
-      "駆逐ニ級後期型": {
+      "駆逐ニ級後期型_578": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ohcikvnwgsuh.swf?VERSION=1",
         "size": 33987
       },
-      "駆逐ハ級後期型": {
+      "駆逐ハ級後期型_577": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/icwosohxkvbd.swf?VERSION=1",
         "size": 25629
       },
-      "駆逐ロ級後期型": {
+      "駆逐ロ級後期型_576": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/wnftypfgkdkr.swf?VERSION=1",
         "size": 26402
       }
@@ -2151,135 +2303,271 @@
         "link": "http://203.104.209.71/kcs/resources/swf/ships/suivtkpjnmpt.swf?VERSION=10",
         "size": 399516
       },
-      "南方棲戦姫": {
+      "南方棲戦姫_548": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/vooogzpoblwf.swf?VERSION=1",
         "size": 153893
       },
-      "南方棲戦鬼": {
+      "南方棲戦鬼_547": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/jmlbqlrnajyq.swf?VERSION=1",
         "size": 140642
       },
-      "南方棲鬼": {
+      "南方棲鬼_546": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/jcgarujexcrf.swf?VERSION=1",
         "size": 91484
       },
-      "戦艦タ級": {
+      "戦艦タ級_541": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mqzxufdjdjju.swf?VERSION=1",
+        "size": 90147
+      },
+      "戦艦タ級_542": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/whhduavjmdki.swf?VERSION=1",
         "size": 152960
       },
-      "戦艦ル級": {
+      "戦艦タ級_543": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zpzqybyepyte.swf?VERSION=1",
+        "size": 168859
+      },
+      "戦艦ル級_511": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pijdvoaebmxm.swf?VERSION=2",
+        "size": 129027
+      },
+      "戦艦ル級_524": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jnaynrbswxny.swf?VERSION=2",
+        "size": 231744
+      },
+      "戦艦ル級_529": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/crlyrpscrtad.swf?VERSION=2",
         "size": 291218
       },
-      "戦艦ル級改": {
+      "戦艦ル級改_567": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/qyfevgdqedyw.swf?VERSION=1",
         "size": 218618
       },
-      "戦艦レ級": {
+      "戦艦レ級_561": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/tkcshwnsnsqr.swf?VERSION=1",
+        "size": 77945
+      },
+      "戦艦レ級_562": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/yrdhekgqgxtg.swf?VERSION=1",
         "size": 167292
       },
-      "戦艦棲姫": {
+      "戦艦棲姫_557": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/glghkfswtxet.swf?VERSION=1",
         "size": 83439
       },
-      "泊地棲姫": {
+      "泊地棲姫_540": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/vewvgeiqybub.swf?VERSION=2",
         "size": 151870
       },
-      "泊地棲鬼": {
+      "泊地棲鬼_539": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/cyfiwlhsgdji.swf?VERSION=2",
         "size": 127261
       },
-      "浮遊要塞": {
+      "浮遊要塞_536": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/cchowgdxysfu.swf?VERSION=2",
         "size": 116822
       },
-      "港湾棲姫": {
+      "浮遊要塞_537": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/matbibgdovof.swf?VERSION=2",
+        "size": 128230
+      },
+      "浮遊要塞_538": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/murfwykjiuog.swf?VERSION=2",
+        "size": 109011
+      },
+      "港湾棲姫_573": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/mvqfkxbebqob.swf?VERSION=1",
         "size": 88513
       },
-      "潜水カ級": {
+      "潜水カ級_530": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zsrtdiesnmum.swf?VERSION=2",
+        "size": 68275
+      },
+      "潜水カ級_532": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ebutrlbzkktc.swf?VERSION=2",
         "size": 106654
       },
-      "潜水ソ級": {
+      "潜水カ級_534": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/duwuexijckgq.swf?VERSION=2",
+        "size": 105972
+      },
+      "潜水ソ級_570": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/qfwkvipzxqey.swf?VERSION=1",
         "size": 62246
       },
-      "潜水ヨ級": {
+      "潜水ソ級_571": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/gnnicfxddgut.swf?VERSION=1",
+        "size": 84782
+      },
+      "潜水ヨ級_531": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jyofolfguclj.swf?VERSION=2",
+        "size": 109716
+      },
+      "潜水ヨ級_533": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ppdicscudnmo.swf?VERSION=2",
         "size": 133779
       },
-      "空母ヲ級": {
+      "潜水ヨ級_535": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/nvaipajbkgjn.swf?VERSION=2",
+        "size": 140427
+      },
+      "空母ヲ級_512": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/yalxvbxgbojg.swf?VERSION=2",
+        "size": 65131
+      },
+      "空母ヲ級_525": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/lreivfnxjfik.swf?VERSION=2",
+        "size": 204563
+      },
+      "空母ヲ級_528": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/kcjagtsviiyn.swf?VERSION=2",
         "size": 323525
       },
-      "空母ヲ級改": {
+      "空母ヲ級改_565": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ckbtgxrnjvof.swf?VERSION=1",
         "size": 258565
       },
-      "装甲空母姫": {
+      "装甲空母姫_545": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/pnvdeewbfyfh.swf?VERSION=1",
         "size": 229528
       },
-      "装甲空母鬼": {
+      "装甲空母鬼_544": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/jndnkhfjvnjo.swf?VERSION=1",
         "size": 173483
       },
-      "軽巡ト級": {
+      "軽巡ト級_507": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/xlqcmisdyfiu.swf?VERSION=2",
+        "size": 70683
+      },
+      "軽巡ト級_520": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/vxeposgfnulm.swf?VERSION=2",
         "size": 134019
       },
-      "軽巡ヘ級": {
+      "軽巡ヘ級_506": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/wuhnhojjxmke.swf?VERSION=2",
+        "size": 65748
+      },
+      "軽巡ヘ級_519": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/thxxajqkbcea.swf?VERSION=2",
+        "size": 137482
+      },
+      "軽巡ヘ級_555": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/eswghzpycwxb.swf?VERSION=1",
         "size": 180309
       },
-      "軽巡ホ級": {
+      "軽巡ホ級_505": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/itslcqtmrxtf.swf?VERSION=2",
+        "size": 71050
+      },
+      "軽巡ホ級_518": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/nylazbctwxxb.swf?VERSION=2",
+        "size": 146404
+      },
+      "軽巡ホ級_554": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/afrplxszsxit.swf?VERSION=1",
         "size": 198714
       },
-      "軽母ヌ級": {
+      "軽母ヌ級_510": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/slxvncxmexin.swf?VERSION=2",
+        "size": 61049
+      },
+      "軽母ヌ級_523": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/glsvfugrtdlv.swf?VERSION=2",
+        "size": 132927
+      },
+      "軽母ヌ級_560": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/pcmfcidohwga.swf?VERSION=1",
         "size": 171315
       },
-      "輸送ワ級": {
+      "輸送ワ級_513": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mednanfcfkil.swf?VERSION=2",
+        "size": 83992
+      },
+      "輸送ワ級_526": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/nfbfnyqdswvz.swf?VERSION=2",
+        "size": 158731
+      },
+      "輸送ワ級_558": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/okkjcahxfltg.swf?VERSION=1",
         "size": 142797
       },
-      "重巡リ級": {
+      "重巡リ級_509": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/iwztvmesrrju.swf?VERSION=2",
+        "size": 76449
+      },
+      "重巡リ級_522": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/jgdkktwkyoep.swf?VERSION=2",
+        "size": 141029
+      },
+      "重巡リ級_527": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/cdgslqaonpst.swf?VERSION=2",
         "size": 221553
       },
-      "重巡リ級改": {
+      "重巡リ級改_566": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/lfpzrcpfngkf.swf?VERSION=1",
         "size": 186169
       },
-      "離島棲鬼": {
+      "離島棲鬼_574": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/ihfrerqprpro.swf?VERSION=1",
         "size": 79145
       },
-      "雷巡チ級": {
+      "雷巡チ級_508": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mcouotbbbzpx.swf?VERSION=2",
+        "size": 78748
+      },
+      "雷巡チ級_521": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/kkdcshdnoqvd.swf?VERSION=2",
+        "size": 166587
+      },
+      "雷巡チ級_559": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/cojscoppbivn.swf?VERSION=1",
         "size": 168197
       },
-      "飛行場姫": {
+      "飛行場姫_556": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/qtygozpoceew.swf?VERSION=1",
         "size": 89136
       },
-      "駆逐イ級": {
+      "駆逐イ級_501": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/mtjmdcwtvhdr.swf?VERSION=2",
+        "size": 26581
+      },
+      "駆逐イ級_514": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/eusutfvohllh.swf?VERSION=3",
+        "size": 95423
+      },
+      "駆逐イ級_564": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/skifghbnovxl.swf?VERSION=1",
         "size": 107775
       },
-      "駆逐ニ級": {
+      "駆逐ニ級_504": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/itbrdpdbkynm.swf?VERSION=2",
         "size": 30124
       },
-      "駆逐ハ級": {
+      "駆逐ニ級_517": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/zujcpyhiwhfk.swf?VERSION=2",
+        "size": 73675
+      },
+      "駆逐ハ級_503": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pcumlrymlujh.swf?VERSION=2",
+        "size": 23186
+      },
+      "駆逐ハ級_516": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/ycjcuuqbxywj.swf?VERSION=2",
+        "size": 75092
+      },
+      "駆逐ハ級_553": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/jhjcroxdngqe.swf?VERSION=1",
         "size": 124217
       },
-      "駆逐ロ級": {
+      "駆逐ロ級_502": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/pbgkfylkbjuy.swf?VERSION=2",
+        "size": 30687
+      },
+      "駆逐ロ級_515": {
+        "link": "http://203.104.209.71/kcs/resources/swf/ships/tizkiyetefqx.swf?VERSION=2",
+        "size": 97371
+      },
+      "駆逐ロ級_552": {
         "link": "http://203.104.209.71/kcs/resources/swf/ships/szdhvxpyljqe.swf?VERSION=1",
         "size": 139111
       }

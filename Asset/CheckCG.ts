@@ -5,7 +5,7 @@ import * as Ship from "../Lib/Ship";
 
 const requests: HTTP.Request[] = Ship.mstShipgraphShips.map((s: any) => {
     let name = Ship.mst_shipgraph_ship2Jp(s);
-    name = Ship.jp2En[name] || name;
+    name = Ship.jp2En[name] || (name ? `${name}_${s.api_id}` : name);
     return { data: name || s.api_id.toString(), method: "HEAD", url: Ship.mst_shipgraph2Swf(s) };
 });
 
