@@ -1,0 +1,19 @@
+{
+    "port": 3000,
+
+    "log": {
+        "proxy": "proxy.log",
+        "mode": "w",
+        "api": "api",
+        "api_start2": "api_start2",
+        "exit": false
+    },
+    
+    "fix_dmm_cookie": true,
+
+    "anti_cat": {
+        "wait_for_network": 10
+    },
+
+    "cache": "cache"
+}

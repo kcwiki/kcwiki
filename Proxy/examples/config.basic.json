@@ -1,12 +1,5 @@
 {
     "port": 3000,
-
-    "log": {
-        "proxy": true
-    },
-
-    "fix_dmm_cookie": true,
-
     "anti_cat": {
         "wait_for_network": 10
     }

@@ -1,0 +1,213 @@
+starting proxy on port 3000
+  logging proxy: true
+    mode: w
+  logging API: api
+  saving api_start2: api_start2
+    exit on completion: false
+  fixing DMM cookie: true
+  waiting when no network: 10
+  using cache when no network: unimplemented
+  re-request API on network errors: unimplemented (unsafe)
+  caching assets: cache
+  caching core SWF files: cache
+  using modded assets: unimplemented
+  using local KC server: unimplemented
+[REQUEST] GET http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/my/=/path=...
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/my/-/login/=/path=...
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/en/netgame/social/-/gadgets/=/app_id=854854/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/css/base.css?1450679611
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/css/www.dmm.com.netgame.css?1451033007
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/js/library/jquery_1_8_3/jquery-1.8.3.min.js
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://osapi.dmm.com/gadgets/js/rpc.js?c=1
+  [REWRITE] fixing DMM cookie: osapi.dmm.com
+[REQUEST] GET http://www.dmm.com/js/netgame/ntg-plugin.js
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/js/netgame/ntg-alert.js
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/_js/s_code_dummy.js
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/_js/mbox.js
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/js/marketing/conf.js
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/js/marketing/gtm.js
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/js/netgame/tab-change.js
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://p.dmm.com/p/netgame/common/ico/app_logo_g.png
+  [REWRITE] fixing DMM cookie: p.dmm.com
+[REQUEST] GET http://log-netgame.dmm.com/freegame_app_access.php?...
+  [REWRITE] fixing DMM cookie: log-netgame.dmm.com
+[REQUEST] GET http://www.dmm.com/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://p.dmm.com/p/netgame/common/ico/ico_releasegame.png
+  [REWRITE] fixing DMM cookie: p.dmm.com
+[REQUEST] GET http://p.dmm.com/p/netgame/common/bt/arrow_slidenext.png
+  [REWRITE] fixing DMM cookie: p.dmm.com
+[REQUEST] GET http://p.dmm.com/p/netgame/common/bt/arrow_slideprev.png
+  [REWRITE] fixing DMM cookie: p.dmm.com
+[REQUEST] GET http://clt.ixd.dmm.com/api/ev/boot?...
+  [REWRITE] fixing DMM cookie: clt.ixd.dmm.com
+[REQUEST] GET http://www.googletagmanager.com/gtm.js?id=GTM-MNFF4G
+[REQUEST] GET http://stat.i3.dmm.com/latest/js/dmm.tracking.min.js
+  [REWRITE] fixing DMM cookie: stat.i3.dmm.com
+[REQUEST] GET http://platform.twitter.com/widgets.js
+[REQUEST] GET http://osapi.dmm.com/gadgets/ifr?...
+  [REWRITE] fixing DMM cookie: osapi.dmm.com
+[REQUEST] GET http://p.dmm.com/p/netgame/common/ico/ico_ntgnavi_renew.png
+  [REWRITE] fixing DMM cookie: p.dmm.com
+[REQUEST] GET http://p.dmm.com/p/common/arrow_common.gif
+  [REWRITE] fixing DMM cookie: p.dmm.com
+[REQUEST] GET http://p.dmm.com/p/netgame/common/ico/ico_ntgvarious.png
+  [REWRITE] fixing DMM cookie: p.dmm.com
+[REQUEST] GET http://p.dmm.com/p/netgame/common/bg/bg_detail_naviapp.png
+  [REWRITE] fixing DMM cookie: p.dmm.com
+[REQUEST] GET http://www.dmm.com/netgame/social/application/-/mygame/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/netgame/social/application/-/releaseannounce/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] POST http://www.dmm.com/netgame/social/application/-/recommend/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.google-analytics.com/analytics.js
+[REQUEST] GET http://www.dmm.com/en/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.google-analytics.com/plugins/ua/linkid.js
+[REQUEST] OPTIONS http://trac.i3.dmm.com/analytics/v0.9
+  [REWRITE] fixing DMM cookie: trac.i3.dmm.com
+[REQUEST] GET http://www.dmm.com/en/netgame/social/application/-/mygame/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://www.dmm.com/en/netgame/social/application/-/releaseannounce/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://clt.a-i-ad.com/api/ev/boot?...
+[REQUEST] GET http://www.dmm.com/en/netgame/social/application/-/recommend/
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://platform.twitter.com/widgets/follow_button.c633b87376883931e7436b93bb46a699.ja.html
+[REQUEST] POST http://trac.i3.dmm.com/analytics/v0.9
+  [REWRITE] fixing DMM cookie: trac.i3.dmm.com
+[REQUEST] GET http://pics.dmm.com/freegame/app/729512/200.gif
+  [REWRITE] fixing DMM cookie: pics.dmm.com
+[REQUEST] GET http://pics.dmm.com/freegame/app/365723/200.gif
+  [REWRITE] fixing DMM cookie: pics.dmm.com
+[REQUEST] GET http://203.104.209.7/kcscontents/css/import.css
+[REQUEST] GET http://203.104.209.7/gadget/script/jquery.min.js
+[REQUEST] GET http://203.104.209.7/gadget/script/rollover.js
+[REQUEST] GET http://203.104.209.7/gadget/script/jss.js
+[REQUEST] GET http://203.104.209.7/gadget/js/kcs_const.js
+[REQUEST] GET http://203.104.209.7/gadget/js/kcs_content.js
+[REQUEST] GET http://203.104.209.7/gadget/js/kcs_global.js
+[REQUEST] GET http://203.104.209.7/gadget/js/kcs_login.js
+[REQUEST] GET http://203.104.209.7/gadget/js/kcs_payment.js
+[REQUEST] GET http://203.104.209.7/gadget/js/kcs_flash.js
+[REQUEST] GET http://203.104.209.7/gadget/js/kcs_inspection.js
+[REQUEST] GET http://203.104.209.7/kcscontents/image/nav_item01.png
+[REQUEST] GET http://203.104.209.7/kcscontents/image/nav_item02.png
+[REQUEST] GET http://203.104.209.7/kcscontents/image/nav_item03.png
+[REQUEST] GET http://203.104.209.7/kcscontents/image/nav_item04.png
+[REQUEST] GET http://203.104.209.7/kcscontents/image/nav_item05.png
+[REQUEST] GET http://203.104.209.7/kcscontents/css/common.css
+[REQUEST] GET http://203.104.209.7/kcscontents/css/default.css
+[REQUEST] GET http://203.104.209.7/kcscontents/css/style.css
+[REQUEST] GET http://pics.dmm.com/freegame/app/265103/200.gif
+  [REWRITE] fixing DMM cookie: pics.dmm.com
+[REQUEST] GET http://203.104.209.7/kcscontents/news/
+[REQUEST] POST http://osapi.dmm.com/social/rpc?...
+  [REWRITE] fixing DMM cookie: osapi.dmm.com
+[REQUEST] GET http://203.104.209.7/kcscontents/news/style.css
+[REQUEST] GET http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+[REQUEST] GET http://203.104.209.7/kcscontents/script/timing.min.js
+[REQUEST] GET http://203.104.209.7/kcscontents/news/post.html
+[REQUEST] GET http://203.104.209.7/kcscontents/news/post.html
+[REQUEST] GET http://www.dmm.com/favicon.ico
+  [REWRITE] fixing DMM cookie: www.dmm.com
+[REQUEST] GET http://osapi.dmm.com/gadgets/makeRequest?...
+  [REWRITE] fixing DMM cookie: osapi.dmm.com
+[REQUEST] POST http://osapi.dmm.com/gadgets/makeRequest
+  [REWRITE] fixing DMM cookie: osapi.dmm.com
+[REQUEST] GET http://203.104.209.102/kcs/mainD2.swf?...
+  [CACHING] mainD2.swf
+[REQUEST] GET http://203.104.209.102/kcs/Core.swf?version=drnqclocqniv
+  [CACHING] Core.swf
+[REQUEST] GET http://203.104.209.102/kcs/scenes/TitleMain.swf?version=2.3.7
+  [CACHING] scenes/TitleMain.swf
+[REQUEST] GET http://203.104.209.102/kcs/sound/titlecall/a/18.mp3
+[REQUEST] GET http://203.104.209.102/kcs/resources/swf/font.swf?version=2.3
+  [CACHING] resources/swf/font.swf
+  [CACHING] sound/titlecall/a/18.mp3
+[REQUEST] GET http://203.104.209.102/kcs/resources/swf/icons.swf?version=2.5
+  [CACHING] resources/swf/icons.swf
+[REQUEST] GET http://203.104.209.102/kcs/resources/swf/itemicons.swf?version=2.6.9
+  [CACHING] resources/swf/itemicons.swf
+[REQUEST] GET http://203.104.209.102/kcs/resources/swf/commonAssets.swf?version=2.6.8
+  [CACHING] resources/swf/commonAssets.swf
+[REQUEST] GET http://203.104.209.102/kcs/resources/swf/sound_bgm.swf?version=2.1.7
+  [CACHING] resources/swf/sound_bgm.swf
+[REQUEST] GET http://203.104.209.102/kcs/resources/swf/sound_se.swf?version=2.6.4
+  [CACHING] resources/swf/sound_se.swf
+[REQUEST] GET http://203.104.209.102/kcs/PortMain.swf?version=2.6.6
+  [CACHING] PortMain.swf
+[REQUEST] GET http://203.104.209.102/kcs/resources/image/world/203_104_209_102_l.png
+[REQUEST] GET http://203.104.209.102/kcs/sound/titlecall/b/10.mp3
+[REQUEST] POST http://203.104.209.102/kcsapi/api_start2
+  [CACHING] resources/image/world/203_104_209_102_l.png
+  [CACHING] sound/titlecall/b/10.mp3
+  [LOGGING] api_start2
+[REQUEST] POST http://203.104.209.102/kcsapi/api_req_member/get_incentive
+  [LOGGING] api_req_member/get_incentive
+[REQUEST] POST http://203.104.209.102/kcsapi/api_get_member/basic
+  [LOGGING] api_get_member/basic
+[REQUEST] POST http://203.104.209.102/kcsapi/api_get_member/furniture
+  [LOGGING] api_get_member/furniture
+[REQUEST] POST http://203.104.209.102/kcsapi/api_get_member/slot_item
+  [LOGGING] api_get_member/slot_item
+[REQUEST] POST http://203.104.209.102/kcsapi/api_get_member/useitem
+  [LOGGING] api_get_member/useitem
+[REQUEST] POST http://203.104.209.102/kcsapi/api_get_member/kdock
+  [LOGGING] api_get_member/kdock
+[REQUEST] POST http://203.104.209.102/kcsapi/api_get_member/unsetslot
+  [LOGGING] api_get_member/unsetslot
+[REQUEST] GET http://203.104.209.102/kcs/sound/titlecall/c/10.mp3
+  [CACHING] sound/titlecall/c/10.mp3
+[REQUEST] POST http://203.104.209.102/kcsapi/api_port/port
+  [LOGGING] api_port/port
+[REQUEST] GET http://203.104.209.102/kcs/resources/swf/ships/gyckjmemgqoe.swf?VERSION=16
+[REQUEST] GET http://203.104.209.102/kcs/resources/image/furniture/floor/001.png
+  [CACHING] resources/image/furniture/floor/001.png
+  [CACHING] resources/swf/ships/gyckjmemgqoe.swf
+[REQUEST] GET http://203.104.209.102/kcs/resources/image/furniture/wall/001.png
+  [CACHING] resources/image/furniture/wall/001.png
+[REQUEST] GET http://203.104.209.102/kcs/resources/image/furniture/window/001.png
+  [CACHING] resources/image/furniture/window/001.png
+[REQUEST] GET http://203.104.209.102/kcs/resources/image/furniture/object/001.png
+  [CACHING] resources/image/furniture/object/001.png
+[REQUEST] GET http://203.104.209.102/kcs/resources/image/furniture/chest/001.png
+  [CACHING] resources/image/furniture/chest/001.png
+[REQUEST] GET http://203.104.209.102/kcs/resources/image/furniture/desk/001.png
+  [CACHING] resources/image/furniture/desk/001.png
+[REQUEST] GET http://203.104.209.102/kcs/sound/kcgyckjmemgqoe/1.mp3?version=16
+[REQUEST] GET http://203.104.209.102/kcs/resources/bgm_p/101r.swf
+  [CACHING] sound/kcgyckjmemgqoe/1.mp3
+  [CACHING] resources/bgm_p/101r.swf
+[REQUEST] GET http://203.104.209.102/kcs/sound/kcgyckjmemgqoe/2.mp3?version=16
+  [CACHING] sound/kcgyckjmemgqoe/2.mp3
+[REQUEST] GET http://203.104.209.102/kcs/sound/kcgyckjmemgqoe/3.mp3?version=16
+  [CACHING] sound/kcgyckjmemgqoe/3.mp3
+[REQUEST] GET http://203.104.209.102/kcs/sound/kcgyckjmemgqoe/4.mp3?version=16
+  [CACHING] sound/kcgyckjmemgqoe/4.mp3
+[REQUEST] GET http://203.104.209.102/kcs/scenes/OrganizeMain.swf?version=2.6.10
+  [CACHING] scenes/OrganizeMain.swf
+[REQUEST] POST http://203.104.209.102/kcsapi/api_get_member/preset_deck
+  [LOGGING] api_get_member/preset_deck
+[REQUEST] GET http://203.104.209.102/kcs/resources/swf/stype.swf?version=2.6.4
+  [CACHING] resources/swf/stype.swf
+[REQUEST] POST http://203.104.209.102/kcsapi/api_port/port
+  [LOGGING] api_port/port

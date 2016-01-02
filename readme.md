@@ -49,19 +49,25 @@ TBD:
 
 # Proxy
 
-Barely tested, no warranty.
-
-* Run as `./ts Proxy/Main.ts`, configure using `Proxy/config.json`:
- * `port`: set proxy port (it should be set together with hostname in viewer/browser settings in order to use the proxy).
- * `log.proxy`: log proxy events (requests, errors, changes, etc.) if specified (`true` for `stdout`, string for a file).
+* Run as `./ts Proxy/Main.ts <config-file>`, see `Proxy/examples/*` for config examples (without config will work as a basic HTTP proxy with all features disabled):
+ * `port`: set proxy port (default is `3000`, also should be set together with hostname in viewer/browser settings in order to use the proxy).
+ * `log.proxy`: log proxy events to a file (`stdout` if `true`). Use `log.mode` to set [writing mode](https://nodejs.org/api/fs.html#fs_fs_open_path_flags_mode_callback).
+ * `log.api`: log API responses to a directory (`Proxy/api` if `true`).
+ * `log.api_start2`: save `api_start2` response to a file (`Proxy/api_start2` if `true`). Use `log.exit` to close the proxy after `api_start2` is saved.
  * `fix_dmm_cookie`: set to `true` to rewrite cookies when browsing DMM, similarly to https://github.com/gakada/DMM.
  * `anti_cat.wait_for_network`: seconds to wait (repeatedly) when there is no network (should be >= 1, disabled otherwise), prevent some cat errors.
+ * `cache`: save game assets and core SWF files to a directory (`Proxy/cache` if `true`). 
 * In plans:
- * `log.api`: log API request/responses if specified.
- * `log.api_start2`: save `api_start2` to a file if specified.
- * `anti_cat.use_cached_assets`: switch to locally saved game assets (if any) on network errors, also prevent some cat errors.
+ * `anti_cat.use_cache`: switch to locally saved game assets (if any) on network errors, also prevent some cat errors.
  * `anti_cat.spam_api`: retry API calls on network errors (probably unsafe and shouldn't be used normally).
- * `cache_assets`: save game assets locally, use them while `last-modified` is up-to-date.
- * `use_modded_assets`: ignore `last-modified` and always use specified assets from a local storage.
- * `cache_core_swf`: save core SWF files (offline mode bootstrap).
- * `use_local_kc_server`: redirect API calls to a specified server that mocks game API (offline/sandboxed mode).
+ * `use_cache`: use locally cached assets when `last-modified` is up-to-date.
+ * `use_mods`: ignore `last-modified` and always use specified assets from a local storage.
+ * `use_kc_server`: redirect API calls to a specified server that mocks game API (offline/sandboxed mode, static files that require `api_token` should be already cached by proxy, other static files can be still required from Yokosuka, the server should reimplement parts of the dynamic API, i.e. player state and JSON responses).
+
+Current status (work = somehow tested and should work, but still can be bugged):
+
+* Tested with Firefox only.
+* HTTPS traffic doesn't go through this proxy.
+* HTTP work, DMM browsing (including cookie fix) work, HTTP headers should be unaffected (except DMM cookies when `fix_dmm_cookie` is enabled).
+* KC, API logging and resource saving work:
+ * `Proxy/examples/login.log`: activity from DMM game link to Homeport.
