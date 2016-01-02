@@ -57,7 +57,7 @@ function rewriteProxiedRequest(proxyReq: http.ServerResponse, req: http.Incoming
     for (let i = 0; i < headers.length; i += 2) {
         proxyReq.setHeader(headers[i], headers[i + 1]);
     }
-    if (Game.isDMM(host)) {
+    if (config.fix_dmm_cookie && Game.isDMM(host)) {
         proxyLog.log("  [REWRITE] fixing DMM cookie:", host);
         const oldCookie = proxyReq.getHeader("Cookie");
         if (oldCookie) {
@@ -69,9 +69,7 @@ function rewriteProxiedRequest(proxyReq: http.ServerResponse, req: http.Incoming
 
 const proxy = httpProxy.createProxyServer({});
 proxy.on("error", handleProxyError);
-if (config.fix_dmm_cookie) {
-    proxy.on("proxyReq", rewriteProxiedRequest);
-}
+proxy.on("proxyReq", rewriteProxiedRequest);
 
 proxy.on("proxyRes", function (proxyRes: http.IncomingMessage, req: http.IncomingMessage): void {
     const url = req.url;
