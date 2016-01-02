@@ -1,9 +1,16 @@
 Output/
 Other/
+Wiki/
+
+Proxy/api
+Proxy/api_start2
+Proxy/cache
+Proxy/mods
 
 node_modules/
 typings/
 
+*.log
 *.js
 *.njsproj
 *.sln

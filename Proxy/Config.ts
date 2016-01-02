@@ -2,33 +2,40 @@ import * as fs from "fs";
 import {Log} from "./Log";
 
 export type Config = {
-    port?: number,
+    port: number,
 
-    // TODO: append mode
-    log?: {
-        proxy?: string | boolean,
-        api?: string | boolean,
+    log: {
+        proxy: string | boolean,
+        mode: string,
+        api: string | boolean,
         api_start2: string | boolean,
+        exit: boolean,
     }
 
-    fix_dmm_cookie?: boolean,
+    fix_dmm_cookie: boolean,
 
-    anti_cat?: {
-        wait_for_network?: number,
-    }
+    anti_cat: {
+        wait_for_network: number,
+    },
+
+    cache: string | boolean,
 };
 
 function checkConfig(config: Config): void {
     config.port = config.port || 3000;
     if (config.log) {
         config.log.proxy = config.log.proxy || false;
-        config.log.api = config.log.api || false;
-        config.log.api_start2 = config.log.api_start2 || false;
+        config.log.mode = config.log.mode || "w";
+        config.log.api = (config.log.api === true ? "api" : config.log.api) || false;
+        config.log.api_start2 = (config.log.api_start2 === true ? "api_start2" : config.log.api_start2) || false;
+        config.log.exit = (config.log.exit ? true : false);
     } else {
         config.log = {
             proxy: false,
+            mode: "w",
             api: false,
             api_start2: false,
+            exit: false,
         };
     }
     config.fix_dmm_cookie = config.fix_dmm_cookie || false;
@@ -42,18 +49,19 @@ function checkConfig(config: Config): void {
             wait_for_network: undefined
         };
     }
+    config.cache = (config.cache === true ? "cache" : config.cache) || false;
 }
 
 export function loadConfig() {
-    const configFile = `${__dirname}/config.json`;
+    const arg = process.argv[2];
+    const configFile = arg ? arg : `${__dirname}/config.json`;
+    let config = <Config>{};
     if (fs.existsSync(configFile)) {
-        const config: Config = JSON.parse(fs.readFileSync(configFile).toString());
-        checkConfig(config);
-        const proxyLog = new Log(config.log.proxy);
-        const apiLog = new Log(config.log.api);
-        return { config, proxyLog, apiLog };
+        config = JSON.parse(fs.readFileSync(configFile).toString());
     } else {
-        console.log("config.json should exist");
-        process.exit();
+        console.log("config file doesn't exist, using defaults (everything is disabled)");
     }
+    checkConfig(config);
+    const proxyLog = new Log(config.log.proxy, config.log.mode);
+    return { config, proxyLog };
 }

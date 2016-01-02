@@ -25,4 +25,12 @@ export class Log {
         }
     }
 
+    public write(data: Buffer | string): boolean {
+        return this.file.write(data);
+    }
+
+    public end(): void {
+        this.file.end();
+    }
+
 };
