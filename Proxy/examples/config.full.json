@@ -15,5 +15,6 @@
         "wait_for_network": 10
     },
 
-    "cache": "cache"
+    "cache": "cache",
+    "mods": "mods"
 }

@@ -122,6 +122,17 @@ function handleClient(req: http.IncomingMessage, res: http.ServerResponse): void
           url = req.url,
           method = req.method;
     proxyLog.log("[REQUEST]", method, url);
+    const assetPath = Game.isAsset(url);
+    if (config.mods && assetPath) {
+        const fullPath = path.join(__dirname, config.mods, assetPath);
+        // todo: create index beforehand
+        if (assetPath && fs.existsSync(fullPath)) {
+            const file = fs.createReadStream(fullPath);
+            proxyLog.log("[MOD]", assetPath);
+            file.pipe(res);
+            return;
+        }
+    }
     proxy.web(req, res, { target: `http://${host}` });
 }
 

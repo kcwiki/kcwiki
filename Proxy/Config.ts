@@ -19,6 +19,7 @@ export type Config = {
     },
 
     cache: string | boolean,
+    mods: string | boolean,
 };
 
 function checkConfig(config: Config): void {
@@ -50,6 +51,7 @@ function checkConfig(config: Config): void {
         };
     }
     config.cache = (config.cache === true ? "cache" : config.cache) || false;
+    config.mods = (config.mods === true ? "mods" : config.mods) || false;
 }
 
 export function loadConfig() {
