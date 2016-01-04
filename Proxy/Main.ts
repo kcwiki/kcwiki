@@ -133,6 +133,13 @@ function handleClient(req: http.IncomingMessage, res: http.ServerResponse): void
             return;
         }
     }
+    // todo: remote proxy?
+    if (host.match(/^127\.0\.0\.1(:\d+)?$/) || host.match(/^localhost(:\d+)?$/)) {
+        res.writeHead(200, { "Content-Type": "text/plain" });
+        res.write("proxy mode");
+        res.end();
+        return;
+    }
     proxy.web(req, res, { target: `http://${host}` });
 }
 
