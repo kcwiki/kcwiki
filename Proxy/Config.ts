@@ -20,6 +20,7 @@ export type Config = {
 
     cache: string | boolean,
     mods: string | boolean,
+    use_kc_server: string,
 };
 
 function checkConfig(config: Config): void {
@@ -52,6 +53,7 @@ function checkConfig(config: Config): void {
     }
     config.cache = (config.cache === true ? "cache" : config.cache) || false;
     config.mods = (config.mods === true ? "mods" : config.mods) || false;
+    config.use_kc_server = config.use_kc_server || undefined;
 }
 
 export function loadConfig() {

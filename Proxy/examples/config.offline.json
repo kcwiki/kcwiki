@@ -1,0 +1,11 @@
+{
+    "port": 3000,
+
+    "log": {
+        "proxy": true
+    },
+
+    "cache": "cache",
+    "mods": "mods",
+    "use_kc_server": "127.0.0.1:8000"
+}

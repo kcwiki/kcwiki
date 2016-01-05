@@ -7,6 +7,7 @@ Proxy/api_start2
 Proxy/cache
 Proxy/mods
 Proxy/*.log
+Proxy/Server/api
 
 node_modules/
 typings/

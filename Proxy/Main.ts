@@ -29,8 +29,9 @@ console.log("  using cache when no network:", "unimplemented");
 console.log("  re-request API on network errors:", "unimplemented (unsafe)");
 console.log("  caching assets:", config.cache);
 console.log("  caching core SWF files:", config.cache);
-console.log("  using modded assets:", "unimplemented");
-console.log("  using local KC server:", "unimplemented");
+console.log("  using cached assets:", "unimplemented");
+console.log("  using modded assets:", config.mods);
+console.log("  using local KC server:", config.use_kc_server);
 
 function handleProxyError(err: NodeJS.ErrnoException, req: http.IncomingMessage, res: http.ServerResponse): void {
     const method = req.method,
@@ -117,30 +118,44 @@ proxy.on("proxyRes", function (proxyRes: http.IncomingMessage, req: http.Incomin
     }
 });
 
+function pipeAsset(assetPath: string, res: http.ServerResponse, mod?: boolean): boolean {
+    const fullPath = path.join(__dirname, mod ? config.mods : config.cache, assetPath);
+    // todo: create index beforehand
+    if (fs.existsSync(fullPath)) {
+        proxyLog.log(mod ? "[MODDED]" : "[CACHED]", assetPath);
+        fs.createReadStream(fullPath).pipe(res);
+        return true;
+    } else {
+        return false;
+    }
+}
+
 function handleClient(req: http.IncomingMessage, res: http.ServerResponse): void {
     const host = req.headers.host,
           url = req.url,
           method = req.method;
     proxyLog.log("[REQUEST]", method, url);
     const assetPath = Game.isAsset(url);
-    if (config.mods && assetPath) {
-        const fullPath = path.join(__dirname, config.mods, assetPath);
-        // todo: create index beforehand
-        if (assetPath && fs.existsSync(fullPath)) {
-            const file = fs.createReadStream(fullPath);
-            proxyLog.log("[MOD]", assetPath);
-            file.pipe(res);
-            return;
-        }
-    }
-    // todo: remote proxy?
-    if (host.match(/^127\.0\.0\.1(:\d+)?$/) || host.match(/^localhost(:\d+)?$/)) {
+    if (config.mods && assetPath && pipeAsset(assetPath, res, true)) {
+        ;
+    } else if (host.match(/^127\.0\.0\.1(:\d+)?$/) || host.match(/^localhost(:\d+)?$/)) {
+        // todo: remote proxy?
         res.writeHead(200, { "Content-Type": "text/plain" });
         res.write("proxy mode");
         res.end();
-        return;
+    } else if (config.use_kc_server) {
+        const assetPath = Game.isAsset(url);
+        if (assetPath && !pipeAsset(assetPath, res)) {
+            // todo: re-cache from Yokosuka
+            res.writeHead(500);
+            res.end();  
+        } else if (Game.isAPI(url)) {
+            proxy.web(req, res, { target: `http://${config.use_kc_server}` });
+
+        }
+    } else {
+        proxy.web(req, res, { target: `http://${host}` });
     }
-    proxy.web(req, res, { target: `http://${host}` });
 }
 
 const server = http.createServer(handleClient);

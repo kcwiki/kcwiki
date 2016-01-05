@@ -16,5 +16,6 @@
     },
 
     "cache": "cache",
-    "mods": "mods"
+    "mods": "mods",
+    "use_kc_server": null
 }
