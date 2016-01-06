@@ -12,10 +12,12 @@
     "fix_dmm_cookie": true,
 
     "anti_cat": {
-        "wait_for_network": 10
+        "wait_for_network": 10,
+        "use_cache": true
     },
 
     "cache": "cache",
+    "use_cache": true,
     "mods": "mods",
     "use_kc_server": null
 }

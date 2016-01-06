@@ -16,9 +16,11 @@ export type Config = {
 
     anti_cat: {
         wait_for_network: number,
+        use_cache: boolean,
     },
 
     cache: string | boolean,
+    use_cache: boolean,
     mods: string | boolean,
     use_kc_server: string,
 };
@@ -46,12 +48,15 @@ function checkConfig(config: Config): void {
             = typeof(config.anti_cat.wait_for_network) === "number" && config.anti_cat.wait_for_network >= 1
             ? config.anti_cat.wait_for_network
             : undefined;
+        config.anti_cat.use_cache = (config.anti_cat.use_cache ? true : false);
     } else {
         config.anti_cat = {
-            wait_for_network: undefined
+            wait_for_network: undefined,
+            use_cache: false,
         };
     }
     config.cache = (config.cache === true ? "cache" : config.cache) || false;
+    config.use_cache = (config.use_cache ? true : false);
     config.mods = (config.mods === true ? "mods" : config.mods) || false;
     config.use_kc_server = config.use_kc_server || undefined;
 }
