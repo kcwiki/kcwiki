@@ -42,3 +42,13 @@ export function isAsset(url: string): string {
     const parts = url.match(/^http:\/\/.*\/kcs\/([^\?]*).*$/);
     return parts ? parts[1] : undefined;
 }
+
+export function isShipCG(url: string): string {
+    const parts = url.match(/^http:\/\/.*\/kcs\/resources\/swf\/ships\/([^\?]*).*$/);
+    return parts ? parts[1] : undefined;
+}
+
+export function isShipVoice(url: string): string {
+    const parts = url.match(/^http:\/\/.*\/kcs\/sound\/(.*)\/([^\?]*).*$/);
+    return parts ? parts[1] : undefined;
+}

@@ -156,11 +156,18 @@ function handleClient(req: http.IncomingMessage, res: http.ServerResponse): void
         ;
     } else if (config.use_kc_server) {
         if (assetPath && !pipeAsset(assetPath, res)) {
-            // todo: re-cache from Yokosuka
-            res.writeHead(500);
-            res.end();
+            if (method === "GET" && (Game.isShipCG(url) || Game.isShipVoice(url))) {
+                proxyLog.log("  [YOKOSUKA]", assetPath);
+                proxy.web(req, res, { target: `http://203.104.209.71` });
+            } else {
+                res.writeHead(500);
+                res.end();
+            }
         } else if (Game.isAPI(url)) {
             proxy.web(req, res, { target: `http://${config.use_kc_server}` });
+        } else {
+            res.writeHead(500);
+            res.end();
         }
     } else {
         proxy.web(req, res, { target: `http://${host}` });
