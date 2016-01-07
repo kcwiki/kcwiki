@@ -1,0 +1,62 @@
+{
+    "basic": {
+        "api_member_id": "1",
+        "api_nickname": "Dandy",
+        "api_nickname_id": "1",
+        "api_active_flag": 1,
+        "api_starttime": 0,
+        "api_level": 2,
+        "api_rank": 10,
+        "api_experience": 250,
+        "api_fleetname": null,
+        "api_comment": "",
+        "api_comment_id": "",
+        "api_max_chara": 100,
+        "api_max_slotitem": 497,
+        "api_max_kagu": 0,
+        "api_playtime": 0,
+        "api_tutorial": 0,
+        "api_furniture": [1, 38, 72, 102, 133, 164],
+        "api_count_deck": 2,
+        "api_count_kdock": 2,
+        "api_count_ndock": 2,
+        "api_fcoin": 0,
+        "api_st_win": 0,
+        "api_st_lose": 0,
+        "api_ms_count": 0,
+        "api_ms_success": 0,
+        "api_pt_win": 0,
+        "api_pt_lose": 0,
+        "api_pt_challenged": 0,
+        "api_pt_challenged_win": 0,
+        "api_firstflag": 1,
+        "api_tutorial_progress": 100,
+        "api_pvp": [0, 0],
+        "api_medals": 0,
+        "api_large_dock": 0
+    },
+    "materials": [30000, 30000, 30000, 30000, 10, 10, 10, 10],
+    "fleets": [
+        {
+            "name": "第1艦隊",
+            "mission": [0, 0, 0, 0],
+            "ships": [1, -1, -1, -1, -1, -1]
+        },
+        {
+            "name": "第2艦隊",
+            "mission": [0, 0, 0, 0],
+            "ships": [-1, -1, -1, -1, -1, -1]
+        }
+    ],
+    "docks": [0, 0, -1, -1],
+    "ships": [
+        {
+            "id": 1,
+            "sortno": 131,
+            "api_id": 131,
+            "lv": 1
+        }
+    ],
+    "bgm": 101,
+    "parallel_quest_count": 5
+}
