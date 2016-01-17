@@ -49,6 +49,8 @@ TBD:
 
 # Proxy
 
+TBD: move to a separate project.
+
 * Run as `node Proxy/Main.js <config-file>`, see `Proxy/examples/*` for config examples (without config will work as a basic HTTP proxy with all features disabled):
   * `port`: set proxy port (default is `3000`, also should be set together with hostname in viewer/browser settings in order to use the proxy).
   * `log.proxy`: log proxy events to a file (`stdout` if `true`). Use `log.mode` to set [writing mode](https://nodejs.org/api/fs.html#fs_fs_open_path_flags_mode_callback).
@@ -60,10 +62,10 @@ TBD:
   * `cache`: save game assets and core SWF files to a directory (`Proxy/cache` if `true`).
   * `use_cache`: use locally cached assets from `cache`.
   * `mods`: use assets from this directory (`Proxy/mods` if `true`, has higher priority than `cache`).
-  * `use_kc_server`: redirect API calls to a specified server that implements game API (offline/sandboxed mode, main assets should be already cached in `cache`, missing CG and voices will be fetched and cached from Yokosuka).
-    * Run `ts Proxy/Server/Main 8000` and use `localhost:8000` as API server, open http://203.104.209.102/kcs/mainD2.swf via proxy.
+  * `use_kc_server`: redirect API calls to a specified server that implements game API (offline/sandboxed mode, assets will be fetched and cached in `cache` from Yokosuka).
+    * Run `ts Proxy/Server/Main` and use `localhost:8000` as API server, open http://203.104.209.102/kcs/mainD2.swf via proxy.
     * Use `Proxy/Server/users/*` to define user's state.
-    * `Proxy/Server/api` should have cached API responses for unimplemented functions.
+    * `Proxy/Server/api` can have cached API responses for unimplemented functions.
 * TBD:
   * `anti_cat.spam_api`: retry API calls on network errors (probably unsafe and shouldn't be used normally).
   * Use `last-modified` with `use_cache` (`pipe` in `proxyRes`?).
@@ -77,7 +79,4 @@ Current status (work = tested and should work, but still can be bugged):
 * KC, API logging and resource saving work:
   * `Proxy/examples/login.log`: activity from DMM game link to Homeport.
 * Assets loading from `cache` and `mods` work.
-* Offline mode works:
-  * Homeport screen and Yamato starter:
-![yamato1](/Proxy/examples/yamato1.png?raw=true)
-![yamato2](/Proxy/examples/yamato2.png?raw=true)
+* Offline mode works.
