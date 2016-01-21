@@ -11,14 +11,15 @@ import * as _ from "lodash";
 
 export type Request = { method?: string, url: string, data: any };
 export type Next = (_error?: any) => void;
-export type ProcessRequest = (_link: Request, _response: any, _next: any) => void;
+export type ProcessRequest = (_link: Request, _body: any, _next: any, _response?: http.IncomingMessage) => void;
 
 export class Fetcher {
 
-    constructor(requests: Request[], processRequest: ProcessRequest) {
+    constructor(requests: Request[], processRequest: ProcessRequest, ignoreErrors: boolean = false) {
         this.requests = requests;
         this.errors = [];
         this.processRequest = processRequest;
+        this.ignoreErrors = ignoreErrors;
     }
 
     public fetchAll = (next: any) => {
@@ -39,6 +40,7 @@ export class Fetcher {
     private requests: Request[];
     private errors: Request[];
     private processRequest: ProcessRequest;
+    private ignoreErrors: boolean;
 
     private fetch = (r: Request, next: Next): void => {
         if (!r.url) {
@@ -48,21 +50,27 @@ export class Fetcher {
         if (r.method) {
             const u = url.parse(r.url);
             const options = { hostname: u.hostname, method: r.method, path: u.path, port: parseInt(u.port) };
-            const req = http.request(options, (res: any) => { this.processRequest(r, res, next); });
+            const req = http.request(options, (res) => { this.processRequest(r, res, next, res); });
             req.on("error", (err: any) => {
-                console.log("HTTP/Fetcher:", r.url, err);
-                this.errors.push(r);
+                if (!this.ignoreErrors) {
+                    console.log("HTTP/Fetcher:", r.url, err);
+                    this.errors.push(r);
+                }
                 next();
             });
             req.end();
         } else {
-            request(r.url, (err: any, response: http.IncomingMessage, body: any) => {
-                if (!err && response.statusCode === 200) {
-                    this.processRequest(r, body, next);
+            request(r.url, (err: any, res: http.IncomingMessage, body: any) => {
+                if (!this.ignoreErrors) {
+                    if (!err && res.statusCode === 200) {
+                        this.processRequest(r, body, next, res);
+                    } else {
+                        console.log("HTTP/Fetcher:", r.url, err);
+                        this.errors.push(r);
+                        next();
+                    }
                 } else {
-                    console.log("HTTP/Fetcher:", r.url, err);
-                    this.errors.push(r);
-                    next();
+                    this.processRequest(r, body, next, res);
                 }
             });
         }
@@ -75,15 +83,17 @@ export class GroupFetcher {
     private errors: number;
     private groups: Request[][];
     private processRequest: ProcessRequest;
+    public ignoreErrors: boolean;
 
     constructor(requests: Request[], nPar: number, processRequest: ProcessRequest) {
         this.errors = 0;
         this.groups = _.chunk(requests, nPar);
         this.processRequest = processRequest;
+        this.ignoreErrors = false;
     }
 
     private fetchGroup = (group: Request[], next: Next): void => {
-        new Fetcher(group, this.processRequest).fetchAll(next);
+        new Fetcher(group, this.processRequest, this.ignoreErrors).fetchAll(next);
     };
 
     public fetch(next: Next): void {
@@ -102,7 +112,7 @@ function formatDate(date: Date): string {
     return `${date.getMonth() + 1}/${date.getDate() }/${date.getFullYear() }`;
 }
 
-function sortObject(o: any): any {
+export function sortObject(o: any): any {
     if (typeof o !== "object") {
         return o;
     }
@@ -113,9 +123,15 @@ function sortObject(o: any): any {
     return x;
 }
 
-function sortSubObjects(o: any): void {
+export function sortSubObjects(o: any): void {
     for (const [k, v] of _.pairs(o)) {
         o[k] = sortObject(v);
+    }
+}
+
+export function sortSubArrays(o: any): void {
+    for (const [k, v] of _.pairs(o)) {
+        o[k] = v.sort();
     }
 }
 

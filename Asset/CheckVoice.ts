@@ -6,8 +6,9 @@ import * as Ship from "../Lib/Ship";
 const requests: HTTP.Request[] = [];
 
 const secretaryOnly = process.argv[3] === "secretary";
+const ships = process.argv[4] ? process.argv.slice(4).filter((v) => v.length > 0) : Ship.names;
 
-for (const name of Ship.names) {
+for (const name of ships) {
     for (const [lineName, n] of _.pairs(Ship.Line.names)) {
         if (!secretaryOnly || n === 2 || n === 3 || n === 4) {
             const line = new Ship.Line(new Ship.Name(name), lineName);

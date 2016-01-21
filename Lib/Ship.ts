@@ -158,6 +158,12 @@ export class Name {
             this.remodel = 3;
             return;
         }
+        t = fullName.match(/(.*) Kai2 B/);
+        if (t) {
+            this.name = t[1];
+            this.remodel = 3;
+            return;
+        }
         t = fullName.match(/(.*) Kai2/);
         if (t) {
             this.name = t[1];
@@ -222,6 +228,9 @@ export class Name {
     public toKai(): string {
         if (this.name === "Bismarck" || this.name === "Z1" || this.name === "Z3") {
             return ["", "Kai", "Zwei", "Drei"][this.remodel];
+        }
+        if (this.name === "Kasumi" && this.remodel === 3) {
+            return "Kai2 B";
         }
         for (const [exc, s] of _.pairs(Name.exceptions)) {
             if (s.name === this.name && s.remodel === this.remodel) {
