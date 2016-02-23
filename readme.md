@@ -23,6 +23,7 @@ Requires https://www.ffmpeg.org/ for `mp3 -> ogg` conversion.
 
 * For ship voice lines (enemy lines not supported), same, but use `Voice` instead of `CG` (`Asset/Output/{mp3,ogg}/*` generated).
 * Use `./ts Asset/CheckVoice <update-number> secretary` to check secretary lines only.
+* Check ships with hourlies: `./ts Asset/CheckVoiceHourly` (write `Asset/Output/hourlies.json`).
 
 # CSV stats
 
