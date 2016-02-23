@@ -253,6 +253,19 @@ export function baseNames(): string[] {
 }
 
 export class Line {
+    
+    private static crKeys: number[] = [
+        608614, 611089, 612644, 615991, 624682, 632529, 636124, 637891, 641202, 643709,
+        653360, 658681, 663154, 670271, 676218, 685707, 688376, 697117, 703266, 704567,
+        711864, 714839, 721252, 729643, 739348, 741591, 743682, 747913, 751020, 760519,
+        764724, 770737, 774130, 780531, 787516, 791199, 800646, 803933, 809114, 816701,
+        826054, 828189, 833136, 838541, 843764, 853221, 858988, 868253, 876444, 880371,
+        883432, 886237, 889510, 896841
+    ];
+
+    private static getFileName(ship_api_id: number, voice_line_id: number): number {
+        return 100000 + 17 * (ship_api_id + 7) * (Line.crKeys[voice_line_id] - Line.crKeys[voice_line_id - 1]) % 99173;
+    }
 
     public static names: { [name: string]: number } = require("./Data/ShipLines.json");
 
@@ -268,7 +281,9 @@ export class Line {
     }
 
     public url(server: string = "Yokosuka"): string {
-        return (server ? `http://${Server.ips[server]}` : "") + "/kcs/sound/kc" + en2Code(this.shipName.fullName()) + "/" + Line.names[this.line] + ".mp3";
+        const stat2 = en2Stat2(this.shipName.fullName());
+        const filename = Line.getFileName(stat2.api_id, Line.names[this.line]);
+        return (server ? `http://${Server.ips[server]}` : "") + "/kcs/sound/kc" + en2Code(this.shipName.fullName()) + "/" + filename + ".mp3?VERSION=" + stat2.api_version;
     }
 
     public wikia(): string {

@@ -31,7 +31,7 @@ const api2Stats = {
     "api_backs": "rarity",
     "api_afterlv": "remodel_level",
     "api_soku": "speed",
-    // api_leng?
+    "api_leng": "range",
     "api_slot_num": "slots",
     "api_maxeq": ["slot_size_1", "slot_size_2", "slot_size_3", "slot_size_4"],
     "api_buildtime": "build_time",
@@ -52,7 +52,7 @@ const api2Stats = {
     "api_afterbull": "remodel_ammo",
 };
 
-export function writeShipstatsCsv(): void {
+export function writeShipStatsCsv(): void {
     const log = new Log(`${__dirname}/ShipStats.csv`);
     let h = "name";
     for (const [, stat] of _.pairs(api2Stats)) {
@@ -86,6 +86,17 @@ export function writeBaseShipsCsv(): void {
     log.write("name,api_name,api_yomi");
     for (const name of Ship.baseNames()) {
         log.write(`${name},${Ship.en2Jp[name]},${Ship.en2Stat(name).api_yomi}`);
+    }
+}
+
+export function writeShipVoiceLinesCsv(): void {
+    const log = new Log(`${__dirname}/ShipVoiceLines.csv`);
+    log.write("ship,line,url");
+    for (const name of Ship.names) {
+        for (const lineName in Ship.Line.names) {
+            const line = new Ship.Line(new Ship.Name(name), lineName);
+            log.write(`${name},${lineName},${line.url()}`);
+        }
     }
 }
 
@@ -123,5 +134,6 @@ export function writeEnemy(): void {
 
 writeShipsCsv();
 writeBaseShipsCsv();
-writeShipstatsCsv();
+writeShipStatsCsv();
+writeShipVoiceLinesCsv();
 writeEnemy();

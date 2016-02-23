@@ -15,7 +15,7 @@ Requires https://www.free-decompiler.com/flash/ (with Java) for SWF extraction.
 * Check ship/enemy/seasonal ship/unknown ship SWF updates (write `Asset/Data/CG/*`): `./ts Asset/CheckCG` for latest update or `./ts Asset/CheckCG <update-number>` for previous update (previous updates get overridden by new updates).
 * Check `Asset/Data/CG/*` files.
 * Download updated SWF and extract CG for specified update (in `Asset/Output/CG/*`): `./Asset/GetCG`.
-* To download all library SWF files (include seasonal cards): `./ts GetLibrarySwf` (write `Asset/Output/LibrarySwf/*`).
+* To download all library SWF files (include seasonal cards): `./ts Asset/GetLibrarySwf` (write `Asset/Output/LibrarySwf/*`).
 
 ## Voice
 

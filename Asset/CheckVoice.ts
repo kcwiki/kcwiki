@@ -5,7 +5,10 @@ import * as Ship from "../Lib/Ship";
 
 const requests: HTTP.Request[] = [];
 
+const updateNumber = parseInt(process.argv[2]) || 0;
+
 const secretaryOnly = process.argv[3] === "secretary";
+
 const ships = process.argv[4] ? process.argv.slice(4).filter((v) => v.length > 0) : Ship.names;
 
 for (const name of ships) {
@@ -18,8 +21,6 @@ for (const name of ships) {
 }
 
 const updateChecker = new HTTP.UpdateChecker(requests, 16);
-
-const updateNumber = parseInt(process.argv[2]) || 0;
 
 updateChecker.check((times: any, responses: any) => {
     const current = times[updateNumber];
