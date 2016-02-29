@@ -18,11 +18,11 @@ function get {
 
 }
 
-rm -f "$dir/Output/voice_list*"
+rm -f "$dir/Output/"voice_list*
 split --lines=50 "$dir/Data/Voice/Updated" "$dir/Output/voice_list"
 
-for f in `ls $dir/Output/voice_list*` ; do
+for f in `ls "$dir/Output/"voice_list*` ; do
     get $f
 done
 
-rm -f "$dir/Output/voice_list*"
+rm -f "$dir/Output/"voice_list*

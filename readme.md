@@ -22,7 +22,9 @@ Requires https://www.free-decompiler.com/flash/ (with Java) for SWF extraction.
 Requires https://www.ffmpeg.org/ for `mp3 -> ogg` conversion.
 
 * For ship voice lines (enemy lines not supported), same, but use `Voice` instead of `CG` (`Asset/Output/{mp3,ogg}/*` generated).
-* Use `./ts Asset/CheckVoice <update-number> secretary` to check secretary lines only.
+  * Use `./ts Asset/CheckVoice <update-number> secretary` to check secretary lines only.
+  * Use `./ts Asset/CheckVoice <update-number> <secretary-flag> <ship-names>...` to only check listed ships.
+  * Use `./ts Asset/CheckVoice diff` (or `./ts Asset/CheckVoice diff <excluded-ships>...`) to check updates based on file sizes, rather than modification times, can be useful on file migrations, like on 2016/02/10 (`Asset/Data/Voice/ResponsesPrev.json` should be present, previous responses are stored in [commits](https://github.com/gakada/KCTools/commits/master)).
 * Check ships with hourlies: `./ts Asset/CheckVoiceHourly` (write `Asset/Output/hourlies.json`).
 
 # CSV stats

@@ -3,13 +3,39 @@ import * as _ from "lodash";
 import * as HTTP from "../Lib/HTTP";
 import * as Ship from "../Lib/Ship";
 
-const requests: HTTP.Request[] = [];
+if (process.argv[2] === "diff") {
+    
+    const excludeShips = process.argv[3] ? process.argv.slice(3).filter((v) => v.length > 0) : [];
+    
+    const responsesCurr = require(`${__dirname}/Data/Voice/Responses.json`);
+    const responsesPrev = require(`${__dirname}/Data/Voice/ResponsesPrev.json`);
+    for (const [ship, lines] of _.pairs(responsesCurr)) {
+        const shipName = new Ship.Name(ship);
+        for (const [line, lineCurr] of _.pairs(lines)) {
+            const lineName = new Ship.Line(shipName, line),
+                  linePrev = responsesPrev[ship] && responsesPrev[ship][line];
+            if (linePrev) {
+                if (lineCurr.modified === linePrev.modified) {
+                    console.log(`same time: ${line} for ${ship}`);
+                }
+                if (lineCurr.size !== linePrev.size) {
+                    console.log(`${lineName.url()} ${shipName.fullName(true).replace(/ /g, "_")}_${line}`);
+                }
+            } else {
+                if (!_.includes(excludeShips, shipName.name)) {
+                    console.log(`previous responses: no ${line} for ${ship}`);
+                }
+            }
+        }
+    }
+    process.exit();
+}
 
 const updateNumber = parseInt(process.argv[2]) || 0;
-
 const secretaryOnly = process.argv[3] === "secretary";
-
 const ships = process.argv[4] ? process.argv.slice(4).filter((v) => v.length > 0) : Ship.names;
+
+const requests: HTTP.Request[] = [];
 
 for (const name of ships) {
     for (const [lineName, n] of _.pairs(Ship.Line.names)) {
