@@ -23,7 +23,7 @@ for i in `seq ${1-1} ${2-20}` ; do
     else
       echo "    done"
       echo "  waiting..."
-      sleep 5
+      sleep ${1:-5}
     fi
   fi
 done
@@ -33,8 +33,10 @@ echo > $dir/Output/ranks.js
 for i in `seq 1 20` ; do
   if [ -s $dir/Output/$i ]; then
     cat $dir/Output/$i \
-    | grep rankPointData \
-    | sed "s/rankPointData/rankPointData$i/" \
+    | grep SenkaChart \
+    | sed "s/SenkaChart/rankPointData$i/" \
+    | sed "s/<script>//" \
+    | sed "s/<\/script>//" \
     | sed 's/^[ \t]*//' \
     | sed 's/位//g' \
     >> $dir/Output/ranks.js
@@ -54,11 +56,16 @@ var servers = [
     rankPointData16, rankPointData17, rankPointData18, rankPointData19, rankPointData20
 ];
 
+var serverNames = [
+    "Yokosuka", "Kure", "Sasebo", "Maizuru", "Ominato", "Truk", "Lingga", "Rabaul", "Shortland", "Buin",
+    "Tawi-Tawi", "Palau", "Brunei", "Hitokappu", "Paramushir", "Sukumo", "Kanoya", "Iwagawa", "Saiki", "Hashirajima",
+];
+
 var s = "";
 for (var i = 0; i < servers.length; ++i) {
-    s += "|-\n|" + (i + 1) + "\n";
-    for (var ranking of servers[i]) {
-        s += "|" + ranking.value[ranking.value.length - 1] + "\n";
+    s += "|-\n|" + serverNames[i] + "\n";
+    for (var ranking of servers[i].RankPoint) {
+        s += "|" + ranking.Value[ranking.Value.length - 1] + "\n";
     }
 }
 console.log(s);
