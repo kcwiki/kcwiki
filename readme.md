@@ -36,7 +36,7 @@ Requires https://www.ffmpeg.org/ for `mp3 -> ogg` conversion.
 
 * Keep JSON files in `Lua/Data/` updated.
 * Download Lua data modules: `node Lua/Get ship; node Lua/Get enemy; node Lua/Get equipment; node Lua/Get enemy_equipment` (write `Lua/Output/Lua/*`).
-* Update JSON: `lua.exe Lua/Convert.lua ship > Lib/Data/ShipData.json; lua.exe Lua/Convert.lua enemy > Lib/Data/EnemyData.json; lua.exe Lua/Convert.lua equipment > Lib/Data/Equipment.json; lua.exe Lua/Convert.lua enemy_equipment > Lib/Data/EnemyEquipment.json`.
+* Update JSON: `lua.exe Lua/Convert.lua ship > Lib/Data/ShipData.json; lua.exe Lua/Convert.lua enemy > Lib/Data/EnemyData.json; lua.exe Lua/Convert.lua equipment > Lib/Data/EquipmentData.json; lua.exe Lua/Convert.lua enemy_equipment > Lib/Data/EnemyEquipmentData.json`.
 * Generate JSON and XML translations in `Lib/Data/`: `node Lua/GenTL`.
 * Check JSON vs `api_start2`, `port`, etc.: TBD.
 
