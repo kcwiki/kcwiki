@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Equipment Version="">
+  <Item>
+    <JP-Name>10.5cm連装砲</JP-Name>
+    <TR-Name>10.5cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>10cm連装高角砲</JP-Name>
+    <TR-Name>10cm Twin High-angle Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>10cm連装高角砲(砲架)</JP-Name>
+    <TR-Name>10cm Twin High-angle Gun Mount (Carriage)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>10cm連装高角砲+高射装置</JP-Name>
+    <TR-Name>10cm Twin High-angle Gun Mount + Anti-Aircraft Fire Director</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7cm高角砲+高射装置</JP-Name>
+    <TR-Name>12.7cm High-angle Gun + Anti-Aircraft Fire Director</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7cm単装砲</JP-Name>
+    <TR-Name>12.7cm Single Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7cm単装高角砲</JP-Name>
+    <TR-Name>12.7cm Single High-angle Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7cm連装砲</JP-Name>
+    <TR-Name>12.7cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7cm連装砲B型改二</JP-Name>
+    <TR-Name>12.7cm Twin Gun Mount Model B Kai 2</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7cm連装高角砲</JP-Name>
+    <TR-Name>12.7cm Twin High-angle Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7cm連装高角砲(後期型)</JP-Name>
+    <TR-Name>12.7cm Twin High-angle Gun Mount (Late Model)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7mm単装機銃</JP-Name>
+    <TR-Name>12.7mm Single Machine Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>120mm連装砲</JP-Name>
+    <TR-Name>120mm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12cm30連装噴進砲</JP-Name>
+    <TR-Name>12cm 30-tube Rocket Launcher</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12cm単装砲</JP-Name>
+    <TR-Name>12cm Single Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>14cm単装砲</JP-Name>
+    <TR-Name>14cm Single Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>14cm連装砲</JP-Name>
+    <TR-Name>14cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>15.2cm単装砲</JP-Name>
+    <TR-Name>15.2cm Single Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>15.2cm連装砲</JP-Name>
+    <TR-Name>15.2cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>15.2cm連装砲改</JP-Name>
+    <TR-Name>15.2cm Twin Gun Mount Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>15.5cm三連装砲</JP-Name>
+    <TR-Name>15.5cm Triple Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>15.5cm三連装副砲</JP-Name>
+    <TR-Name>15.5cm Triple Secondary Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>15cm連装副砲</JP-Name>
+    <TR-Name>15cm Twin Secondary Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>15m二重測距儀+21号電探改二</JP-Name>
+    <TR-Name>15m Duplex Rangefinder + Type 21 Radar Kai Ni</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>16inch三連装砲 Mk.7</JP-Name>
+    <TR-Name>16inch Triple Gun Mount Mk.7</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>20.3cm(2号)連装砲</JP-Name>
+    <TR-Name>20.3cm (No.2) Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>20.3cm(3号)連装砲</JP-Name>
+    <TR-Name>20.3cm (No.3) Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>20.3cm連装砲</JP-Name>
+    <TR-Name>20.3cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>203mm/53 連装砲</JP-Name>
+    <TR-Name>203mm/53 Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>25mm単装機銃</JP-Name>
+    <TR-Name>25mm Single Autocannon Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>25mm三連装機銃</JP-Name>
+    <TR-Name>25mm Triple Autocannon Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>25mm三連装機銃 集中配備</JP-Name>
+    <TR-Name>25mm Triple Autocannon Mount (Concentrated Deployment)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>25mm連装機銃</JP-Name>
+    <TR-Name>25mm Twin Autocannon Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>2cm 四連装FlaK 38</JP-Name>
+    <TR-Name>2cm Flakvierling 38</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>3.7cm FlaK M42</JP-Name>
+    <TR-Name>3.7cm FlaK M42</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>35.6cm連装砲</JP-Name>
+    <TR-Name>35.6cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>35.6cm連装砲(ダズル迷彩)</JP-Name>
+    <TR-Name>35.6cm Twin Gun Mount (Dazzle Camouflage)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>381mm/50 三連装砲</JP-Name>
+    <TR-Name>381mm/50 Triple Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>381mm/50 三連装砲改</JP-Name>
+    <TR-Name>381mm/50 Triple Gun Mount Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>38cm連装砲</JP-Name>
+    <TR-Name>38cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>38cm連装砲改</JP-Name>
+    <TR-Name>38cm Twin Gun Mount Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>41cm連装砲</JP-Name>
+    <TR-Name>41cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>46cm三連装砲</JP-Name>
+    <TR-Name>46cm Triple Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>53cm艦首(酸素)魚雷</JP-Name>
+    <TR-Name>53cm Bow (Oxygen) Torpedo Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>61cm四連装(酸素)魚雷</JP-Name>
+    <TR-Name>61cm Quadruple (Oxygen) Torpedo Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>61cm四連装魚雷</JP-Name>
+    <TR-Name>61cm Quadruple Torpedo Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>61cm五連装(酸素)魚雷</JP-Name>
+    <TR-Name>61cm Quintuple (Oxygen) Torpedo Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>61cm三連装(酸素)魚雷</JP-Name>
+    <TR-Name>61cm Triple (Oxygen) Torpedo Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>61cm三連装魚雷</JP-Name>
+    <TR-Name>61cm Triple Torpedo Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>7.7mm機銃</JP-Name>
+    <TR-Name>7.7mm Machine Gun</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>8cm高角砲</JP-Name>
+    <TR-Name>8cm High-angle Gun</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>90mm単装高角砲</JP-Name>
+    <TR-Name>90mm Single High-angle Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Ar196改</JP-Name>
+    <TR-Name>Ar196 Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Bf109T改</JP-Name>
+    <TR-Name>Bf 109T Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>毘式40mm連装機銃</JP-Name>
+    <TR-Name>Bi Type 40mm Twin Autocannon Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>秋刀魚の缶詰</JP-Name>
+    <TR-Name>Canned Mackerel</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>戦闘糧食</JP-Name>
+    <TR-Name>Combat Ration</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>大発動艇</JP-Name>
+    <TR-Name>Daihatsu Landing Craft</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>大発動艇(八九式中戦車&陸戦隊)</JP-Name>
+    <TR-Name>Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>ドラム缶(輸送用)</JP-Name>
+    <TR-Name>Drum Canister (Transport Use)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>応急修理女神</JP-Name>
+    <TR-Name>Emergency Repair Goddess</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>応急修理要員</JP-Name>
+    <TR-Name>Emergency Repair Personnel</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>強化型艦本式缶</JP-Name>
+    <TR-Name>Enhanced Kanhon Type Boiler</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>増設バルジ(大型艦)</JP-Name>
+    <TR-Name>Anti-torpedo Bulge (Large)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>増設バルジ(中型艦)</JP-Name>
+    <TR-Name>Anti-torpedo Bulge (Medium)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>艦隊司令部施設</JP-Name>
+    <TR-Name>Fleet Command Facility</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>FuMO25 レーダー</JP-Name>
+    <TR-Name>FuMO25 Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Fw190T改</JP-Name>
+    <TR-Name>Fw 190T Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>改良型艦本式タービン</JP-Name>
+    <TR-Name>Improved Kanhon Type Turbine</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Ju87C改</JP-Name>
+    <TR-Name>Ju 87C Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>甲標的</JP-Name>
+    <TR-Name>Kouhyouteki</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>新型高温高圧缶</JP-Name>
+    <TR-Name>New Model High Temperature High Pressure Boiler</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>13号対空電探</JP-Name>
+    <TR-Name>Type 13 Air Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>13号対空電探改</JP-Name>
+    <TR-Name>Type 13 Air Radar Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>14号対空電探</JP-Name>
+    <TR-Name>Type 14 Air Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>21号対空電探</JP-Name>
+    <TR-Name>Type 21 Air Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>21号対空電探改</JP-Name>
+    <TR-Name>Type 21 Air Radar Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>22号対水上電探</JP-Name>
+    <TR-Name>Type 22 Surface Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>22号対水上電探改四</JP-Name>
+    <TR-Name>Type 22 Surface Radar Kai 4</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>32号対水上電探</JP-Name>
+    <TR-Name>Type 32 Surface Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>32号対水上電探改</JP-Name>
+    <TR-Name>Type 32 Surface Radar Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>33号対水上電探</JP-Name>
+    <TR-Name>Type 33 Surface Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>カ号観測機</JP-Name>
+    <TR-Name>Ka Type Observation Autogyro</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>OTO 152mm三連装速射砲</JP-Name>
+    <TR-Name>OTO 152mm Triple Rapid Fire Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製35.6cm三連装砲</JP-Name>
+    <TR-Name>Prototype 35.6cm Triple Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製41cm三連装砲</JP-Name>
+    <TR-Name>Prototype 41cm Triple Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製46cm連装砲</JP-Name>
+    <TR-Name>Prototype 46cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製51cm連装砲</JP-Name>
+    <TR-Name>Prototype 51cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製FaT仕様九五式酸素魚雷改</JP-Name>
+    <TR-Name>Prototype FaT Type 95 Oxygen Torpedo Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製景雲(艦偵型)</JP-Name>
+    <TR-Name>Prototype Keiun (Carrier-based Reconnaissance Model)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製南山</JP-Name>
+    <TR-Name>Prototype Nanzan</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製晴嵐</JP-Name>
+    <TR-Name>Prototype Seiran</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>プリエーゼ式水中防御隔壁</JP-Name>
+    <TR-Name>Pugliese Underwater Protection Bulkhead</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>烈風</JP-Name>
+    <TR-Name>Reppuu</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>烈風(六〇一空)</JP-Name>
+    <TR-Name>Reppuu (601 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>烈風改</JP-Name>
+    <TR-Name>Reppuu Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Ro.43水偵</JP-Name>
+    <TR-Name>Ro.43 Reconnaissance Seaplane</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Ro.44水上戦闘機</JP-Name>
+    <TR-Name>Ro.44 Seaplane Fighter</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>流星</JP-Name>
+    <TR-Name>Ryuusei</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>流星(六〇一空)</JP-Name>
+    <TR-Name>Ryuusei (601 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>流星改</JP-Name>
+    <TR-Name>Ryuusei Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>SKC34 20.3cm連装砲</JP-Name>
+    <TR-Name>SKC34 20.3cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>彩雲</JP-Name>
+    <TR-Name>Saiun</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>探照灯</JP-Name>
+    <TR-Name>Searchlight</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>紫電改二</JP-Name>
+    <TR-Name>Shiden Kai 2</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>震電改</JP-Name>
+    <TR-Name>Shinden Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>艦艇修理施設</JP-Name>
+    <TR-Name>Ship Repair Facility</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>紫雲</JP-Name>
+    <TR-Name>Shiun</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>熟練艦載機整備員</JP-Name>
+    <TR-Name>Skilled Carrier-based Aircraft Maintenance Personnel</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>熟練見張員</JP-Name>
+    <TR-Name>Skilled Lookouts</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>特二式内火艇</JP-Name>
+    <TR-Name>Special Type 2 Amphibious Landing Craft</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>照明弾</JP-Name>
+    <TR-Name>Star Shell</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>潜水艦53cm艦首魚雷(8門)</JP-Name>
+    <TR-Name>Submarine 53cm Bow Torpedo Mount (8 tubes)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>彗星</JP-Name>
+    <TR-Name>Suisei</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>彗星(六〇一空)</JP-Name>
+    <TR-Name>Suisei (601 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>彗星(江草隊)</JP-Name>
+    <TR-Name>Suisei (Egusa Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>彗星一二型甲</JP-Name>
+    <TR-Name>Suisei Model 12A</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>天山</JP-Name>
+    <TR-Name>Tenzan</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>天山(六〇一空)</JP-Name>
+    <TR-Name>Tenzan (601 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>天山(九三一空)</JP-Name>
+    <TR-Name>Tenzan (931 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>天山一二型(村田隊)</JP-Name>
+    <TR-Name>Tenzan Model 12 (Murata Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>天山一二型(友永隊)</JP-Name>
+    <TR-Name>Tenzan Model 12 (Tomonaga Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式艦戦21型</JP-Name>
+    <TR-Name>Type 0 Fighter Model 21</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式艦戦21型(熟練)</JP-Name>
+    <TR-Name>Type 0 Fighter Model 21 (Skilled)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式艦戦52型</JP-Name>
+    <TR-Name>Type 0 Fighter Model 52</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式艦戦52型(熟練)</JP-Name>
+    <TR-Name>Type 0 Fighter Model 52 (Skilled)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式艦戦53型(岩本隊)</JP-Name>
+    <TR-Name>Type 0 Fighter Model 53 (Iwamoto Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式艦戦62型(爆戦)</JP-Name>
+    <TR-Name>Type 0 Fighter Model 62 (Fighter-bomber)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式水上観測機</JP-Name>
+    <TR-Name>Type 0 Observation Seaplane</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式水中聴音機</JP-Name>
+    <TR-Name>Type 0 Passive Sonar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式水上偵察機</JP-Name>
+    <TR-Name>Type 0 Reconnaissance Seaplane</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>一式徹甲弾</JP-Name>
+    <TR-Name>Type 1 Armor Piercing Shell</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>二式大艇</JP-Name>
+    <TR-Name>Type 2 Large Flying Boat</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>二式艦上偵察機</JP-Name>
+    <TR-Name>Type 2 Reconnaissance Aircraft</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>二式水戦改</JP-Name>
+    <TR-Name>Type 2 Seaplane Fighter Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>三式水中探信儀</JP-Name>
+    <TR-Name>Type 3 Active Sonar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>三式指揮連絡機(対潜)</JP-Name>
+    <TR-Name>Type 3 Command Liaison Aircraft (ASW)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>三式爆雷投射機</JP-Name>
+    <TR-Name>Type 3 Depth Charge Projector</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>三式弾</JP-Name>
+    <TR-Name>Type 3 Shell</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>四式水中聴音機</JP-Name>
+    <TR-Name>Type 4 Passive Sonar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>91式高射装置</JP-Name>
+    <TR-Name>Type 91 Anti-Aircraft Fire Director</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九一式徹甲弾</JP-Name>
+    <TR-Name>Type 91 Armor Piercing Shell</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九三式水中聴音機</JP-Name>
+    <TR-Name>Type 93 Passive Sonar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>94式高射装置</JP-Name>
+    <TR-Name>Type 94 Anti-Aircraft Fire Director</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九四式爆雷投射機</JP-Name>
+    <TR-Name>Type 94 Depth Charge Projector</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>96式150cm探照灯</JP-Name>
+    <TR-Name>Type 96 150cm Searchlight</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九六式艦戦</JP-Name>
+    <TR-Name>Type 96 Fighter</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九七式艦攻</JP-Name>
+    <TR-Name>Type 97 Torpedo Bomber</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九七式艦攻(九三一空)</JP-Name>
+    <TR-Name>Type 97 Torpedo Bomber (931 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九七式艦攻(村田隊)</JP-Name>
+    <TR-Name>Type 97 Torpedo Bomber (Murata Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九七式艦攻(熟練)</JP-Name>
+    <TR-Name>Type 97 Torpedo Bomber (Skilled)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九七式艦攻(友永隊)</JP-Name>
+    <TR-Name>Type 97 Torpedo Bomber (Tomonaga Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九八式水上偵察機(夜偵)</JP-Name>
+    <TR-Name>Type 98 Reconnaissance Seaplane (Night Recon)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九九式艦爆</JP-Name>
+    <TR-Name>Type 99 Dive Bomber</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九九式艦爆(江草隊)</JP-Name>
+    <TR-Name>Type 99 Dive Bomber (Egusa Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九九式艦爆(熟練)</JP-Name>
+    <TR-Name>Type 99 Dive Bomber (Skilled)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>洋上補給</JP-Name>
+    <TR-Name>Underway Replenishment</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>WG42 (Wurfgerät 42)</JP-Name>
+    <TR-Name>WG42 (Wurfgerät 42)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零戦21型(付岩本小隊)</JP-Name>
+    <TR-Name>Zero Fighter Model 21 (w/ Iwamoto Flight)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零戦52型甲(付岩本小隊)</JP-Name>
+    <TR-Name>Zero Fighter Model 52A (w/ Iwamoto Flight)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零戦52型丙(六〇一空)</JP-Name>
+    <TR-Name>Zero Fighter Model 52C (601 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零戦52型丙(付岩井小隊)</JP-Name>
+    <TR-Name>Zero Fighter Model 52C (w/ Iwai Flight)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零戦62型(爆戦/岩井隊)</JP-Name>
+    <TR-Name>Zero Fighter Model 62 (Fighter-bomber / Iwai Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>瑞雲</JP-Name>
+    <TR-Name>Zuiun</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>瑞雲(六三四空)</JP-Name>
+    <TR-Name>Zuiun (634 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>瑞雲12型</JP-Name>
+    <TR-Name>Zuiun Model 12</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>瑞雲12型(六三四空)</JP-Name>
+    <TR-Name>Zuiun Model 12 (634 Air Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.5inch連装副砲</JP-Name>
+    <TR-Name>12.5inch Twin Secondary Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>12.7mm機銃</JP-Name>
+    <TR-Name>12.7mm Machine Gun</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>14inch連装砲</JP-Name>
+    <TR-Name>14inch Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>15inch要塞砲</JP-Name>
+    <TR-Name>15inch Coastal Artillery</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>16inch三連装砲</JP-Name>
+    <TR-Name>16inch Triple Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>16inch連装砲</JP-Name>
+    <TR-Name>16inch Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>20inch連装砲</JP-Name>
+    <TR-Name>20inch Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>20mm機銃</JP-Name>
+    <TR-Name>20mm Autocannon</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>21inch魚雷前期型</JP-Name>
+    <TR-Name>21inch Torpedo Early Model</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>21inch魚雷後期型</JP-Name>
+    <TR-Name>21inch Torpedo Late Model</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>3inch単装高角砲</JP-Name>
+    <TR-Name>3inch Single High-angle Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>40mm四連装機関砲</JP-Name>
+    <TR-Name>40mm Quadruple Autocannon Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>40mm二連装機関砲</JP-Name>
+    <TR-Name>40mm Twin Autocannon Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>4inch連装両用砲+CIC</JP-Name>
+    <TR-Name>4inch Twin Dual Purpose Gun Mount + CIC</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>5inch沿岸設置砲</JP-Name>
+    <TR-Name>5inch Coastal Gun</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>5inch単装高射砲</JP-Name>
+    <TR-Name>5inch Single Anti-Aircraft Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>5inch単装砲</JP-Name>
+    <TR-Name>5inch Single Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>5inch連装両用莢砲</JP-Name>
+    <TR-Name>5inch Twin Dual Purpose Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>5inch連装砲</JP-Name>
+    <TR-Name>5inch Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>6inch単装砲</JP-Name>
+    <TR-Name>6inch Single Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>6inch連装速射砲</JP-Name>
+    <TR-Name>6inch Twin Rapid Fire Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>8inch長射程連装砲</JP-Name>
+    <TR-Name>8inch Long Range Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>8inch三連装砲</JP-Name>
+    <TR-Name>8inch Triple Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海対空レーダ―</JP-Name>
+    <TR-Name>Abyssal Air Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海水上攻撃機</JP-Name>
+    <TR-Name>Abyssal Attack Seaplane</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海水上攻撃機改</JP-Name>
+    <TR-Name>Abyssal Attack Seaplane Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海猫艦戦</JP-Name>
+    <TR-Name>Abyssal Cat Fighter</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海猫艦戦(爆装)</JP-Name>
+    <TR-Name>Abyssal Cat Fighter (Bombing)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海猫艦戦改</JP-Name>
+    <TR-Name>Abyssal Cat Fighter Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海烏賊魚雷</JP-Name>
+    <TR-Name>Abyssal Cuttlefish Torpedo</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海爆雷投射機</JP-Name>
+    <TR-Name>Abyssal Depth Charge Projector</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海爆雷投射機 Mk.II</JP-Name>
+    <TR-Name>Abyssal Depth Charge Projector Mk.II</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦爆</JP-Name>
+    <TR-Name>Abyssal Dive Bomber</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦爆 Mark.II</JP-Name>
+    <TR-Name>Abyssal Dive Bomber Mark.II</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海FCS+CIC</JP-Name>
+    <TR-Name>Abyssal FCS + CIC</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦戦</JP-Name>
+    <TR-Name>Abyssal Fighter</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦戦 Mark.II</JP-Name>
+    <TR-Name>Abyssal Fighter Mark.II</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦戦 Mark.III</JP-Name>
+    <TR-Name>Abyssal Fighter Mark.III</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海地獄艦爆</JP-Name>
+    <TR-Name>Abyssal Hell Dive Bomber</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海地獄艦爆改</JP-Name>
+    <TR-Name>Abyssal Hell Dive Bomber Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海解放陸爆</JP-Name>
+    <TR-Name>Abyssal Liberation Land-based Dive Bomber</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海解放陸爆Ace</JP-Name>
+    <TR-Name>Abyssal Liberation Land-based Dive Bomber Ace</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海水上偵察観測機</JP-Name>
+    <TR-Name>Abyssal Reconnaissance Observation Seaplane</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦偵察機</JP-Name>
+    <TR-Name>Abyssal Reconnaissance Plane</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海復讐艦攻</JP-Name>
+    <TR-Name>Abyssal Revenge Torpedo Bomber</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海復讐艦攻改</JP-Name>
+    <TR-Name>Abyssal Revenge Torpedo Bomber Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海探照灯</JP-Name>
+    <TR-Name>Abyssal Searchlight</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海ソナー</JP-Name>
+    <TR-Name>Abyssal Sonar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海ソナー Mk.II</JP-Name>
+    <TR-Name>Abyssal Sonar Mk.II</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海水上レーダー</JP-Name>
+    <TR-Name>Abyssal Surface Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦攻</JP-Name>
+    <TR-Name>Abyssal Torpedo Bomber</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦攻 Mark.II</JP-Name>
+    <TR-Name>Abyssal Torpedo Bomber Mark.II</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>深海棲艦攻 Mark.III</JP-Name>
+    <TR-Name>Abyssal Torpedo Bomber Mark.III</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>対空レーダ― Mark.I</JP-Name>
+    <TR-Name>Air Radar Mark.I</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>対空レーダ― Mark.II</JP-Name>
+    <TR-Name>Air Radar Mark.II</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>対空散弾</JP-Name>
+    <TR-Name>Anti-Air Dispersal Shell</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>沿岸設置レーダー</JP-Name>
+    <TR-Name>Coastal Radar</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>劣化徹甲弾</JP-Name>
+    <TR-Name>Deterioration Armor Piercing Shell</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>強化型深海缶</JP-Name>
+    <TR-Name>Enhanced Abyssal Boiler</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>飛び魚艦爆</JP-Name>
+    <TR-Name>Flying Fish Dive Bomber</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>飛び魚艦戦</JP-Name>
+    <TR-Name>Flying Fish Fighter</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>飛び魚偵察機</JP-Name>
+    <TR-Name>Flying Fish Reconnaissance Plane</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>高速深海魚雷</JP-Name>
+    <TR-Name>High-speed Abyssal Torpedo</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>改良型深海タービン</JP-Name>
+    <TR-Name>Improved Abyssal Turbine</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>水上レーダ― Mark.I</JP-Name>
+    <TR-Name>Surface Radar Mark.I</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>水上レーダ― Mark.II</JP-Name>
+    <TR-Name>Surface Radar Mark.II</TR-Name>
+  </Item>
+</Equipment>

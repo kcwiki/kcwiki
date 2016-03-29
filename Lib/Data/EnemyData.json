@@ -1,0 +1,5725 @@
+{
+  "Air Defense Princess": {
+    "": {
+      "_aa": 300,
+      "_api_id": 628,
+      "_armor": 273,
+      "_back": -12,
+      "_equipment": [ {
+        "equipment": "4inch Twin Dual Purpose Gun Mount + CIC",
+        "size": 0
+      }, {
+        "equipment": "4inch Twin Dual Purpose Gun Mount + CIC",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Surface Radar",
+        "size": 0
+      } ],
+      "_firepower": 130,
+      "_hp": 255,
+      "_id": 628,
+      "_japanese_name": "防空棲姫",
+      "_name": "Air Defense Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ぼうくうせいき",
+      "_speed": 10,
+      "_torpedo": 85,
+      "_type": 2
+    },
+    "A": "/",
+    "B": "/II",
+    "C": "/III",
+    "Final": "/III",
+    "II": {
+      "_aa": 360,
+      "_api_id": 629,
+      "_armor": 303,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "4inch Twin Dual Purpose Gun Mount + CIC",
+        "size": 0
+      }, {
+        "equipment": "4inch Twin Dual Purpose Gun Mount + CIC",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Surface Radar",
+        "size": 0
+      } ],
+      "_firepower": 160,
+      "_hp": 255,
+      "_id": 629,
+      "_japanese_name": "防空棲姫",
+      "_name": "Air Defense Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ぼうくうせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 90,
+      "_type": 2
+    },
+    "III": {
+      "_aa": 390,
+      "_api_id": 630,
+      "_armor": 333,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "4inch Twin Dual Purpose Gun Mount + CIC",
+        "size": 0
+      }, {
+        "equipment": "4inch Twin Dual Purpose Gun Mount + CIC",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Surface Radar",
+        "size": 0
+      } ],
+      "_firepower": 190,
+      "_hp": 255,
+      "_id": 630,
+      "_japanese_name": "防空棲姫",
+      "_name": "Air Defense Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ぼうくうせいき",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 95,
+      "_type": 2
+    },
+    "Strong": "/II"
+  },
+  "Aircraft Carrier Demon": {
+    "": {
+      "_aa": 100,
+      "_api_id": 585,
+      "_armor": 138,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 48
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 48
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 48
+      }, {
+        "equipment": "Abyssal Air Radar",
+        "size": 0
+      } ],
+      "_evasion": 46,
+      "_firepower": 120,
+      "_hp": 250,
+      "_id": 585,
+      "_japanese_name": "空母棲鬼",
+      "_los": 100,
+      "_luck": 50,
+      "_name": "Aircraft Carrier Demon",
+      "_night_bombing": true,
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "くうぼせいき",
+      "_speed": 10,
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "II": {
+      "_aa": 100,
+      "_api_id": 619,
+      "_armor": 138,
+      "_asw": 0,
+      "_back": -11,
+      "_battle_card_layers": [ "hell_kai_r1", "revenge_kai_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_display_suffix": "II (Strong)",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 48
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 48
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 48
+      }, {
+        "equipment": "Abyssal Air Radar",
+        "size": 0
+      } ],
+      "_firepower": 120,
+      "_hp": 250,
+      "_id": 619,
+      "_japanese_name": "空母棲鬼",
+      "_name": "Aircraft Carrier Demon",
+      "_night_bombing": true,
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "くうぼせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Strong": "/II"
+  },
+  "Aircraft Carrier Princess": {
+    "": {
+      "_aa": 130,
+      "_api_id": 586,
+      "_armor": 150,
+      "_asw": 0,
+      "_back": -12,
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 52
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 56
+      }, {
+        "equipment": "Abyssal Air Radar",
+        "size": 0
+      } ],
+      "_evasion": 53,
+      "_firepower": 180,
+      "_hp": 350,
+      "_id": 586,
+      "_japanese_name": "空母棲姫",
+      "_los": 130,
+      "_luck": 70,
+      "_name": "Aircraft Carrier Princess",
+      "_night_bombing": true,
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "くうぼせいき",
+      "_speed": 10,
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "II": {
+      "_api_id": 620,
+      "_armor": 150,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "hell_kai_r1", "revenge_kai_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_display_suffix": "II (Strong)",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 60
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 52
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 56
+      }, {
+        "equipment": "Abyssal Air Radar",
+        "size": 0
+      } ],
+      "_firepower": 180,
+      "_hp": 350,
+      "_id": 620,
+      "_japanese_name": "空母棲姫",
+      "_luck": 70,
+      "_name": "Aircraft Carrier Princess",
+      "_night_bombing": true,
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "くうぼせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Strong": "/II"
+  },
+  "Aircraft Carrier Water Demon": {
+    "": {
+      "_aa": 110,
+      "_api_id": 599,
+      "_armor": 170,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 66
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Air Radar",
+        "size": 0
+      } ],
+      "_firepower": 140,
+      "_hp": 370,
+      "_id": 599,
+      "_japanese_name": "空母水鬼",
+      "_luck": 70,
+      "_name": "Aircraft Carrier Water Demon",
+      "_night_bombing": true,
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "くうぼすいき",
+      "_speed": 10,
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Final": "/II",
+    "II": {
+      "_aa": 140,
+      "_api_id": 600,
+      "_armor": 190,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_display_suffix": "II (Final Form)",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 66
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Air Radar",
+        "size": 0
+      } ],
+      "_firepower": 190,
+      "_hp": 390,
+      "_id": 600,
+      "_japanese_name": "空母水鬼",
+      "_luck": 70,
+      "_name": "Aircraft Carrier Water Demon",
+      "_night_bombing": true,
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "くうぼすいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 11
+    }
+  },
+  "Airfield Princess": {
+    "": {
+      "_aa": 120,
+      "_api_id": 556,
+      "_armor": 140,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 98
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 98
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 98
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 98
+      } ],
+      "_evasion": 1,
+      "_firepower": 70,
+      "_hp": 500,
+      "_id": 556,
+      "_installation": true,
+      "_japanese_name": "飛行場姫",
+      "_los": 90,
+      "_luck": 10,
+      "_name": "Airfield Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ひこうじょうき",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "A": "/II",
+    "B": "/III",
+    "C": "/IV",
+    "II": {
+      "_aa": 120,
+      "_api_id": 631,
+      "_armor": 160,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "hell_r" ],
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "estimation": true,
+        "size": 98
+      } ],
+      "_firepower": 85,
+      "_hp": 500,
+      "_id": 631,
+      "_installation": true,
+      "_japanese_name": "飛行場姫",
+      "_name": "Airfield Princess",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "ひこうじょうき",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "III": {
+      "_aa": 130,
+      "_api_id": 632,
+      "_armor": 175,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "hell_r1", "revenge_kai_r2" ],
+      "_battle_card_reference": "/II",
+      "_cg_reference": "/II",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "estimation": true,
+        "size": 98
+      } ],
+      "_firepower": 90,
+      "_hp": 500,
+      "_id": 632,
+      "_installation": true,
+      "_japanese_name": "飛行場姫",
+      "_name": "Airfield Princess",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "ひこうじょうき",
+      "_speed": 0,
+      "_suffix": "III",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "IV": {
+      "_aa": 140,
+      "_api_id": 633,
+      "_armor": 190,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "hell_kai_r1", "revenge_kai_r2" ],
+      "_battle_card_reference": "/II",
+      "_cg_reference": "/II",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 98
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 98
+      } ],
+      "_firepower": 95,
+      "_hp": 500,
+      "_id": 633,
+      "_installation": true,
+      "_japanese_name": "飛行場姫",
+      "_name": "Airfield Princess",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "ひこうじょうき",
+      "_speed": 0,
+      "_suffix": "IV",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "V": {
+      "_aa": 120,
+      "_api_id": 650,
+      "_armor": 140,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "liberation_r" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      } ],
+      "_firepower": 50,
+      "_hp": 500,
+      "_id": 650,
+      "_installation": true,
+      "_japanese_name": "飛行場姫",
+      "_name": "Airfield Princess",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "ひこうじょうき",
+      "_speed": 0,
+      "_suffix": "V",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "VI": {
+      "_aa": 120,
+      "_api_id": 651,
+      "_armor": 140,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "liberation_ace_r1", "liberation_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      } ],
+      "_firepower": 60,
+      "_hp": 500,
+      "_id": 651,
+      "_installation": true,
+      "_japanese_name": "飛行場姫",
+      "_name": "Airfield Princess",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "ひこうじょうき",
+      "_speed": 0,
+      "_suffix": "VI",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "VII": {
+      "_aa": 120,
+      "_api_id": 652,
+      "_armor": 140,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "liberation_ace_r1", "liberation_ace_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      } ],
+      "_firepower": 70,
+      "_hp": 500,
+      "_id": 652,
+      "_installation": true,
+      "_japanese_name": "飛行場姫",
+      "_name": "Airfield Princess",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "ひこうじょうき",
+      "_speed": 0,
+      "_suffix": "VII",
+      "_torpedo": 0,
+      "_type": 10
+    }
+  },
+  "Anchorage Demon": {
+    "": {
+      "_aa": 70,
+      "_api_id": 539,
+      "_armor": 80,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Deterioration Armor Piercing Shell",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 60
+      } ],
+      "_evasion": 10,
+      "_firepower": 90,
+      "_hp": 180,
+      "_id": 539,
+      "_japanese_name": "泊地棲鬼",
+      "_los": 70,
+      "_luck": 30,
+      "_name": "Anchorage Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "はくちせいき",
+      "_speed": 5,
+      "_torpedo": 60,
+      "_type": 10
+    }
+  },
+  "Anchorage Princess": {
+    "": {
+      "_aa": 80,
+      "_api_id": 540,
+      "_armor": 90,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Deterioration Armor Piercing Shell",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 60
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 60
+      } ],
+      "_evasion": 20,
+      "_firepower": 96,
+      "_hp": 300,
+      "_id": 540,
+      "_japanese_name": "泊地棲姫",
+      "_los": 80,
+      "_luck": 40,
+      "_name": "Anchorage Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "はくちせいき",
+      "_speed": 5,
+      "_torpedo": 90,
+      "_type": 10
+    }
+  },
+  "Anchorage Water Demon": {
+    "": {
+      "_aa": 80,
+      "_api_id": 609,
+      "_armor": 200,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Deterioration Armor Piercing Shell",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 120
+      } ],
+      "_firepower": 120,
+      "_hp": 330,
+      "_id": 609,
+      "_installation": true,
+      "_japanese_name": "泊地水鬼",
+      "_luck": 70,
+      "_name": "Anchorage Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "はくちすいき",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "Final": "/III",
+    "II": {
+      "_aa": 90,
+      "_api_id": 610,
+      "_armor": 220,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_display_suffix": "II (Strong)",
+      "_equipment": [ {
+        "equipment": "Deterioration Armor Piercing Shell",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 140
+      } ],
+      "_firepower": 130,
+      "_hp": 330,
+      "_id": 610,
+      "_installation": true,
+      "_japanese_name": "泊地水鬼",
+      "_luck": 75,
+      "_name": "Anchorage Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "はくちすいき",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "III": {
+      "_aa": 100,
+      "_api_id": 611,
+      "_armor": 220,
+      "_asw": 0,
+      "_back": -11,
+      "_display_suffix": "III (Final Form)",
+      "_equipment": [ {
+        "equipment": "Deterioration Armor Piercing Shell",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 160
+      } ],
+      "_firepower": 140,
+      "_hp": 430,
+      "_id": 611,
+      "_installation": true,
+      "_japanese_name": "泊地水鬼",
+      "_luck": 80,
+      "_name": "Anchorage Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "はくちすいき",
+      "_speed": 0,
+      "_suffix": "III",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "IV": {
+      "_aa": 110,
+      "_api_id": 612,
+      "_armor": 240,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/III",
+      "_cg_reference": "/III",
+      "_display_suffix": "IV (Strong Final Form)",
+      "_equipment": [ {
+        "equipment": "Deterioration Armor Piercing Shell",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 180
+      } ],
+      "_firepower": 150,
+      "_hp": 430,
+      "_id": 612,
+      "_installation": true,
+      "_japanese_name": "泊地水鬼",
+      "_luck": 85,
+      "_name": "Anchorage Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "はくちすいき",
+      "_speed": 0,
+      "_suffix": "IV",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "Strong": "/II",
+    "Strong Final": "/IV"
+  },
+  "Armored Carrier Demon": {
+    "": {
+      "_aa": 60,
+      "_api_id": 544,
+      "_armor": 80,
+      "_asw": 0,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 80
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 80
+      }, {
+        "equipment": "16inch Twin Gun Mount",
+        "size": 0
+      } ],
+      "_evasion": 10,
+      "_firepower": 70,
+      "_hp": 150,
+      "_id": 544,
+      "_japanese_name": "装甲空母鬼",
+      "_los": 70,
+      "_luck": 10,
+      "_name": "Armored Carrier Demon",
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "そうこうくうぼき",
+      "_speed": 10,
+      "_torpedo": 80,
+      "_type": 10
+    }
+  },
+  "Armored Carrier Princess": {
+    "": {
+      "_aa": 70,
+      "_api_id": 545,
+      "_armor": 90,
+      "_asw": 0,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 96
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 96
+      }, {
+        "equipment": "16inch Twin Gun Mount",
+        "size": 0
+      } ],
+      "_evasion": 20,
+      "_firepower": 90,
+      "_hp": 270,
+      "_id": 545,
+      "_japanese_name": "装甲空母姫",
+      "_los": 80,
+      "_luck": 20,
+      "_name": "Armored Carrier Princess",
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "そうこうくうぼき",
+      "_speed": 10,
+      "_torpedo": 90,
+      "_type": 10
+    }
+  },
+  "Artillery Imp": {
+    "": {
+      "_aa": 65,
+      "_api_id": 665,
+      "_armor": 110,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "5inch Coastal Gun",
+        "size": 0
+      }, {
+        "equipment": "5inch Coastal Gun",
+        "size": 0
+      }, {
+        "equipment": "40mm Quadruple Autocannon Mount",
+        "size": 0
+      }, {
+        "equipment": "Coastal Radar",
+        "size": 0
+      } ],
+      "_firepower": 100,
+      "_hp": 130,
+      "_id": 665,
+      "_japanese_name": "砲台小鬼",
+      "_name": "Artillery Imp",
+      "_pillbox": true,
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "ほうだいこおに",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 9
+    },
+    "II": {
+      "_aa": 75,
+      "_api_id": 666,
+      "_armor": 105,
+      "_back": -10,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "5inch Coastal Gun",
+        "size": 0
+      }, {
+        "equipment": "40mm Quadruple Autocannon Mount",
+        "size": 0
+      }, {
+        "equipment": "40mm Twin Autocannon Mount",
+        "size": 0
+      }, {
+        "equipment": "Coastal Radar",
+        "size": 0
+      } ],
+      "_firepower": 100,
+      "_hp": 130,
+      "_id": 666,
+      "_japanese_name": "砲台小鬼",
+      "_name": "Artillery Imp",
+      "_pillbox": true,
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "ほうだいこおに",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 9
+    },
+    "III": {
+      "_aa": 85,
+      "_api_id": 667,
+      "_armor": 100,
+      "_back": -10,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "5inch Coastal Gun",
+        "size": 0
+      }, {
+        "equipment": "4inch Twin Dual Purpose Gun Mount + CIC",
+        "size": 0
+      }, {
+        "equipment": "40mm Twin Autocannon Mount",
+        "size": 0
+      }, {
+        "equipment": "Coastal Radar",
+        "size": 0
+      } ],
+      "_firepower": 100,
+      "_hp": 130,
+      "_id": 667,
+      "_japanese_name": "砲台小鬼",
+      "_name": "Artillery Imp",
+      "_pillbox": true,
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "ほうだいこおに",
+      "_speed": 0,
+      "_suffix": "III",
+      "_torpedo": 0,
+      "_type": 9
+    }
+  },
+  "Battleship Princess": {
+    "": {
+      "_aa": 80,
+      "_api_id": 557,
+      "_armor": 160,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "12.5inch Twin Secondary Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Surface Radar Mark.II",
+        "size": 0
+      } ],
+      "_evasion": 30,
+      "_firepower": 180,
+      "_hp": 400,
+      "_id": 557,
+      "_japanese_name": "戦艦棲姫",
+      "_los": 70,
+      "_luck": 40,
+      "_name": "Battleship Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "せんかんせいき",
+      "_speed": 5,
+      "_torpedo": 0,
+      "_type": 9
+    }
+  },
+  "Battleship Re-Class": {
+    "": {
+      "_aa": 80,
+      "_api_id": 561,
+      "_armor": 110,
+      "_asw": 90,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "12.5inch Twin Secondary Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Flying Fish Dive Bomber",
+        "size": 140
+      } ],
+      "_evasion": 45,
+      "_firepower": 90,
+      "_hp": 180,
+      "_id": 561,
+      "_japanese_name": "戦艦レ級",
+      "_los": 50,
+      "_luck": 60,
+      "_name": "Battleship Re-Class",
+      "_night_bombing": true,
+      "_range": 3,
+      "_rarity": 6,
+      "_reading": "せんかんレきゅう",
+      "_speed": 10,
+      "_torpedo": 100,
+      "_type": 10
+    },
+    "Elite": {
+      "_aa": 15,
+      "_api_id": 562,
+      "_armor": 130,
+      "_asw": 100,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "12.5inch Twin Secondary Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Flying Fish Dive Bomber",
+        "size": 180
+      } ],
+      "_evasion": 50,
+      "_firepower": 130,
+      "_hp": 270,
+      "_id": 562,
+      "_japanese_name": "戦艦レ級elite",
+      "_los": 70,
+      "_luck": 70,
+      "_name": "Battleship Re-Class",
+      "_night_bombing": true,
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "せんかんレきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 120,
+      "_type": 10
+    }
+  },
+  "Battleship Ru-Class": {
+    "": {
+      "_aa": 70,
+      "_api_id": 511,
+      "_armor": 70,
+      "_asw": 0,
+      "_back": -1,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 3
+      }, {
+        "equipment": "12.5inch Twin Secondary Gun Mount",
+        "size": 3
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 3
+      } ],
+      "_evasion": 3,
+      "_firepower": 65,
+      "_hp": 90,
+      "_id": 511,
+      "_japanese_name": "戦艦ル級",
+      "_los": 20,
+      "_luck": 5,
+      "_name": "Battleship Ru-Class",
+      "_range": 3,
+      "_rarity": 4,
+      "_reading": "せんかんルきゅう",
+      "_speed": 5,
+      "_torpedo": 0,
+      "_type": 9
+    },
+    "Elite": {
+      "_aa": 70,
+      "_api_id": 524,
+      "_armor": 85,
+      "_asw": 0,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 3
+      }, {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 3
+      }, {
+        "equipment": "12.5inch Twin Secondary Gun Mount",
+        "size": 3
+      }, {
+        "equipment": "Surface Radar Mark.I",
+        "size": 3
+      } ],
+      "_evasion": 16,
+      "_firepower": 85,
+      "_hp": 90,
+      "_id": 524,
+      "_japanese_name": "戦艦ル級elite",
+      "_los": 20,
+      "_luck": 10,
+      "_name": "Battleship Ru-Class",
+      "_range": 3,
+      "_rarity": 6,
+      "_reading": "せんかんルきゅうエリート",
+      "_speed": 5,
+      "_suffix": "Elite",
+      "_torpedo": 0,
+      "_type": 9
+    },
+    "Flagship": {
+      "_aa": 80,
+      "_api_id": 529,
+      "_armor": 99,
+      "_asw": 0,
+      "_back": -3,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 5
+      }, {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 5
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 5
+      }, {
+        "equipment": "Surface Radar Mark.I",
+        "size": 5
+      } ],
+      "_evasion": 40,
+      "_firepower": 90,
+      "_hp": 98,
+      "_id": 529,
+      "_japanese_name": "戦艦ル級flagship",
+      "_los": 30,
+      "_luck": 20,
+      "_name": "Battleship Ru-Class",
+      "_range": 3,
+      "_rarity": 7,
+      "_reading": "せんかんルきゅうフラグシップ",
+      "_speed": 5,
+      "_suffix": "Flagship",
+      "_torpedo": 0,
+      "_type": 9
+    },
+    "Kai Flagship": {
+      "_aa": 88,
+      "_api_id": 567,
+      "_armor": 110,
+      "_asw": 0,
+      "_back": -6,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 5
+      }, {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 5
+      }, {
+        "equipment": "Surface Radar Mark.II",
+        "size": 5
+      }, {
+        "equipment": "Flying Fish Reconnaissance Plane",
+        "size": 5
+      } ],
+      "_evasion": 43,
+      "_firepower": 110,
+      "_hp": 130,
+      "_id": 567,
+      "_japanese_name": "戦艦ル級改flagship",
+      "_los": 36,
+      "_luck": 50,
+      "_name": "Battleship Ru-Class",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "せんかんルきゅうかいフラグシップ",
+      "_speed": 5,
+      "_suffix": "Kai Flagship",
+      "_torpedo": 0,
+      "_type": 9
+    }
+  },
+  "Battleship Ta-Class": {
+    "": {
+      "_aa": 60,
+      "_api_id": 541,
+      "_armor": 80,
+      "_asw": 0,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "16inch Twin Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "16inch Twin Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "12.5inch Twin Secondary Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 4
+      } ],
+      "_evasion": 20,
+      "_firepower": 60,
+      "_hp": 84,
+      "_id": 541,
+      "_japanese_name": "戦艦タ級",
+      "_los": 25,
+      "_luck": 10,
+      "_name": "Battleship Ta-Class",
+      "_range": 3,
+      "_rarity": 4,
+      "_reading": "せんかんタきゅう",
+      "_speed": 10,
+      "_torpedo": 0,
+      "_type": 8
+    },
+    "Elite": {
+      "_aa": 65,
+      "_api_id": 542,
+      "_armor": 88,
+      "_asw": 0,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "16inch Twin Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "12.5inch Twin Secondary Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "Surface Radar Mark.I",
+        "size": 4
+      } ],
+      "_evasion": 40,
+      "_firepower": 75,
+      "_hp": 88,
+      "_id": 542,
+      "_japanese_name": "戦艦タ級elite",
+      "_los": 30,
+      "_luck": 20,
+      "_name": "Battleship Ta-Class",
+      "_range": 3,
+      "_rarity": 4,
+      "_reading": "せんかんタきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 0,
+      "_type": 8
+    },
+    "Flagship": {
+      "_aa": 70,
+      "_api_id": 543,
+      "_armor": 96,
+      "_asw": 0,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 4
+      }, {
+        "equipment": "Surface Radar Mark.II",
+        "size": 4
+      } ],
+      "_evasion": 55,
+      "_firepower": 85,
+      "_hp": 90,
+      "_id": 543,
+      "_japanese_name": "戦艦タ級flagship",
+      "_los": 35,
+      "_luck": 30,
+      "_name": "Battleship Ta-Class",
+      "_range": 3,
+      "_rarity": 4,
+      "_reading": "せんかんタきゅうフラグシップ",
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 0,
+      "_type": 8
+    }
+  },
+  "Battleship Water Demon": {
+    "": {
+      "_aa": 88,
+      "_api_id": 603,
+      "_armor": 168,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Surface Radar Mark.II",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 6
+      } ],
+      "_firepower": 188,
+      "_hp": 415,
+      "_id": 603,
+      "_japanese_name": "戦艦水鬼",
+      "_luck": 60,
+      "_name": "Battleship Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "せんかんすいき",
+      "_speed": 5,
+      "_torpedo": 0,
+      "_type": 9
+    },
+    "Final": "/II",
+    "II": {
+      "_aa": 96,
+      "_api_id": 604,
+      "_armor": 200,
+      "_asw": 0,
+      "_back": -12,
+      "_display_suffix": "II (Final Form)",
+      "_equipment": [ {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Surface Radar Mark.II",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 6
+      } ],
+      "_firepower": 198,
+      "_hp": 500,
+      "_id": 604,
+      "_japanese_name": "戦艦水鬼",
+      "_luck": 90,
+      "_name": "Battleship Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "せんかんすいき",
+      "_speed": 5,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 9
+    }
+  },
+  "Destroyer Ha-Class": {
+    "": {
+      "_aa": 6,
+      "_api_id": 503,
+      "_armor": 7,
+      "_asw": 30,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 0
+      } ],
+      "_evasion": 16,
+      "_firepower": 6,
+      "_hp": 24,
+      "_id": 503,
+      "_japanese_name": "駆逐ハ級",
+      "_los": 4,
+      "_luck": 1,
+      "_name": "Destroyer Ha-Class",
+      "_range": 1,
+      "_rarity": 1,
+      "_reading": "くちくハきゅう",
+      "_speed": 10,
+      "_torpedo": 16,
+      "_type": 2
+    },
+    "Elite": {
+      "_aa": 14,
+      "_api_id": 516,
+      "_armor": 16,
+      "_asw": 40,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      } ],
+      "_evasion": 35,
+      "_firepower": 15,
+      "_hp": 40,
+      "_id": 516,
+      "_japanese_name": "駆逐ハ級elite",
+      "_los": 7,
+      "_luck": 10,
+      "_name": "Destroyer Ha-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくハきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 32,
+      "_type": 2
+    },
+    "Flagship": {
+      "_aa": 24,
+      "_api_id": 553,
+      "_armor": 27,
+      "_asw": 60,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 0
+      } ],
+      "_evasion": 54,
+      "_firepower": 30,
+      "_hp": 47,
+      "_id": 553,
+      "_japanese_name": "駆逐ハ級flagship",
+      "_los": 12,
+      "_luck": 20,
+      "_name": "Destroyer Ha-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくハきゅうフラグシップ",
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 60,
+      "_type": 2
+    },
+    "Late Model": {
+      "_aa": 36,
+      "_api_id": 577,
+      "_armor": 29,
+      "_asw": 80,
+      "_back": -7,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 0
+      } ],
+      "_evasion": 56,
+      "_firepower": 44,
+      "_hp": 38,
+      "_id": 577,
+      "_japanese_name": "駆逐ハ級後期型",
+      "_los": 24,
+      "_luck": 42,
+      "_name": "Destroyer Ha-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくハきゅうこうきがた",
+      "_speed": 10,
+      "_suffix": "Late Model",
+      "_torpedo": 72,
+      "_type": 2
+    },
+    "Late Model Elite": {
+      "_aa": 48,
+      "_api_id": 623,
+      "_armor": 36,
+      "_back": -8,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal FCS + CIC",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Depth Charge Projector Mk.II",
+        "size": 0
+      } ],
+      "_firepower": 58,
+      "_hp": 46,
+      "_id": 623,
+      "_japanese_name": "駆逐ハ級後期型elite",
+      "_name": "Destroyer Ha-Class",
+      "_range": 1,
+      "_rarity": 5,
+      "_reading": "くちくハきゅうこうきがたエリート",
+      "_speed": 10,
+      "_suffix": "Late Model Elite",
+      "_torpedo": 76,
+      "_type": 2
+    }
+  },
+  "Destroyer I-Class": {
+    "": {
+      "_aa": 6,
+      "_api_id": 501,
+      "_armor": 5,
+      "_asw": 25,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "5inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": false,
+        "size": 0
+      } ],
+      "_evasion": 14,
+      "_firepower": 5,
+      "_hp": 20,
+      "_id": 501,
+      "_japanese_name": "駆逐イ級",
+      "_los": 3,
+      "_luck": 1,
+      "_name": "Destroyer I-Class",
+      "_range": 1,
+      "_rarity": 1,
+      "_reading": "くちくイきゅう",
+      "_speed": 10,
+      "_torpedo": 15,
+      "_type": 2
+    },
+    "Elite": {
+      "_aa": 10,
+      "_api_id": 514,
+      "_armor": 12,
+      "_asw": 35,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "5inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 0
+      } ],
+      "_evasion": 14,
+      "_firepower": 15,
+      "_hp": 30,
+      "_id": 514,
+      "_japanese_name": "駆逐イ級elite",
+      "_los": 6,
+      "_luck": 10,
+      "_name": "Destroyer I-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくイきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 32,
+      "_type": 2
+    },
+    "Flagship": {
+      "_aa": 24,
+      "_api_id": 564,
+      "_armor": 24,
+      "_asw": 60,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "Abyssal Surface Radar",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Sonar Mk.II",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 0
+      } ],
+      "_evasion": 60,
+      "_firepower": 32,
+      "_hp": 39,
+      "_id": 564,
+      "_japanese_name": "駆逐イ級flagship",
+      "_los": 10,
+      "_luck": 1,
+      "_name": "Destroyer I-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくイきゅうフラグシップ",
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 60,
+      "_type": 2
+    },
+    "Late Model": {
+      "_aa": 30,
+      "_api_id": 575,
+      "_armor": 22,
+      "_asw": 72,
+      "_back": -7,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Sonar Mk.II",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 0
+      } ],
+      "_evasion": 48,
+      "_firepower": 38,
+      "_hp": 35,
+      "_id": 575,
+      "_japanese_name": "駆逐イ級後期型",
+      "_los": 20,
+      "_luck": 30,
+      "_name": "Destroyer I-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくイきゅうこうきがた",
+      "_speed": 10,
+      "_suffix": "Late Model",
+      "_torpedo": 60,
+      "_type": 2
+    },
+    "Late Model Elite": {
+      "_aa": 40,
+      "_api_id": 621,
+      "_armor": 30,
+      "_back": -8,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal FCS + CIC",
+        "size": 0
+      } ],
+      "_firepower": 48,
+      "_hp": 39,
+      "_id": 621,
+      "_japanese_name": "駆逐イ級後期型elite",
+      "_name": "Destroyer I-Class",
+      "_range": 1,
+      "_rarity": 5,
+      "_reading": "くちくイきゅうこうきがたエリート",
+      "_speed": 10,
+      "_suffix": "Late Model Elite",
+      "_torpedo": 76,
+      "_type": 2
+    }
+  },
+  "Destroyer Ni-Class": {
+    "": {
+      "_aa": 8,
+      "_api_id": 504,
+      "_armor": 9,
+      "_asw": 35,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 0
+      } ],
+      "_evasion": 18,
+      "_firepower": 8,
+      "_hp": 28,
+      "_id": 504,
+      "_japanese_name": "駆逐ニ級",
+      "_los": 4,
+      "_luck": 5,
+      "_name": "Destroyer Ni-Class",
+      "_range": 1,
+      "_rarity": 1,
+      "_reading": "くちくニきゅう",
+      "_speed": 10,
+      "_torpedo": 24,
+      "_type": 2
+    },
+    "Elite": {
+      "_aa": 18,
+      "_api_id": 517,
+      "_armor": 18,
+      "_asw": 45,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      } ],
+      "_evasion": 40,
+      "_firepower": 20,
+      "_hp": 40,
+      "_id": 517,
+      "_japanese_name": "駆逐ニ級elite",
+      "_los": 7,
+      "_luck": 10,
+      "_name": "Destroyer Ni-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくニきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 40,
+      "_type": 2
+    },
+    "Late Model": {
+      "_aa": 38,
+      "_api_id": 578,
+      "_armor": 33,
+      "_asw": 88,
+      "_back": -7,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 0
+      } ],
+      "_evasion": 66,
+      "_firepower": 48,
+      "_hp": 40,
+      "_id": 578,
+      "_japanese_name": "駆逐ニ級後期型",
+      "_los": 28,
+      "_luck": 48,
+      "_name": "Destroyer Ni-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくニきゅうこうきがた",
+      "_speed": 10,
+      "_suffix": "Late Model",
+      "_torpedo": 84,
+      "_type": 2
+    },
+    "Late Model Elite": {
+      "_aa": 48,
+      "_api_id": 624,
+      "_armor": 48,
+      "_back": -8,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal FCS + CIC",
+        "size": 0
+      } ],
+      "_firepower": 64,
+      "_hp": 49,
+      "_id": 624,
+      "_japanese_name": "駆逐ニ級後期型elite",
+      "_name": "Destroyer Ni-Class",
+      "_range": 1,
+      "_rarity": 5,
+      "_reading": "くちくニきゅうこうきがたエリート",
+      "_speed": 10,
+      "_suffix": "Late Model Elite",
+      "_torpedo": 98,
+      "_type": 2
+    }
+  },
+  "Destroyer Princess": {
+    "": {
+      "_aa": 60,
+      "_api_id": 597,
+      "_armor": 100,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      } ],
+      "_firepower": 59,
+      "_hp": 150,
+      "_id": 597,
+      "_japanese_name": "駆逐棲姫",
+      "_luck": 70,
+      "_name": "Destroyer Princess",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "くちくせいき",
+      "_speed": 10,
+      "_torpedo": 90,
+      "_type": 2
+    },
+    "Final": "/II",
+    "II": {
+      "_aa": 60,
+      "_api_id": 598,
+      "_armor": 115,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_display_suffix": "II (Final Form)",
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      } ],
+      "_firepower": 69,
+      "_hp": 190,
+      "_id": 598,
+      "_japanese_name": "駆逐棲姫",
+      "_luck": 80,
+      "_name": "Destroyer Princess",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "くちくせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 90,
+      "_type": 2
+    }
+  },
+  "Destroyer Ro-Class": {
+    "": {
+      "_aa": 7,
+      "_api_id": 502,
+      "_armor": 6,
+      "_asw": 25,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": false,
+        "size": 0
+      } ],
+      "_evasion": 15,
+      "_firepower": 7,
+      "_hp": 22,
+      "_id": 502,
+      "_japanese_name": "駆逐ロ級",
+      "_los": 3,
+      "_luck": 1,
+      "_name": "Destroyer Ro-Class",
+      "_range": 1,
+      "_rarity": 1,
+      "_reading": "くちくロきゅう",
+      "_speed": 10,
+      "_torpedo": 16,
+      "_type": 2
+    },
+    "Elite": {
+      "_aa": 12,
+      "_api_id": 515,
+      "_armor": 12,
+      "_asw": 35,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 0
+      } ],
+      "_evasion": 30,
+      "_firepower": 20,
+      "_hp": 35,
+      "_id": 515,
+      "_japanese_name": "駆逐ロ級elite",
+      "_los": 6,
+      "_luck": 10,
+      "_name": "Destroyer Ro-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくロきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 32,
+      "_type": 2
+    },
+    "Flagship": {
+      "_aa": 20,
+      "_api_id": 552,
+      "_armor": 24,
+      "_asw": 55,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 0
+      } ],
+      "_evasion": 52,
+      "_firepower": 33,
+      "_hp": 43,
+      "_id": 552,
+      "_japanese_name": "駆逐ロ級flagship",
+      "_los": 10,
+      "_luck": 20,
+      "_name": "Destroyer Ro-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくロきゅうフラグシップ",
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 60,
+      "_type": 2
+    },
+    "Late Model": {
+      "_aa": 32,
+      "_api_id": 576,
+      "_armor": 26,
+      "_asw": 72,
+      "_back": -7,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Sonar Mk.II",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 0
+      } ],
+      "_evasion": 48,
+      "_firepower": 38,
+      "_hp": 37,
+      "_id": 576,
+      "_japanese_name": "駆逐ロ級後期型",
+      "_los": 20,
+      "_luck": 30,
+      "_name": "Destroyer Ro-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "くちくロきゅうこうきがた",
+      "_speed": 10,
+      "_suffix": "Late Model",
+      "_torpedo": 66,
+      "_type": 2
+    },
+    "Late Model Elite": {
+      "_aa": 44,
+      "_api_id": 622,
+      "_armor": 36,
+      "_back": -8,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal FCS + CIC",
+        "size": 0
+      } ],
+      "_firepower": 58,
+      "_hp": 43,
+      "_id": 622,
+      "_japanese_name": "駆逐ロ級後期型elite",
+      "_name": "Destroyer Ro-Class",
+      "_range": 1,
+      "_rarity": 5,
+      "_reading": "くちくロきゅうこうきがたエリート",
+      "_speed": 10,
+      "_suffix": "Late Model Elite",
+      "_torpedo": 88,
+      "_type": 2
+    }
+  },
+  "Destroyer Water Demon": {
+    "": {
+      "_aa": 70,
+      "_api_id": 647,
+      "_armor": 150,
+      "_back": -11,
+      "_can_debuff": true,
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Surface Radar",
+        "size": 0
+      } ],
+      "_firepower": 100,
+      "_hp": 255,
+      "_id": 647,
+      "_japanese_name": "駆逐水鬼",
+      "_name": "Destroyer Water Demon",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "くちくすいき",
+      "_speed": 10,
+      "_torpedo": 110,
+      "_type": 2
+    },
+    "II": {
+      "_aa": 80,
+      "_api_id": 648,
+      "_armor": 170,
+      "_back": -11,
+      "_battle_card_damaged_reference": "/",
+      "_battle_card_reference": "/",
+      "_can_debuff": true,
+      "_cg_damaged_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Surface Radar",
+        "size": 0
+      } ],
+      "_firepower": 120,
+      "_hp": 255,
+      "_id": 648,
+      "_japanese_name": "駆逐水鬼",
+      "_name": "Destroyer Water Demon",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "くちくすいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 120,
+      "_type": 2
+    },
+    "III": {
+      "_aa": 90,
+      "_api_id": 649,
+      "_armor": 180,
+      "_back": -11,
+      "_battle_card_damaged_reference": "/",
+      "_battle_card_reference": "/",
+      "_can_debuff": true,
+      "_cg_damaged_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Surface Radar",
+        "size": 0
+      } ],
+      "_firepower": 140,
+      "_hp": 255,
+      "_id": 649,
+      "_japanese_name": "駆逐水鬼",
+      "_name": "Destroyer Water Demon",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "くちくすいき",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 130,
+      "_type": 2
+    }
+  },
+  "Escort Fortress": {
+    "": {
+      "_aa": 20,
+      "_api_id": 549,
+      "_armor": 50,
+      "_asw": 0,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 35
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 35
+      } ],
+      "_evasion": 5,
+      "_firepower": 55,
+      "_hp": 66,
+      "_id": 549,
+      "_japanese_name": "護衛要塞",
+      "_los": 10,
+      "_luck": 1,
+      "_name": "Escort Fortress",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "ごえいようさい",
+      "_speed": 10,
+      "_torpedo": 45,
+      "_type": 10
+    },
+    "2": "/B",
+    "3": "/III",
+    "A": "/",
+    "B": "/II",
+    "C": "/III",
+    "I": "/",
+    "II": {
+      "_aa": 20,
+      "_api_id": 550,
+      "_armor": 50,
+      "_asw": 0,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 35
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 35
+      } ],
+      "_evasion": 5,
+      "_firepower": 55,
+      "_hp": 66,
+      "_id": 550,
+      "_japanese_name": "護衛要塞",
+      "_los": 10,
+      "_luck": 1,
+      "_name": "Escort Fortress",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "ごえいようさい",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 45,
+      "_type": 10
+    },
+    "III": {
+      "_aa": 20,
+      "_api_id": 551,
+      "_armor": 50,
+      "_asw": 0,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 35
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 35
+      } ],
+      "_evasion": 5,
+      "_firepower": 55,
+      "_hp": 66,
+      "_id": 551,
+      "_japanese_name": "護衛要塞",
+      "_los": 10,
+      "_luck": 1,
+      "_name": "Escort Fortress",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "ごえいようさい",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 45,
+      "_type": 10
+    }
+  },
+  "Floating Fortress": {
+    "": {
+      "_aa": 20,
+      "_api_id": 536,
+      "_armor": 40,
+      "_asw": 0,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 30
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 30
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 30
+      } ],
+      "_evasion": 5,
+      "_firepower": 50,
+      "_hp": 88,
+      "_id": 536,
+      "_japanese_name": "浮遊要塞",
+      "_los": 10,
+      "_luck": 1,
+      "_name": "Floating Fortress",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "ふゆうようさい",
+      "_speed": 10,
+      "_torpedo": 40,
+      "_type": 10
+    },
+    "2": "/II",
+    "3": "/III",
+    "A": "/",
+    "B": "/II",
+    "C": "/III",
+    "I": "/",
+    "II": {
+      "_aa": 20,
+      "_api_id": 537,
+      "_armor": 40,
+      "_asw": 0,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 30
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 30
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 30
+      } ],
+      "_evasion": 5,
+      "_firepower": 50,
+      "_hp": 88,
+      "_id": 537,
+      "_japanese_name": "浮遊要塞",
+      "_los": 10,
+      "_luck": 1,
+      "_name": "Floating Fortress",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "ふゆうようさい",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 40,
+      "_type": 10
+    },
+    "III": {
+      "_aa": 20,
+      "_api_id": 538,
+      "_armor": 40,
+      "_asw": 0,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 30
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 30
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 30
+      } ],
+      "_evasion": 5,
+      "_firepower": 50,
+      "_hp": 88,
+      "_id": 538,
+      "_japanese_name": "浮遊要塞",
+      "_los": 10,
+      "_luck": 1,
+      "_name": "Floating Fortress",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "ふゆうようさい",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 40,
+      "_type": 10
+    }
+  },
+  "Harbour Princess": {
+    "": {
+      "_aa": 150,
+      "_api_id": 573,
+      "_armor": 135,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.III",
+        "size": 80
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 80
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 80
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 80
+      } ],
+      "_evasion": 1,
+      "_firepower": 100,
+      "_hp": 380,
+      "_id": 573,
+      "_installation": true,
+      "_japanese_name": "港湾棲姫",
+      "_los": 100,
+      "_luck": 20,
+      "_name": "Harbour Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "こうわんせいき",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "EO": "/II",
+    "Final": "/II",
+    "II": {
+      "_aa": 170,
+      "_api_id": 613,
+      "_armor": 177,
+      "_asw": 0,
+      "_back": -11,
+      "_display_suffix": "II (Final Form)",
+      "_equipment": [ {
+        "equipment": "15inch Coastal Artillery",
+        "size": 0
+      }, {
+        "equipment": "15inch Coastal Artillery",
+        "size": 0
+      }, {
+        "equipment": "Deterioration Armor Piercing Shell",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 180
+      } ],
+      "_firepower": 180,
+      "_hp": 490,
+      "_id": 613,
+      "_installation": true,
+      "_japanese_name": "港湾棲姫",
+      "_los": 100,
+      "_luck": 65,
+      "_name": "Harbour Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "こうわんせいき",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 10
+    }
+  },
+  "Harbour Water Demon": {
+    "": {
+      "_aa": 100,
+      "_api_id": 605,
+      "_armor": 120,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 90
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 90
+      } ],
+      "_firepower": 120,
+      "_hp": 450,
+      "_id": 605,
+      "_installation": true,
+      "_japanese_name": "港湾水鬼",
+      "_luck": 60,
+      "_name": "Harbour Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "こうわんすいき",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "Final": "/III",
+    "II": {
+      "_aa": 120,
+      "_api_id": 606,
+      "_armor": 140,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_display_suffix": "II (Strong)",
+      "_equipment": [ {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 108
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 108
+      } ],
+      "_firepower": 130,
+      "_hp": 450,
+      "_id": 606,
+      "_installation": true,
+      "_japanese_name": "港湾水鬼",
+      "_luck": 65,
+      "_name": "Harbour Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "こうわんすいき",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "III": {
+      "_aa": 140,
+      "_api_id": 607,
+      "_armor": 140,
+      "_asw": 0,
+      "_back": -11,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_display_suffix": "III (Final Form)",
+      "_equipment": [ {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 108
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 108
+      } ],
+      "_firepower": 140,
+      "_hp": 500,
+      "_id": 607,
+      "_installation": true,
+      "_japanese_name": "港湾水鬼",
+      "_luck": 70,
+      "_name": "Harbour Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "こうわんすいき",
+      "_speed": 0,
+      "_suffix": "III",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "IV": {
+      "_aa": 160,
+      "_api_id": 608,
+      "_armor": 160,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_display_suffix": "IV (Strong Final Form)",
+      "_equipment": [ {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "20inch Twin Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 130
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 130
+      } ],
+      "_firepower": 160,
+      "_hp": 500,
+      "_id": 608,
+      "_installation": true,
+      "_japanese_name": "港湾水鬼",
+      "_luck": 75,
+      "_name": "Harbour Water Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "こうわんすいき",
+      "_speed": 0,
+      "_suffix": "IV",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "Strong": "/II",
+    "Strong Final": "/IV"
+  },
+  "Heavy Cruiser Ne-Class": {
+    "": {
+      "_aa": 72,
+      "_api_id": 594,
+      "_armor": 82,
+      "_asw": 0,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 4
+      } ],
+      "_firepower": 73,
+      "_hp": 80,
+      "_id": 594,
+      "_japanese_name": "重巡ネ級",
+      "_luck": 60,
+      "_name": "Heavy Cruiser Ne-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "じゅうじゅんネきゅう",
+      "_speed": 10,
+      "_torpedo": 66,
+      "_type": 5
+    },
+    "Elite": {
+      "_aa": 79,
+      "_api_id": 595,
+      "_armor": 89,
+      "_asw": 0,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 4
+      } ],
+      "_firepower": 79,
+      "_hp": 88,
+      "_id": 595,
+      "_japanese_name": "重巡ネ級elite",
+      "_luck": 70,
+      "_name": "Heavy Cruiser Ne-Class",
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "じゅうじゅんネきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 74,
+      "_type": 5
+    }
+  },
+  "Heavy Cruiser Princess": {
+    "": {
+      "_aa": 72,
+      "_api_id": 659,
+      "_armor": 145,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "High-speed Abyssal Torpedo"
+      }, {
+        "equipment": "Abyssal Reconnaissance Observation Seaplane"
+      } ],
+      "_firepower": 100,
+      "_hp": 350,
+      "_id": 659,
+      "_japanese_name": "重巡棲姫",
+      "_name": "Heavy Cruiser Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "じゅうじゅんせいき",
+      "_speed": 10,
+      "_torpedo": 66,
+      "_type": 5
+    },
+    "II": {
+      "_aa": 79,
+      "_api_id": 660,
+      "_armor": 175,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "High-speed Abyssal Torpedo"
+      }, {
+        "equipment": "Abyssal Reconnaissance Observation Seaplane"
+      } ],
+      "_firepower": 130,
+      "_hp": 350,
+      "_id": 660,
+      "_japanese_name": "重巡棲姫",
+      "_name": "Heavy Cruiser Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "じゅうじゅんせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 74,
+      "_type": 5
+    },
+    "III": {
+      "_aa": 86,
+      "_api_id": 661,
+      "_armor": 195,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "High-speed Abyssal Torpedo"
+      }, {
+        "equipment": "Abyssal Reconnaissance Observation Seaplane"
+      } ],
+      "_firepower": 160,
+      "_hp": 350,
+      "_id": 661,
+      "_japanese_name": "重巡棲姫",
+      "_name": "Heavy Cruiser Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "じゅうじゅんせいき",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 82,
+      "_type": 5
+    },
+    "IV": {
+      "_aa": 79,
+      "_api_id": 662,
+      "_armor": 158,
+      "_asw": 0,
+      "_back": -12,
+      "_equipment": [ {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo"
+      }, {
+        "equipment": "Abyssal Reconnaissance Observation Seaplane"
+      } ],
+      "_firepower": 130,
+      "_hp": 370,
+      "_id": 662,
+      "_japanese_name": "重巡棲姫",
+      "_name": "Heavy Cruiser Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "じゅうじゅんせいき",
+      "_speed": 10,
+      "_suffix": "IV",
+      "_torpedo": 74,
+      "_type": 5
+    },
+    "V": {
+      "_aa": 86,
+      "_api_id": 663,
+      "_armor": 188,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/IV",
+      "_cg_reference": "/IV",
+      "_equipment": [ {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo"
+      }, {
+        "equipment": "Abyssal Reconnaissance Observation Seaplane"
+      } ],
+      "_firepower": 160,
+      "_hp": 380,
+      "_id": 663,
+      "_japanese_name": "重巡棲姫",
+      "_name": "Heavy Cruiser Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "じゅうじゅんせいき",
+      "_speed": 10,
+      "_suffix": "V",
+      "_torpedo": 82,
+      "_type": 5
+    },
+    "VI": {
+      "_aa": 93,
+      "_api_id": 664,
+      "_armor": 208,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/IV",
+      "_cg_reference": "/IV",
+      "_equipment": [ {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "8inch Long Range Twin Gun Mount"
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo"
+      }, {
+        "equipment": "Abyssal Reconnaissance Observation Seaplane"
+      } ],
+      "_firepower": 190,
+      "_hp": 390,
+      "_id": 664,
+      "_japanese_name": "重巡棲姫",
+      "_name": "Heavy Cruiser Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "じゅうじゅんせいき",
+      "_speed": 10,
+      "_suffix": "VI",
+      "_torpedo": 90,
+      "_type": 5
+    }
+  },
+  "Heavy Cruiser Ri-Class": {
+    "": {
+      "_aa": 16,
+      "_api_id": 509,
+      "_armor": 28,
+      "_asw": 0,
+      "_back": -1,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 3
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 3
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 3
+      } ],
+      "_evasion": 12,
+      "_firepower": 32,
+      "_hp": 58,
+      "_id": 509,
+      "_japanese_name": "重巡リ級",
+      "_los": 10,
+      "_luck": 1,
+      "_name": "Heavy Cruiser Ri-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "じゅうじゅんリきゅう",
+      "_speed": 10,
+      "_torpedo": 32,
+      "_type": 5
+    },
+    "Elite": {
+      "_aa": 30,
+      "_api_id": 522,
+      "_armor": 60,
+      "_asw": 0,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 3
+      }, {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 3
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 3
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 3
+      } ],
+      "_evasion": 20,
+      "_firepower": 58,
+      "_hp": 60,
+      "_id": 522,
+      "_japanese_name": "重巡リ級elite",
+      "_los": 15,
+      "_luck": 10,
+      "_name": "Heavy Cruiser Ri-Class",
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "じゅうじゅんリきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 42,
+      "_type": 5
+    },
+    "Flagship": {
+      "_aa": 40,
+      "_api_id": 527,
+      "_armor": 70,
+      "_asw": 0,
+      "_back": -3,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 4
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 4
+      } ],
+      "_evasion": 50,
+      "_firepower": 68,
+      "_hp": 76,
+      "_id": 527,
+      "_japanese_name": "重巡リ級flagship",
+      "_los": 20,
+      "_luck": 20,
+      "_name": "Heavy Cruiser Ri-Class",
+      "_range": 2,
+      "_rarity": 7,
+      "_reading": "じゅうじゅんリきゅうフラグシップ",
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 48,
+      "_type": 5
+    },
+    "Kai Flagship": {
+      "_aa": 58,
+      "_api_id": 566,
+      "_armor": 80,
+      "_asw": 0,
+      "_back": -6,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 4
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 4
+      }, {
+        "equipment": "Flying Fish Reconnaissance Plane",
+        "size": 4
+      } ],
+      "_evasion": 57,
+      "_firepower": 88,
+      "_hp": 88,
+      "_id": 566,
+      "_japanese_name": "重巡リ級改flagship",
+      "_los": 30,
+      "_luck": 40,
+      "_name": "Heavy Cruiser Ri-Class",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "じゅうじゅんリきゅうかいフラグシップ",
+      "_speed": 10,
+      "_suffix": "Kai Flagship",
+      "_torpedo": 80,
+      "_type": 5
+    }
+  },
+  "Isolated Island Demon": {
+    "": {
+      "_aa": 100,
+      "_api_id": 574,
+      "_armor": 150,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.III",
+        "size": 90
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 90
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.III",
+        "size": 90
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.III",
+        "size": 90
+      } ],
+      "_evasion": 10,
+      "_firepower": 150,
+      "_hp": 450,
+      "_id": 574,
+      "_installation": true,
+      "_japanese_name": "離島棲鬼",
+      "_los": 80,
+      "_luck": 50,
+      "_name": "Isolated Island Demon",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "A": "/II",
+    "B": "/III",
+    "C": "/IV",
+    "II": {
+      "_aa": 100,
+      "_api_id": 634,
+      "_armor": 155,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "hell_r1", "revenge_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "estimation": true,
+        "size": 90
+      } ],
+      "_firepower": 150,
+      "_hp": 450,
+      "_id": 634,
+      "_installation": true,
+      "_japanese_name": "離島棲鬼",
+      "_name": "Isolated Island Demon",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "III": {
+      "_aa": 110,
+      "_api_id": 635,
+      "_armor": 170,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "hell_r1", "revenge_kai_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 90
+      } ],
+      "_firepower": 165,
+      "_hp": 450,
+      "_id": 635,
+      "_installation": true,
+      "_japanese_name": "離島棲鬼",
+      "_name": "Isolated Island Demon",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "IV": {
+      "_aa": 120,
+      "_api_id": 636,
+      "_armor": 185,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "revenge_kai_r1", "revenge_kai_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 90
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 90
+      } ],
+      "_firepower": 180,
+      "_hp": 450,
+      "_id": 636,
+      "_installation": true,
+      "_japanese_name": "離島棲鬼",
+      "_name": "Isolated Island Demon",
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 10,
+      "_suffix": "IV",
+      "_torpedo": 0,
+      "_type": 10
+    }
+  },
+  "Isolated Island Princess": {
+    "": {
+      "_aa": 120,
+      "_api_id": 668,
+      "_armor": 190,
+      "_asw": 0,
+      "_back": -11,
+      "_battle_card_layers": [ "liberation_ace_r1", "liberation_r2" ],
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 16
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Cat Fighter (Bombing)",
+        "estimation": true,
+        "size": 8
+      } ],
+      "_firepower": 150,
+      "_hp": 480,
+      "_id": 668,
+      "_installation": true,
+      "_japanese_name": "離島棲姫",
+      "_name": "Isolated Island Princess",
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "II": {
+      "_aa": 120,
+      "_api_id": 669,
+      "_armor": 190,
+      "_asw": 0,
+      "_back": -11,
+      "_battle_card_layers": [ "liberation_ace_r1", "cat_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 20
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 18
+      }, {
+        "equipment": "Abyssal Cat Fighter (Bombing)",
+        "estimation": true,
+        "size": 18
+      }, {
+        "equipment": "Abyssal Cat Fighter (Bombing)",
+        "estimation": true,
+        "size": 8
+      } ],
+      "_firepower": 150,
+      "_hp": 480,
+      "_id": 669,
+      "_installation": true,
+      "_japanese_name": "離島棲姫",
+      "_name": "Isolated Island Princess",
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "III": {
+      "_api_id": 670,
+      "_back": -11,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ [], [], [], [] ],
+      "_id": 670,
+      "_installation": true,
+      "_japanese_name": "離島棲姫",
+      "_name": "Isolated Island Princess",
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 0,
+      "_suffix": "III",
+      "_type": 11
+    },
+    "IV": {
+      "_aa": 120,
+      "_api_id": 671,
+      "_armor": 190,
+      "_asw": 0,
+      "_back": -11,
+      "_battle_card_layers": [ "cat_r" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "5inch Coastal Gun",
+        "size": 0
+      }, {
+        "equipment": "5inch Coastal Gun",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter (Bombing)",
+        "estimation": true,
+        "size": 32
+      }, {
+        "equipment": "Abyssal Cat Fighter (Bombing)",
+        "estimation": true,
+        "size": 32
+      } ],
+      "_firepower": 180,
+      "_hp": 480,
+      "_id": 671,
+      "_installation": true,
+      "_japanese_name": "離島棲姫",
+      "_name": "Isolated Island Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 0,
+      "_suffix": "IV",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "V": {
+      "_aa": 120,
+      "_api_id": 672,
+      "_armor": 190,
+      "_asw": 0,
+      "_back": -11,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "5inch Coastal Gun",
+        "size": 0
+      }, {
+        "equipment": "5inch Coastal Gun",
+        "size": 0
+      }, {
+        "equipment": "40mm Quadruple Autocannon Mount",
+        "size": 0
+      }, {
+        "equipment": "Coastal Radar",
+        "size": 0
+      } ],
+      "_firepower": 180,
+      "_hp": 480,
+      "_id": 672,
+      "_installation": true,
+      "_japanese_name": "離島棲姫",
+      "_name": "Isolated Island Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "りとうせいき",
+      "_speed": 0,
+      "_suffix": "V",
+      "_torpedo": 0,
+      "_type": 9
+    }
+  },
+  "Light Carrier Nu-Class": {
+    "": {
+      "_aa": 15,
+      "_api_id": 510,
+      "_armor": 25,
+      "_asw": 0,
+      "_asw_attack": false,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter",
+        "size": 18
+      }, {
+        "equipment": "Abyssal Dive Bomber",
+        "size": 18
+      }, {
+        "equipment": "Abyssal Torpedo Bomber",
+        "size": 18
+      } ],
+      "_evasion": 3,
+      "_firepower": 0,
+      "_hp": 65,
+      "_id": 510,
+      "_japanese_name": "軽母ヌ級",
+      "_los": 30,
+      "_luck": 1,
+      "_name": "Light Carrier Nu-Class",
+      "_range": 0,
+      "_rarity": 1,
+      "_reading": "けいぼヌきゅう",
+      "_speed": 5,
+      "_torpedo": 0,
+      "_type": 7
+    },
+    "Elite": {
+      "_aa": 15,
+      "_api_id": 523,
+      "_armor": 35,
+      "_asw": 0,
+      "_asw_attack": false,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 24
+      }, {
+        "equipment": "Abyssal Dive Bomber",
+        "size": 24
+      }, {
+        "equipment": "Abyssal Torpedo Bomber",
+        "size": 24
+      } ],
+      "_evasion": 10,
+      "_firepower": 0,
+      "_hp": 70,
+      "_id": 523,
+      "_japanese_name": "軽母ヌ級elite",
+      "_los": 30,
+      "_luck": 10,
+      "_name": "Light Carrier Nu-Class",
+      "_range": 0,
+      "_rarity": 4,
+      "_reading": "けいぼヌきゅうエリート",
+      "_speed": 5,
+      "_suffix": "Elite",
+      "_torpedo": 0,
+      "_type": 7
+    },
+    "Flagship": {
+      "_aa": 36,
+      "_api_id": 560,
+      "_armor": 70,
+      "_asw": 0,
+      "_back": -3,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 22
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 22
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 22
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 22
+      } ],
+      "_evasion": 40,
+      "_firepower": 18,
+      "_hp": 84,
+      "_id": 560,
+      "_japanese_name": "軽母ヌ級flagship",
+      "_los": 40,
+      "_luck": 30,
+      "_name": "Light Carrier Nu-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 6,
+      "_reading": "けいぼヌきゅうフラグシップ",
+      "_speed": 5,
+      "_suffix": "Flagship",
+      "_torpedo": 0,
+      "_type": 7
+    }
+  },
+  "Light Cruiser Demon": {
+    "": {
+      "_aa": 60,
+      "_api_id": 601,
+      "_armor": 135,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Surface Radar Mark.II",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 3
+      } ],
+      "_firepower": 59,
+      "_hp": 210,
+      "_id": 601,
+      "_japanese_name": "軽巡棲鬼",
+      "_luck": 70,
+      "_name": "Light Cruiser Demon",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "けいじゅんせいき",
+      "_speed": 10,
+      "_torpedo": 88,
+      "_type": 3
+    },
+    "Final": "/II",
+    "II": {
+      "_aa": 60,
+      "_api_id": 602,
+      "_armor": 170,
+      "_back": -12,
+      "_display_suffix": "II (Final Form)",
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Surface Radar Mark.II",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 3
+      } ],
+      "_firepower": 69,
+      "_hp": 270,
+      "_id": 602,
+      "_japanese_name": "軽巡棲鬼",
+      "_luck": 90,
+      "_name": "Light Cruiser Demon",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "けいじゅんせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 98,
+      "_type": 3
+    }
+  },
+  "Light Cruiser He-Class": {
+    "": {
+      "_aa": 12,
+      "_api_id": 506,
+      "_armor": 18,
+      "_asw": 40,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 1
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 1
+      } ],
+      "_evasion": 15,
+      "_firepower": 16,
+      "_hp": 36,
+      "_id": 506,
+      "_japanese_name": "軽巡ヘ級",
+      "_los": 6,
+      "_luck": 1,
+      "_name": "Light Cruiser He-Class",
+      "_range": 2,
+      "_rarity": 1,
+      "_reading": "けいじゅんヘきゅう",
+      "_speed": 10,
+      "_torpedo": 28,
+      "_type": 3
+    },
+    "Elite": {
+      "_aa": 23,
+      "_api_id": 519,
+      "_armor": 32,
+      "_asw": 45,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 1
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 1
+      } ],
+      "_evasion": 26,
+      "_firepower": 34,
+      "_hp": 52,
+      "_id": 519,
+      "_japanese_name": "軽巡ヘ級elite",
+      "_los": 6,
+      "_luck": 10,
+      "_name": "Light Cruiser He-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "けいじゅんヘきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 48,
+      "_type": 3
+    },
+    "Flagship": {
+      "_aa": 30,
+      "_api_id": 555,
+      "_armor": 39,
+      "_asw": 80,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 2
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 2
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 2
+      }, {
+        "equipment": "Abyssal Sonar",
+        "size": 2
+      } ],
+      "_evasion": 46,
+      "_firepower": 48,
+      "_hp": 57,
+      "_id": 555,
+      "_japanese_name": "軽巡ヘ級flagship",
+      "_los": 24,
+      "_luck": 20,
+      "_name": "Light Cruiser He-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "けいじゅんヘきゅうフラグシップ",
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 80,
+      "_type": 3
+    }
+  },
+  "Light Cruiser Ho-Class": {
+    "": {
+      "_aa": 10,
+      "_api_id": 505,
+      "_armor": 15,
+      "_asw": 30,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 1
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 1
+      } ],
+      "_evasion": 15,
+      "_firepower": 14,
+      "_hp": 33,
+      "_id": 505,
+      "_japanese_name": "軽巡ホ級",
+      "_los": 6,
+      "_luck": 1,
+      "_name": "Light Cruiser Ho-Class",
+      "_range": 2,
+      "_rarity": 1,
+      "_reading": "けいじゅんホきゅう",
+      "_speed": 10,
+      "_torpedo": 24,
+      "_type": 3
+    },
+    "Elite": {
+      "_aa": 20,
+      "_api_id": 518,
+      "_armor": 30,
+      "_asw": 40,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 1
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 1
+      } ],
+      "_evasion": 24,
+      "_firepower": 30,
+      "_hp": 48,
+      "_id": 518,
+      "_japanese_name": "軽巡ホ級elite",
+      "_los": 6,
+      "_luck": 10,
+      "_name": "Light Cruiser Ho-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "けいじゅんホきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 40,
+      "_type": 3
+    },
+    "Flagship": {
+      "_aa": 27,
+      "_api_id": 554,
+      "_armor": 36,
+      "_asw": 70,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 2
+      }, {
+        "equipment": "Abyssal Depth Charge Projector",
+        "size": 2
+      }, {
+        "equipment": "Abyssal Sonar",
+        "size": 2
+      }, {
+        "equipment": false,
+        "size": 2
+      } ],
+      "_evasion": 44,
+      "_firepower": 42,
+      "_hp": 53,
+      "_id": 554,
+      "_japanese_name": "軽巡ホ級flagship",
+      "_los": 20,
+      "_luck": 20,
+      "_name": "Light Cruiser Ho-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "けいじゅんホきゅうフラグシップ",
+      "_slots": 3,
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 72,
+      "_type": 3
+    }
+  },
+  "Light Cruiser Princess": {
+    "": {
+      "_aa": 50,
+      "_api_id": 641,
+      "_armor": 145,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "6inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "6inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Searchlight",
+        "size": 0
+      } ],
+      "_firepower": 64,
+      "_hp": 230,
+      "_id": 641,
+      "_japanese_name": "軽巡棲姫",
+      "_name": "Light Cruiser Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "けいじゅんせいき",
+      "_speed": 10,
+      "_torpedo": 93,
+      "_type": 3
+    },
+    "II": {
+      "_aa": 55,
+      "_api_id": 642,
+      "_armor": 175,
+      "_back": -11,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "6inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "6inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Searchlight",
+        "size": 0
+      } ],
+      "_firepower": 74,
+      "_hp": 290,
+      "_id": 642,
+      "_japanese_name": "軽巡棲姫",
+      "_name": "Light Cruiser Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "けいじゅんせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 96,
+      "_type": 3
+    },
+    "III": {
+      "_aa": 55,
+      "_api_id": 643,
+      "_armor": 185,
+      "_back": -11,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "6inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "6inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Searchlight",
+        "size": 0
+      } ],
+      "_firepower": 79,
+      "_hp": 330,
+      "_id": 643,
+      "_japanese_name": "軽巡棲姫",
+      "_name": "Light Cruiser Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "けいじゅんせいき",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 99,
+      "_type": 3
+    }
+  },
+  "Light Cruiser To-Class": {
+    "": {
+      "_aa": 12,
+      "_api_id": 507,
+      "_armor": 20,
+      "_asw": 50,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 2
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 2
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 2
+      } ],
+      "_evasion": 15,
+      "_firepower": 24,
+      "_hp": 39,
+      "_id": 507,
+      "_japanese_name": "軽巡ト級",
+      "_los": 6,
+      "_luck": 5,
+      "_name": "Light Cruiser To-Class",
+      "_range": 2,
+      "_rarity": 1,
+      "_reading": "けいじゅんトきゅう",
+      "_speed": 10,
+      "_torpedo": 28,
+      "_type": 3
+    },
+    "Elite": {
+      "_aa": 24,
+      "_api_id": 520,
+      "_armor": 36,
+      "_asw": 50,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 2
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 2
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 2
+      } ],
+      "_evasion": 28,
+      "_firepower": 36,
+      "_hp": 55,
+      "_id": 520,
+      "_japanese_name": "軽巡ト級elite",
+      "_los": 6,
+      "_luck": 10,
+      "_name": "Light Cruiser To-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "けいじゅんトきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 48,
+      "_type": 3
+    }
+  },
+  "Light Cruiser Tsu-Class": {
+    "": {
+      "_aa": 88,
+      "_api_id": 591,
+      "_armor": 55,
+      "_asw": 96,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Sonar Mk.II",
+        "size": 3
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 3
+      } ],
+      "_evasion": 69,
+      "_firepower": 58,
+      "_hp": 48,
+      "_id": 591,
+      "_japanese_name": "軽巡ツ級",
+      "_los": 48,
+      "_luck": 55,
+      "_name": "Light Cruiser Tsu-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "けいじゅんツきゅう",
+      "_speed": 10,
+      "_torpedo": 84,
+      "_type": 3
+    },
+    "Elite": {
+      "_aa": 96,
+      "_api_id": 592,
+      "_armor": 68,
+      "_asw": 98,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Sonar Mk.II",
+        "size": 3
+      }, {
+        "equipment": "Abyssal Reconnaissance Plane",
+        "size": 3
+      } ],
+      "_evasion": 74,
+      "_firepower": 64,
+      "_hp": 66,
+      "_id": 592,
+      "_japanese_name": "軽巡ツ級elite",
+      "_los": 58,
+      "_luck": 66,
+      "_name": "Light Cruiser Tsu-Class",
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "けいじゅんツきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 92,
+      "_type": 3
+    }
+  },
+  "Midway Princess": {
+    "": {
+      "_aa": 140,
+      "_api_id": 583,
+      "_armor": 135,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 64
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 58
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 58
+      }, {
+        "equipment": false,
+        "size": 0
+      } ],
+      "_evasion": 15,
+      "_firepower": 100,
+      "_hp": 550,
+      "_id": 583,
+      "_installation": true,
+      "_japanese_name": "中間棲姫",
+      "_los": 100,
+      "_luck": 50,
+      "_name": "Midway Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "ちゅうかんせいき",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "Final": "/II",
+    "II": {
+      "_aa": 180,
+      "_api_id": 584,
+      "_armor": 180,
+      "_asw": 0,
+      "_back": -12,
+      "_display_suffix": "II (Final Form)",
+      "_equipment": [ {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 84
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 96
+      }, {
+        "equipment": "Abyssal Air Radar",
+        "size": 0
+      }, {
+        "equipment": false,
+        "size": 0
+      } ],
+      "_evasion": 30,
+      "_firepower": 180,
+      "_hp": 600,
+      "_id": 584,
+      "_installation": true,
+      "_japanese_name": "中間棲姫",
+      "_los": 130,
+      "_luck": 60,
+      "_name": "Midway Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "ちゅうかんせいき",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 10
+    }
+  },
+  "Northern Princess": {
+    "": {
+      "_aa": 130,
+      "_api_id": 581,
+      "_armor": 135,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.III",
+        "size": 72
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 64
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 36
+      } ],
+      "_evasion": 10,
+      "_firepower": 90,
+      "_hp": 360,
+      "_id": 581,
+      "_installation": true,
+      "_japanese_name": "北方棲姫",
+      "_los": 80,
+      "_luck": 40,
+      "_name": "Northern Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ほっぽうせいき",
+      "_speed": 0,
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "EO": "/III",
+    "EO Final": "/IV",
+    "EO Final Weak": "/VI",
+    "EO Weak": "/V",
+    "EO Weak Final": "/VI",
+    "Final": "/II",
+    "II": {
+      "_aa": 160,
+      "_api_id": 582,
+      "_armor": 145,
+      "_asw": 0,
+      "_back": -12,
+      "_display_suffix": "II (Final Form)",
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 72
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 80
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 40
+      } ],
+      "_evasion": 20,
+      "_firepower": 170,
+      "_hp": 500,
+      "_id": 582,
+      "_installation": true,
+      "_japanese_name": "北方棲姫",
+      "_los": 100,
+      "_luck": 50,
+      "_name": "Northern Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ほっぽうせいき",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "III": {
+      "_aa": 120,
+      "_api_id": 587,
+      "_armor": 125,
+      "_asw": 0,
+      "_back": -11,
+      "_display_suffix": "III (EO)",
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.III",
+        "size": 72
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 64
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 36
+      } ],
+      "_evasion": 15,
+      "_firepower": 80,
+      "_hp": 300,
+      "_id": 587,
+      "_installation": true,
+      "_japanese_name": "北方棲姫",
+      "_los": 80,
+      "_luck": 40,
+      "_name": "Northern Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ほっぽうせいき",
+      "_speed": 0,
+      "_suffix": "III",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "IV": {
+      "_aa": 140,
+      "_api_id": 588,
+      "_armor": 140,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/II",
+      "_cg_reference": "/II",
+      "_display_suffix": "IV (EO Final Form)",
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 72
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 72
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 40
+      } ],
+      "_evasion": 25,
+      "_firepower": 140,
+      "_hp": 390,
+      "_id": 588,
+      "_installation": true,
+      "_japanese_name": "北方棲姫",
+      "_los": 100,
+      "_luck": 50,
+      "_name": "Northern Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ほっぽうせいき",
+      "_speed": 0,
+      "_suffix": "IV",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "V": {
+      "_aa": 100,
+      "_api_id": 589,
+      "_armor": 110,
+      "_asw": 0,
+      "_back": -11,
+      "_battle_card_reference": "/III",
+      "_cg_reference": "/III",
+      "_display_suffix": "V (EO Weak)",
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.III",
+        "size": 64
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 48
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 36
+      } ],
+      "_evasion": 5,
+      "_firepower": 60,
+      "_hp": 300,
+      "_id": 589,
+      "_installation": true,
+      "_japanese_name": "北方棲姫",
+      "_los": 80,
+      "_luck": 35,
+      "_name": "Northern Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ほっぽうせいき",
+      "_speed": 0,
+      "_suffix": "V",
+      "_torpedo": 0,
+      "_type": 10
+    },
+    "VI": {
+      "_aa": 120,
+      "_api_id": 590,
+      "_armor": 125,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_reference": "/II",
+      "_cg_reference": "/II",
+      "_display_suffix": "VI (EO Weak Final Form)",
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 64
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 68
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 40
+      } ],
+      "_evasion": 25,
+      "_firepower": 140,
+      "_hp": 390,
+      "_id": 590,
+      "_installation": true,
+      "_japanese_name": "北方棲姫",
+      "_los": 100,
+      "_luck": 40,
+      "_name": "Northern Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "ほっぽうせいき",
+      "_speed": 0,
+      "_suffix": "VI",
+      "_torpedo": 0,
+      "_type": 10
+    }
+  },
+  "PT Imp Pack": {
+    "": {
+      "_aa": 12,
+      "_api_id": 637,
+      "_armor": 19,
+      "_back": -10,
+      "_equipment": [ {
+        "equipment": "22inch Torpedo Late Model",
+        "size": 0
+      }, {
+        "equipment": false,
+        "size": 0
+      } ],
+      "_firepower": 9,
+      "_hp": 9,
+      "_id": 637,
+      "_japanese_name": "PT小鬼群",
+      "_name": "PT Imp Pack",
+      "_rarity": 6,
+      "_reading": "ピーティーしょうきぐん",
+      "_speed": 10,
+      "_torpedo": 88,
+      "_type": 2
+    },
+    "II": {
+      "_aa": 18,
+      "_api_id": 638,
+      "_armor": 29,
+      "_back": -10,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "22inch Torpedo Late Model",
+        "size": 0
+      }, {
+        "equipment": "22inch Torpedo Late Model",
+        "size": 0
+      } ],
+      "_firepower": 9,
+      "_hp": 9,
+      "_id": 638,
+      "_japanese_name": "PT小鬼群",
+      "_name": "PT Imp Pack",
+      "_rarity": 6,
+      "_reading": "ピーティーしょうきぐん",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 98,
+      "_type": 2
+    },
+    "III": {
+      "_aa": 18,
+      "_api_id": 639,
+      "_armor": 29,
+      "_back": -10,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "22inch Torpedo Late Model",
+        "size": 0
+      }, {
+        "equipment": "22inch Torpedo Late Model",
+        "size": 0
+      } ],
+      "_firepower": 15,
+      "_hp": 15,
+      "_id": 639,
+      "_japanese_name": "PT小鬼群",
+      "_name": "PT Imp Pack",
+      "_rarity": 6,
+      "_reading": "ピーティーしょうきぐん",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 98,
+      "_type": 2
+    },
+    "IV": {
+      "_aa": 24,
+      "_api_id": 640,
+      "_armor": 39,
+      "_back": -10,
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "22inch Torpedo Late Model",
+        "size": 0
+      }, {
+        "equipment": "22inch Torpedo Late Model",
+        "size": 0
+      } ],
+      "_firepower": 18,
+      "_hp": 18,
+      "_id": 640,
+      "_japanese_name": "PT小鬼群",
+      "_name": "PT Imp Pack",
+      "_rarity": 6,
+      "_reading": "ピーティーしょうきぐん",
+      "_speed": 10,
+      "_suffix": "IV",
+      "_torpedo": 118,
+      "_type": 2
+    }
+  },
+  "Seaplane Tender Princess": {
+    "": {
+      "_aa": 70,
+      "_api_id": 625,
+      "_armor": 150,
+      "_back": -12,
+      "_equipment": [ {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "estimation": true,
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "estimation": true,
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo",
+        "estimation": true,
+        "size": 0
+      }, {
+        "equipment": "Abyssal Attack Seaplane",
+        "estimation": true,
+        "size": 32
+      } ],
+      "_firepower": 75,
+      "_hp": 350,
+      "_id": 625,
+      "_japanese_name": "水母棲姫",
+      "_name": "Seaplane Tender Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "すいぼせいき",
+      "_speed": 10,
+      "_torpedo": 88,
+      "_type": 16
+    },
+    "A": "/",
+    "B": "/II",
+    "C": "/III",
+    "Final": "/III",
+    "II": {
+      "_aa": 80,
+      "_api_id": 626,
+      "_armor": 175,
+      "_back": -12,
+      "_battle_card_layers": [ "attack_seaplane_kai_r" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "estimation": true,
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "estimation": true,
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo",
+        "estimation": true,
+        "size": 0
+      }, {
+        "equipment": "Abyssal Attack Seaplane Kai",
+        "estimation": true,
+        "size": 64
+      } ],
+      "_firepower": 95,
+      "_hp": 350,
+      "_id": 626,
+      "_japanese_name": "水母棲姫",
+      "_name": "Seaplane Tender Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "すいぼせいき",
+      "_speed": 10,
+      "_suffix": "II",
+      "_torpedo": 98,
+      "_type": 16
+    },
+    "III": {
+      "_aa": 90,
+      "_api_id": 627,
+      "_armor": 195,
+      "_back": -12,
+      "_battle_card_layers": [ "attack_seaplane_kai_r" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Twin Dual Purpose Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Attack Seaplane Kai",
+        "size": 96
+      } ],
+      "_firepower": 115,
+      "_hp": 350,
+      "_id": 627,
+      "_japanese_name": "水母棲姫",
+      "_name": "Seaplane Tender Princess",
+      "_range": 2,
+      "_rarity": 8,
+      "_reading": "すいぼせいき",
+      "_speed": 10,
+      "_suffix": "III",
+      "_torpedo": 98,
+      "_type": 16
+    },
+    "Strong": "/II"
+  },
+  "Southern Demon": {
+    "": {
+      "_aa": 70,
+      "_api_id": 546,
+      "_armor": 90,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "8inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 50
+      } ],
+      "_evasion": 20,
+      "_firepower": 90,
+      "_hp": 180,
+      "_id": 546,
+      "_japanese_name": "南方棲鬼",
+      "_los": 70,
+      "_luck": 30,
+      "_name": "Southern Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "なんぽうせいき",
+      "_speed": 5,
+      "_torpedo": 80,
+      "_type": 10
+    }
+  },
+  "Southern War Demon": {
+    "": {
+      "_aa": 80,
+      "_api_id": 547,
+      "_armor": 10,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 70
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 70
+      } ],
+      "_evasion": 25,
+      "_firepower": 120,
+      "_hp": 240,
+      "_id": 547,
+      "_japanese_name": "南方棲戦鬼",
+      "_los": 80,
+      "_luck": 40,
+      "_name": "Southern War Demon",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "なんぽうせいせんき",
+      "_speed": 5,
+      "_torpedo": 90,
+      "_type": 10
+    }
+  },
+  "Southern War Princess": {
+    "": {
+      "_aa": 80,
+      "_api_id": 548,
+      "_armor": 120,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "16inch Triple Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 90
+      } ],
+      "_evasion": 30,
+      "_firepower": 160,
+      "_hp": 350,
+      "_id": 548,
+      "_japanese_name": "南方棲戦姫",
+      "_los": 90,
+      "_luck": 50,
+      "_name": "Southern War Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "なんぽうせいせんき",
+      "_speed": 5,
+      "_torpedo": 100,
+      "_type": 10
+    }
+  },
+  "Standard Carrier Wo-Class": {
+    "": {
+      "_aa": 30,
+      "_api_id": 512,
+      "_armor": 40,
+      "_asw": 0,
+      "_back": -1,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter",
+        "size": 27
+      }, {
+        "equipment": "Abyssal Dive Bomber",
+        "size": 27
+      }, {
+        "equipment": "Abyssal Torpedo Bomber",
+        "size": 27
+      } ],
+      "_evasion": 3,
+      "_firepower": 0,
+      "_hp": 85,
+      "_id": 512,
+      "_japanese_name": "空母ヲ級",
+      "_los": 40,
+      "_luck": 1,
+      "_name": "Standard Carrier Wo-Class",
+      "_range": 0,
+      "_rarity": 4,
+      "_reading": "くうぼヲきゅう",
+      "_speed": 10,
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Elite": {
+      "_aa": 40,
+      "_api_id": 525,
+      "_armor": 55,
+      "_asw": 0,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 30
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 30
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 30
+      } ],
+      "_evasion": 12,
+      "_firepower": 0,
+      "_hp": 88,
+      "_id": 525,
+      "_japanese_name": "空母ヲ級elite",
+      "_los": 50,
+      "_luck": 10,
+      "_name": "Standard Carrier Wo-Class",
+      "_range": 0,
+      "_rarity": 6,
+      "_reading": "くうぼヲきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Flagship": {
+      "_aa": 50,
+      "_api_id": 528,
+      "_armor": 80,
+      "_asw": 0,
+      "_back": -3,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.II",
+        "size": 32
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.II",
+        "size": 32
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 32
+      } ],
+      "_evasion": 45,
+      "_firepower": 25,
+      "_hp": 96,
+      "_id": 528,
+      "_japanese_name": "空母ヲ級flagship",
+      "_los": 50,
+      "_luck": 20,
+      "_name": "Standard Carrier Wo-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 7,
+      "_reading": "くうぼヲきゅうフラグシップ",
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Flagship II": {
+      "_aa": 50,
+      "_api_id": 579,
+      "_armor": 80,
+      "_asw": 0,
+      "_back": -3,
+      "_battle_card_layers": [ "hell" ],
+      "_battle_card_reference": "/Flagship",
+      "_cg_reference": "/Flagship",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter",
+        "size": 32
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "size": 32
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 27
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "size": 5
+      } ],
+      "_evasion": 45,
+      "_firepower": 25,
+      "_hp": 96,
+      "_id": 579,
+      "_japanese_name": "空母ヲ級flagship",
+      "_los": 50,
+      "_luck": 30,
+      "_name": "Standard Carrier Wo-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 7,
+      "_reading": "くうぼヲきゅうフラグシップ",
+      "_slots": 3,
+      "_speed": 10,
+      "_suffix": "Flagship II",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Flagship III": {
+      "_aa": 50,
+      "_api_id": 614,
+      "_armor": 80,
+      "_asw": 0,
+      "_back": -3,
+      "_battle_card_layers": [ "hell_l1", "revenge_kai_l2" ],
+      "_battle_card_reference": "/Flagship",
+      "_cg_reference": "/Flagship",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 32
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "estimation": true,
+        "size": 32
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 27
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "estimation": true,
+        "size": 5
+      } ],
+      "_evasion": 45,
+      "_firepower": 25,
+      "_hp": 96,
+      "_id": 614,
+      "_japanese_name": "空母ヲ級flagship",
+      "_los": 50,
+      "_luck": 30,
+      "_name": "Standard Carrier Wo-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 7,
+      "_reading": "くうぼヲきゅうフラグシップ",
+      "_slots": 3,
+      "_speed": 10,
+      "_suffix": "Flagship III",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Flagship IV": {
+      "_aa": 50,
+      "_api_id": 615,
+      "_armor": 80,
+      "_asw": 0,
+      "_back": -3,
+      "_battle_card_layers": [ "hell_kai_l1", "revenge_kai_l2" ],
+      "_battle_card_reference": "/Flagship",
+      "_cg_reference": "/Flagship",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 32
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 32
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 27
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 5
+      } ],
+      "_evasion": 45,
+      "_firepower": 25,
+      "_hp": 96,
+      "_id": 615,
+      "_japanese_name": "空母ヲ級flagship",
+      "_los": 50,
+      "_luck": 30,
+      "_name": "Standard Carrier Wo-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 7,
+      "_reading": "くうぼヲきゅうフラグシップ",
+      "_slots": 3,
+      "_speed": 10,
+      "_suffix": "Flagship IV",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Kai Flagship": {
+      "_aa": 90,
+      "_api_id": 565,
+      "_armor": 120,
+      "_asw": 0,
+      "_back": -6,
+      "_equipment": [ {
+        "equipment": "Abyssal Fighter Mark.III",
+        "size": 36
+      }, {
+        "equipment": "Abyssal Dive Bomber Mark.II",
+        "size": 36
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.III",
+        "size": 36
+      }, {
+        "equipment": "Abyssal Torpedo Bomber Mark.III",
+        "size": 36
+      } ],
+      "_evasion": 50,
+      "_firepower": 40,
+      "_hp": 160,
+      "_id": 565,
+      "_japanese_name": "空母ヲ級改flagship",
+      "_los": 60,
+      "_luck": 30,
+      "_name": "Standard Carrier Wo-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 8,
+      "_reading": "くうぼヲきゅうかいフラグシップ",
+      "_speed": 10,
+      "_suffix": "Kai Flagship",
+      "_torpedo": 0,
+      "_type": 11,
+      "1": 61
+    },
+    "Kai Flagship II": {
+      "_aa": 90,
+      "_api_id": 616,
+      "_armor": 120,
+      "_asw": 0,
+      "_back": -6,
+      "_battle_card_layers": [ "hell_r" ],
+      "_battle_card_reference": "/Kai Flagship",
+      "_cg_reference": "/Kai Flagship",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "estimation": true,
+        "size": 36
+      } ],
+      "_evasion": 50,
+      "_firepower": 40,
+      "_hp": 160,
+      "_id": 616,
+      "_japanese_name": "空母ヲ級改flagship",
+      "_los": 60,
+      "_luck": 30,
+      "_name": "Standard Carrier Wo-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 8,
+      "_reading": "くうぼヲきゅうかいフラグシップ",
+      "_slots": 3,
+      "_speed": 10,
+      "_suffix": "Kai Flagship II",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Kai Flagship III": {
+      "_aa": 90,
+      "_api_id": 617,
+      "_armor": 120,
+      "_asw": 0,
+      "_back": -6,
+      "_battle_card_layers": [ "hell_r1", "revenge_kai_r2" ],
+      "_battle_card_reference": "/Kai Flagship",
+      "_cg_reference": "/Kai Flagship",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber",
+        "estimation": true,
+        "size": 36
+      } ],
+      "_evasion": 50,
+      "_firepower": 40,
+      "_hp": 160,
+      "_id": 617,
+      "_japanese_name": "空母ヲ級改flagship",
+      "_los": 60,
+      "_luck": 30,
+      "_name": "Standard Carrier Wo-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 8,
+      "_reading": "くうぼヲきゅうかいフラグシップ",
+      "_slots": 3,
+      "_speed": 10,
+      "_suffix": "Kai Flagship III",
+      "_torpedo": 0,
+      "_type": 11
+    },
+    "Kai Flagship IV": {
+      "_aa": 90,
+      "_api_id": 618,
+      "_armor": 120,
+      "_asw": 0,
+      "_back": -6,
+      "_battle_card_layers": [ "hell_kai_r1", "revenge_kai_r2" ],
+      "_battle_card_reference": "/Kai Flagship",
+      "_cg_reference": "/Kai Flagship",
+      "_equipment": [ {
+        "equipment": "Abyssal Cat Fighter Kai",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Hell Dive Bomber Kai",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Revenge Torpedo Bomber Kai",
+        "estimation": true,
+        "size": 36
+      } ],
+      "_evasion": 50,
+      "_firepower": 40,
+      "_hp": 160,
+      "_id": 618,
+      "_japanese_name": "空母ヲ級改flagship",
+      "_los": 60,
+      "_luck": 30,
+      "_name": "Standard Carrier Wo-Class",
+      "_night_bombing": true,
+      "_range": 0,
+      "_rarity": 8,
+      "_reading": "くうぼヲきゅうかいフラグシップ",
+      "_slots": 3,
+      "_speed": 10,
+      "_suffix": "Kai Flagship IV",
+      "_torpedo": 0,
+      "_type": 11
+    }
+  },
+  "Submarine Ka-Class": {
+    "": {
+      "_aa": 0,
+      "_api_id": 530,
+      "_armor": 7,
+      "_asw": 0,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 0
+      } ],
+      "_evasion": 1,
+      "_firepower": 0,
+      "_hp": 19,
+      "_id": 530,
+      "_japanese_name": "潜水カ級",
+      "_los": 6,
+      "_luck": 1,
+      "_name": "Submarine Ka-Class",
+      "_range": 1,
+      "_rarity": 1,
+      "_reading": "せんすいカきゅう",
+      "_speed": 5,
+      "_torpedo": 42,
+      "_type": 13
+    },
+    "Elite": {
+      "_aa": 0,
+      "_api_id": 532,
+      "_armor": 21,
+      "_asw": 0,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 0
+      } ],
+      "_evasion": 5,
+      "_firepower": 0,
+      "_hp": 27,
+      "_id": 532,
+      "_japanese_name": "潜水カ級elite",
+      "_los": 8,
+      "_luck": 10,
+      "_name": "Submarine Ka-Class",
+      "_opening_torpedo": true,
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "せんすいカきゅうエリート",
+      "_speed": 5,
+      "_suffix": "Elite",
+      "_torpedo": 64,
+      "_type": 13
+    },
+    "Flagship": {
+      "_aa": 0,
+      "_api_id": 534,
+      "_armor": 30,
+      "_asw": 0,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 0
+      } ],
+      "_evasion": 10,
+      "_firepower": 0,
+      "_hp": 37,
+      "_id": 534,
+      "_japanese_name": "潜水カ級flagship",
+      "_los": 10,
+      "_luck": 20,
+      "_name": "Submarine Ka-Class",
+      "_opening_torpedo": true,
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "せんすいカきゅうフラグシップ",
+      "_speed": 5,
+      "_suffix": "Flagship",
+      "_torpedo": 86,
+      "_type": 13
+    }
+  },
+  "Submarine Princess": {
+    "": {
+      "_aa": 0,
+      "_api_id": 644,
+      "_armor": 53,
+      "_back": -11,
+      "_can_debuff": true,
+      "_equipment": [ {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      } ],
+      "_firepower": 50,
+      "_hp": 110,
+      "_id": 644,
+      "_japanese_name": "潜水棲姫",
+      "_name": "Submarine Princess",
+      "_opening_torpedo": false,
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "せんすいせいき",
+      "_speed": 5,
+      "_torpedo": 140,
+      "_type": 13
+    },
+    "II": {
+      "_aa": 0,
+      "_api_id": 645,
+      "_armor": 73,
+      "_back": -11,
+      "_battle_card_damaged_reference": "/",
+      "_battle_card_reference": "/",
+      "_can_debuff": true,
+      "_cg_damaged_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Cuttlefish Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      } ],
+      "_firepower": 70,
+      "_hp": 130,
+      "_id": 645,
+      "_japanese_name": "潜水棲姫",
+      "_name": "Submarine Princess",
+      "_opening_torpedo": false,
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "せんすいせいき",
+      "_speed": 5,
+      "_suffix": "II",
+      "_torpedo": 155,
+      "_type": 13
+    },
+    "III": {
+      "_aa": 0,
+      "_api_id": 646,
+      "_armor": 93,
+      "_back": -11,
+      "_battle_card_damaged_reference": "/",
+      "_battle_card_reference": "/",
+      "_can_debuff": true,
+      "_cg_damaged_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Cuttlefish Torpedo",
+        "size": 0
+      }, {
+        "equipment": "Abyssal Cuttlefish Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      } ],
+      "_firepower": 90,
+      "_hp": 160,
+      "_id": 646,
+      "_japanese_name": "潜水棲姫",
+      "_name": "Submarine Princess",
+      "_opening_torpedo": false,
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "せんすいせいき",
+      "_speed": 5,
+      "_suffix": "III",
+      "_torpedo": 170,
+      "_type": 13
+    }
+  },
+  "Submarine So-Class": {
+    "": {
+      "_aa": 0,
+      "_api_id": 570,
+      "_armor": 15,
+      "_asw": 0,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "3inch Single High-angle Gun Mount",
+        "size": 0
+      } ],
+      "_evasion": 5,
+      "_firepower": 24,
+      "_hp": 33,
+      "_id": 570,
+      "_japanese_name": "潜水ソ級",
+      "_los": 10,
+      "_luck": 15,
+      "_name": "Submarine So-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "せんすいソきゅう",
+      "_speed": 5,
+      "_torpedo": 70,
+      "_type": 13
+    },
+    "Elite": {
+      "_aa": 0,
+      "_api_id": 571,
+      "_armor": 30,
+      "_asw": 0,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "3inch Single High-angle Gun Mount",
+        "size": 0
+      } ],
+      "_evasion": 10,
+      "_firepower": 30,
+      "_hp": 45,
+      "_id": 571,
+      "_japanese_name": "潜水ソ級elite",
+      "_los": 15,
+      "_luck": 30,
+      "_name": "Submarine So-Class",
+      "_opening_torpedo": true,
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "せんすいソきゅうエリート",
+      "_speed": 5,
+      "_suffix": "Elite",
+      "_torpedo": 100,
+      "_type": 13
+    },
+    "Flagship": {
+      "_aa": 0,
+      "_api_id": 572,
+      "_armor": 42,
+      "_asw": 0,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      } ],
+      "_evasion": 15,
+      "_firepower": 30,
+      "_hp": 48,
+      "_id": 572,
+      "_japanese_name": "潜水ソ級flagship",
+      "_los": 18,
+      "_luck": 45,
+      "_name": "Submarine So-Class",
+      "_opening_torpedo": true,
+      "_range": 1,
+      "_rarity": 8,
+      "_reading": "せんすいソきゅうフラグシップ",
+      "_speed": 5,
+      "_suffix": "Flagship",
+      "_torpedo": 135,
+      "_type": 13
+    }
+  },
+  "Submarine Yo-Class": {
+    "": {
+      "_aa": 0,
+      "_api_id": 531,
+      "_armor": 9,
+      "_asw": 0,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 0
+      } ],
+      "_evasion": 1,
+      "_firepower": 0,
+      "_hp": 24,
+      "_id": 531,
+      "_japanese_name": "潜水ヨ級",
+      "_los": 7,
+      "_luck": 5,
+      "_name": "Submarine Yo-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "せんすいヨきゅう",
+      "_speed": 5,
+      "_torpedo": 52,
+      "_type": 13
+    },
+    "Elite": {
+      "_aa": 0,
+      "_api_id": 533,
+      "_armor": 27,
+      "_asw": 0,
+      "_back": -2,
+      "_equipment": [ {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 0
+      } ],
+      "_evasion": 5,
+      "_firepower": 0,
+      "_hp": 34,
+      "_id": 533,
+      "_japanese_name": "潜水ヨ級elite",
+      "_los": 9,
+      "_luck": 10,
+      "_name": "Submarine Yo-Class",
+      "_opening_torpedo": true,
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "せんすいヨきゅうエリート",
+      "_speed": 5,
+      "_suffix": "Elite",
+      "_torpedo": 74,
+      "_type": 13
+    },
+    "Flagship": {
+      "_aa": 0,
+      "_api_id": 535,
+      "_armor": 36,
+      "_asw": 0,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 0
+      }, {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 0
+      } ],
+      "_evasion": 10,
+      "_firepower": 0,
+      "_hp": 44,
+      "_id": 535,
+      "_japanese_name": "潜水ヨ級flagship",
+      "_los": 10,
+      "_luck": 20,
+      "_name": "Submarine Yo-Class",
+      "_opening_torpedo": true,
+      "_range": 1,
+      "_rarity": 6,
+      "_reading": "せんすいヨきゅうフラグシップ",
+      "_speed": 5,
+      "_suffix": "Flagship",
+      "_torpedo": 96,
+      "_type": 13
+    }
+  },
+  "Supply Depot Princess": {
+    "": {
+      "_aa": 60,
+      "_api_id": 653,
+      "_armor": 100,
+      "_asw": 0,
+      "_back": -11,
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      } ],
+      "_firepower": 70,
+      "_hp": 600,
+      "_id": 653,
+      "_installation": true,
+      "_japanese_name": "集積地棲姫",
+      "_name": "Supply Depot Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "しゅうせきちせいき",
+      "_speed": 0,
+      "_torpedo": 88,
+      "_type": 10
+    },
+    "Damaged": {
+      "_aa": 70,
+      "_api_id": 656,
+      "_armor": 130,
+      "_asw": 0,
+      "_back": -12,
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      } ],
+      "_firepower": 130,
+      "_hp": 380,
+      "_id": 656,
+      "_installation": true,
+      "_japanese_name": "集積地棲姫-壊",
+      "_name": "Supply Depot Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "しゅうせきちせいき-かい",
+      "_speed": 0,
+      "_suffix": "- Damaged",
+      "_torpedo": 88,
+      "_type": 10
+    },
+    "Damaged II": {
+      "_aa": 80,
+      "_api_id": 657,
+      "_armor": 160,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "liberation_ace_r1", "liberation_r2" ],
+      "_battle_card_reference": "/Damaged",
+      "_cg_reference": "/Damaged",
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      } ],
+      "_firepower": 160,
+      "_hp": 430,
+      "_id": 657,
+      "_installation": true,
+      "_japanese_name": "集積地棲姫-壊",
+      "_name": "Supply Depot Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "しゅうせきちせいき-かい",
+      "_speed": 0,
+      "_suffix": "- Damaged II",
+      "_torpedo": 98,
+      "_type": 10
+    },
+    "Damaged III": {
+      "_aa": 90,
+      "_api_id": 658,
+      "_armor": 190,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "liberation_ace_r1", "liberation_ace_r2" ],
+      "_battle_card_reference": "/Damaged",
+      "_cg_reference": "/Damaged",
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 36
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      } ],
+      "_firepower": 190,
+      "_hp": 480,
+      "_id": 658,
+      "_installation": true,
+      "_japanese_name": "集積地棲姫-壊",
+      "_name": "Supply Depot Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "しゅうせきちせいき-かい",
+      "_speed": 0,
+      "_suffix": "- Damaged III",
+      "_torpedo": 118,
+      "_type": 10
+    },
+    "II": {
+      "_aa": 70,
+      "_api_id": 654,
+      "_armor": 130,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "liberation_ace_r1", "liberation_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 6
+      } ],
+      "_firepower": 90,
+      "_hp": 600,
+      "_id": 654,
+      "_installation": true,
+      "_japanese_name": "集積地棲姫",
+      "_name": "Supply Depot Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "しゅうせきちせいき",
+      "_speed": 0,
+      "_suffix": "II",
+      "_torpedo": 98,
+      "_type": 10
+    },
+    "III": {
+      "_aa": 80,
+      "_api_id": 655,
+      "_armor": 160,
+      "_asw": 0,
+      "_back": -12,
+      "_battle_card_layers": [ "liberation_ace_r1", "liberation_ace_r2" ],
+      "_battle_card_reference": "/",
+      "_cg_reference": "/",
+      "_equipment": [ {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber Ace",
+        "estimation": true,
+        "size": 24
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      }, {
+        "equipment": "Abyssal Liberation Land-based Dive Bomber",
+        "estimation": true,
+        "size": 12
+      } ],
+      "_firepower": 130,
+      "_hp": 600,
+      "_id": 655,
+      "_installation": true,
+      "_japanese_name": "集積地棲姫",
+      "_name": "Supply Depot Princess",
+      "_range": 3,
+      "_rarity": 8,
+      "_reading": "しゅうせきちせいき",
+      "_speed": 0,
+      "_suffix": "III",
+      "_torpedo": 118,
+      "_type": 10
+    }
+  },
+  "Torpedo Cruiser Chi-Class": {
+    "": {
+      "_aa": 10,
+      "_api_id": 508,
+      "_armor": 22,
+      "_asw": 30,
+      "_back": -1,
+      "_equipment": [ {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 2
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 2
+      }, {
+        "equipment": "21inch Torpedo Early Model",
+        "size": 2
+      } ],
+      "_evasion": 18,
+      "_firepower": 18,
+      "_hp": 48,
+      "_id": 508,
+      "_japanese_name": "雷巡チ級",
+      "_los": 4,
+      "_luck": 5,
+      "_name": "Torpedo Cruiser Chi-Class",
+      "_range": 2,
+      "_rarity": 4,
+      "_reading": "らいじゅんチきゅう",
+      "_speed": 10,
+      "_torpedo": 48,
+      "_type": 4
+    },
+    "Elite": {
+      "_aa": 20,
+      "_api_id": 521,
+      "_armor": 34,
+      "_asw": 40,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 2
+      }, {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 2
+      }, {
+        "equipment": "21inch Torpedo Late Model",
+        "size": 2
+      } ],
+      "_evasion": 30,
+      "_firepower": 35,
+      "_hp": 50,
+      "_id": 521,
+      "_japanese_name": "雷巡チ級elite",
+      "_los": 10,
+      "_luck": 10,
+      "_name": "Torpedo Cruiser Chi-Class",
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "らいじゅんチきゅうエリート",
+      "_speed": 10,
+      "_suffix": "Elite",
+      "_torpedo": 72,
+      "_type": 4
+    },
+    "Flagship": {
+      "_aa": 30,
+      "_api_id": 559,
+      "_armor": 60,
+      "_asw": 50,
+      "_back": -3,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 1
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 1
+      }, {
+        "equipment": "High-speed Abyssal Torpedo",
+        "size": 1
+      } ],
+      "_evasion": 55,
+      "_firepower": 50,
+      "_hp": 70,
+      "_id": 559,
+      "_japanese_name": "雷巡チ級flagship",
+      "_los": 15,
+      "_luck": 30,
+      "_name": "Torpedo Cruiser Chi-Class",
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "らいじゅんチきゅうフラグシップ",
+      "_speed": 10,
+      "_suffix": "Flagship",
+      "_torpedo": 120,
+      "_type": 4
+    }
+  },
+  "Transport Ship Wa-Class": {
+    "": {
+      "_aa": 0,
+      "_api_id": 513,
+      "_armor": 10,
+      "_asw": 0,
+      "_back": -1,
+      "_equipment": [],
+      "_evasion": 1,
+      "_firepower": 0,
+      "_hp": 70,
+      "_id": 513,
+      "_japanese_name": "輸送ワ級",
+      "_los": 0,
+      "_luck": 1,
+      "_name": "Transport Ship Wa-Class",
+      "_range": 0,
+      "_rarity": 1,
+      "_reading": "ゆそうワきゅう",
+      "_speed": 5,
+      "_torpedo": 0,
+      "_type": 15
+    },
+    "Elite": {
+      "_aa": 0,
+      "_api_id": 526,
+      "_armor": 35,
+      "_asw": 0,
+      "_back": -2,
+      "_battle_card_extension": "png",
+      "_equipment": [ {
+        "equipment": "5inch Single Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "3inch Single High-angle Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "3inch Single High-angle Gun Mount",
+        "size": 0
+      } ],
+      "_evasion": 6,
+      "_firepower": 15,
+      "_hp": 80,
+      "_id": 526,
+      "_japanese_name": "輸送ワ級elite",
+      "_los": 0,
+      "_luck": 10,
+      "_name": "Transport Ship Wa-Class",
+      "_range": 1,
+      "_rarity": 4,
+      "_reading": "ゆそうワきゅうエリート",
+      "_speed": 5,
+      "_suffix": "Elite",
+      "_torpedo": 0,
+      "_type": 15
+    },
+    "Flagship": {
+      "_aa": 40,
+      "_api_id": 558,
+      "_armor": 65,
+      "_asw": 0,
+      "_back": -3,
+      "_equipment": [ {
+        "equipment": "6inch Twin Rapid Fire Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 0
+      }, {
+        "equipment": "5inch Single Anti-Aircraft Gun Mount",
+        "size": 0
+      } ],
+      "_evasion": 10,
+      "_firepower": 55,
+      "_hp": 130,
+      "_id": 558,
+      "_japanese_name": "輸送ワ級flagship",
+      "_los": 10,
+      "_luck": 20,
+      "_name": "Transport Ship Wa-Class",
+      "_range": 2,
+      "_rarity": 6,
+      "_reading": "ゆそうワきゅうフラグシップ",
+      "_speed": 5,
+      "_suffix": "Flagship",
+      "_torpedo": 0,
+      "_type": 15
+    }
+  }
+}
