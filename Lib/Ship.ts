@@ -1,28 +1,20 @@
 /// <reference path="../typings/node/node.d.ts" />
-/// <reference path="../typings/xml2js/xml2js.d.ts" />
 /// <reference path="../typings/lodash/lodash.d.ts" />
 
 import * as fs from "fs";
-import * as xml2js from "xml2js";
 import * as _ from "lodash";
 import * as Server from "./Server";
 export const apiStart2 = require("./Data/api_start2.json");
 export const types = require("./Data/ShipTypes.json");
+export const jp2En: Dict = require("./Data/Ships.json");
+export const jp2EnEnemy: Dict = require("./Data/Enemy.json");
 
-type Dict = { [key: string]: string }
+type Dict = { [key: string]: string };
 
 export const en2Jp: Dict = {};
-export const jp2En: Dict = {};
-
-xml2js.parseString(
-    fs.readFileSync(`${__dirname}/KanColleViewer-Translations/Ships.xml`).toString(),
-    (_: any, r: any) => {
-        for (const s of r.Ships.Ship) {
-            en2Jp[s["TR-Name"][0]] = s["JP-Name"][0];
-            jp2En[s["JP-Name"][0]] = s["TR-Name"][0];
-        }
-    }
-);
+for (const en in jp2En) {
+    en2Jp[jp2En[en]] = en;
+}
 
 export const names = Object.keys(en2Jp);
 
@@ -125,16 +117,16 @@ export class Name {
         "Ro-500": { name: "U-511", remodel: 2 },
         "Ryuuhou": { name: "Taigei", remodel: 1 },
         "Ryuuhou Kai": { name: "Taigei", remodel: 2 },
-        "Verniy": { name: "Hibiki", remodel: 2 },
+        "Верный": { name: "Hibiki", remodel: 2 },
         "Italia": { name: "Littorio", remodel: 1 },
         "Chitose A": { name: "Chitose", remodel: 2 },
-        "Chitose CVL": { name: "Chitose", remodel: 3 },
-        "Chitose CVL Kai": { name: "Chitose", remodel: 4 },
-        "Chitose CVL Kai2": { name: "Chitose", remodel: 5 },
+        "Chitose Carrier": { name: "Chitose", remodel: 3 },
+        "Chitose Carrier Kai": { name: "Chitose", remodel: 4 },
+        "Chitose Carrier Kai Ni": { name: "Chitose", remodel: 5 },
         "Chiyoda A": { name: "Chiyoda", remodel: 2 },
-        "Chiyoda CVL": { name: "Chiyoda", remodel: 3 },
-        "Chiyoda CVL Kai": { name: "Chiyoda", remodel: 4 },
-        "Chiyoda CVL Kai2": { name: "Chiyoda", remodel: 5 },
+        "Chiyoda Carrier": { name: "Chiyoda", remodel: 3 },
+        "Chiyoda Carrier Kai": { name: "Chiyoda", remodel: 4 },
+        "Chiyoda Carrier Kai Ni": { name: "Chiyoda", remodel: 5 },
     };
 
     public name: string;
@@ -152,19 +144,19 @@ export class Name {
             this.remodel = exc.remodel;
             return;
         }
-        let t = fullName.match(/(.*) Kai2 A/);
+        let t = fullName.match(/(.*) Kai Ni A/);
         if (t) {
             this.name = t[1];
             this.remodel = 3;
             return;
         }
-        t = fullName.match(/(.*) Kai2 B/);
+        t = fullName.match(/(.*) Kai Ni B/);
         if (t) {
             this.name = t[1];
             this.remodel = 3;
             return;
         }
-        t = fullName.match(/(.*) Kai2/);
+        t = fullName.match(/(.*) Kai Ni/);
         if (t) {
             this.name = t[1];
             this.remodel = 2;
@@ -176,13 +168,13 @@ export class Name {
             this.remodel = 1;
             return;
         }
-        t = fullName.match(/(.*) Drei/);
+        t = fullName.match(/(.*) drei/);
         if (t) {
             this.name = t[1];
             this.remodel = 3;
             return;
         }
-        t = fullName.match(/(.*) Zwei/);
+        t = fullName.match(/(.*) zwei/);
         if (t) {
             this.name = t[1];
             this.remodel = 2;
@@ -192,16 +184,16 @@ export class Name {
         this.remodel = 0;
     }
 
-    public fullName(useSpace: boolean = true): string {
+    public fullName(useSpace: boolean = true, useNi = true): string {
         const exc = this.exception();
         if (exc) {
             return useSpace ? exc : exc.replace(/\ /g, "");
         } else {
-            const kai = this.toKai();
+            const kai = this.toKai(useNi);
             if (useSpace) {
-                return kai !== "" ? this.name + " " + this.toKai() : this.name;
+                return kai !== "" ? this.name + " " + this.toKai(useNi) : this.name;
             } else {
-                return kai !== "" ? this.name.replace(/\ /g, "_") + this.toKai().replace(/\ /g, "") : this.name.replace(/\ /g, "_");
+                return kai !== "" ? this.name.replace(/\ /g, "_") + this.toKai(useNi).replace(/\ /g, "") : this.name.replace(/\ /g, "_");
             }
         }
     }
@@ -225,19 +217,19 @@ export class Name {
         return undefined;
     }
 
-    public toKai(): string {
+    public toKai(useNi = true): string {
         if (this.name === "Bismarck" || this.name === "Z1" || this.name === "Z3") {
-            return ["", "Kai", "Zwei", "Drei"][this.remodel];
+            return ["", "Kai", "zwei", "drei"][this.remodel];
         }
         if (this.name === "Kasumi" && this.remodel === 3) {
-            return "Kai2 B";
+            return useNi ? "Kai Ni B" : "Kai2 B";
         }
         for (const [exc, s] of _.pairs(Name.exceptions)) {
             if (s.name === this.name && s.remodel === this.remodel) {
-                return exc;
+                return useNi ? exc : exc.replace("Kai Ni", "Kai2");
             }
         }
-        return ["", "Kai", "Kai2", "Kai2 A"][this.remodel];
+        return ["", "Kai", useNi ? "Kai Ni" : "Kai2", useNi ? "Kai Ni A" : "Kai2 A"][this.remodel];
     }
 
 }
@@ -255,12 +247,12 @@ export function baseNames(): string[] {
 export class Line {
     
     private static crKeys: number[] = [
-        608614, 611089, 612644, 615991, 624682, 632529, 636124, 637891, 641202, 643709,
-        653360, 658681, 663154, 670271, 676218, 685707, 688376, 697117, 703266, 704567,
-        711864, 714839, 721252, 729643, 739348, 741591, 743682, 747913, 751020, 760519,
-        764724, 770737, 774130, 780531, 787516, 791199, 800646, 803933, 809114, 816701,
-        826054, 828189, 833136, 838541, 843764, 853221, 858988, 868253, 876444, 880371,
-        883432, 886237, 889510, 896841
+        604825, 607300, 613847, 615318, 624009, 631856, 635451, 637218, 640529, 643036,
+        652687, 658008, 662481, 669598, 675545, 685034, 687703, 696444, 702593, 703894,
+        711191, 714166, 720579, 728970, 738675, 740918, 743009, 747240, 750347, 759846,
+        764051, 770064, 773457, 779858, 786843, 790526, 799973, 803260, 808441, 816028,
+        825381, 827516, 832463, 837868, 843091, 852548, 858315, 867580, 875771, 879698,
+        882759, 885564, 888837, 896168
     ];
 
     private static getFileName(ship_api_id: number, voice_line_id: number): number {

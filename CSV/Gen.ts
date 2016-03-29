@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as _ from "lodash";
 import * as Ship from "../Lib/Ship";
-const enemyData = require("../Lua/Output/enemy.json");
+const enemyData = require("../Lib/Data/EnemyData");
 
 class Log {
 

@@ -737,7 +737,8 @@ local function object_or_array(self, T, etc)
             maximum_number_key = key
          end
       else
-         self:onEncodeError("can't encode table with a key of type " .. type(key), etc)
+         table.insert(string_keys, tostring(key))
+         --self:onEncodeError("can't encode table with a key of type " .. type(key), etc)
       end
    end
 
