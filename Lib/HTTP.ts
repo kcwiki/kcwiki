@@ -1,9 +1,4 @@
-﻿/// <reference path="../typings/node/node.d.ts" />
-/// <reference path="../typings/request/request.d.ts" />
-/// <reference path="../typings/async/async.d.ts" />
-/// <reference path="../typings/lodash/lodash.d.ts" />
-
-import * as http from "http";
+﻿import * as http from "http";
 import * as url from "url";
 import * as request from "request";
 import * as async from "async";
@@ -22,7 +17,12 @@ export class Fetcher {
         this.ignoreErrors = ignoreErrors;
     }
 
-    public fetchAll = (next: any) => {
+    private requests: Request[];
+    private errors: Request[];
+    private processRequest: ProcessRequest;
+    private ignoreErrors: boolean;
+
+    public fetchAll: Function = (next: any): void => {
         async.each(this.requests, this.fetch, () => {
             if (this.errors.length > 0) {
                 this.requests = [];
@@ -36,11 +36,6 @@ export class Fetcher {
             }
         });
     };
-
-    private requests: Request[];
-    private errors: Request[];
-    private processRequest: ProcessRequest;
-    private ignoreErrors: boolean;
 
     private fetch = (r: Request, next: Next): void => {
         if (!r.url) {
@@ -80,10 +75,11 @@ export class Fetcher {
 
 export class GroupFetcher {
 
+    public ignoreErrors: boolean;
+
     private errors: number;
     private groups: Request[][];
     private processRequest: ProcessRequest;
-    public ignoreErrors: boolean;
 
     constructor(requests: Request[], nPar: number, processRequest: ProcessRequest) {
         this.errors = 0;
@@ -91,10 +87,6 @@ export class GroupFetcher {
         this.processRequest = processRequest;
         this.ignoreErrors = false;
     }
-
-    private fetchGroup = (group: Request[], next: Next): void => {
-        new Fetcher(group, this.processRequest, this.ignoreErrors).fetchAll(next);
-    };
 
     public fetch(next: Next): void {
         async.eachSeries(this.groups, this.fetchGroup, (err: any) => {
@@ -105,6 +97,10 @@ export class GroupFetcher {
             next(this.errors);
         });
     }
+
+    private fetchGroup = (group: Request[], next: Next): void => {
+        new Fetcher(group, this.processRequest, this.ignoreErrors).fetchAll(next);
+    };
 
 }
 
@@ -216,7 +212,7 @@ export class UpdateChecker {
             });
 
             // sort alphabetically
-            // TODO: might move UpdateChecker to a module and sort by ship/line ids using Ship 
+            // todo: might move UpdateChecker to a module and sort by ship/line ids using Ship 
             for (const t of times) {
                 t.ships = sortObject(t.ships);
                 sortSubObjects(t.ships);

@@ -34,7 +34,7 @@
   </Item>
   <Item>
     <JP-Name>12.7cm連装砲B型改二</JP-Name>
-    <TR-Name>12.7cm Twin Gun Mount Model B Kai 2</TR-Name>
+    <TR-Name>12.7cm Twin Gun Mount Model B Kai2</TR-Name>
   </Item>
   <Item>
     <JP-Name>12.7cm連装高角砲</JP-Name>
@@ -94,7 +94,7 @@
   </Item>
   <Item>
     <JP-Name>15m二重測距儀+21号電探改二</JP-Name>
-    <TR-Name>15m Duplex Rangefinder + Type 21 Radar Kai Ni</TR-Name>
+    <TR-Name>15m Duplex Rangefinder + Type 21 Radar Kai2</TR-Name>
   </Item>
   <Item>
     <JP-Name>16inch三連装砲 Mk.7</JP-Name>
@@ -233,8 +233,8 @@
     <TR-Name>Daihatsu Landing Craft</TR-Name>
   </Item>
   <Item>
-    <JP-Name>大発動艇(八九式中戦車&陸戦隊)</JP-Name>
-    <TR-Name>Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)</TR-Name>
+    <JP-Name>大発動艇(八九式中戦車&amp;陸戦隊)</JP-Name>
+    <TR-Name>Daihatsu Landing Craft (Type 89 Medium Tank &amp; Landing Force)</TR-Name>
   </Item>
   <Item>
     <JP-Name>ドラム缶(輸送用)</JP-Name>
@@ -314,7 +314,7 @@
   </Item>
   <Item>
     <JP-Name>22号対水上電探改四</JP-Name>
-    <TR-Name>Type 22 Surface Radar Kai 4</TR-Name>
+    <TR-Name>Type 22 Surface Radar Kai4</TR-Name>
   </Item>
   <Item>
     <JP-Name>32号対水上電探</JP-Name>
@@ -418,7 +418,7 @@
   </Item>
   <Item>
     <JP-Name>紫電改二</JP-Name>
-    <TR-Name>Shiden Kai 2</TR-Name>
+    <TR-Name>Shiden Kai2</TR-Name>
   </Item>
   <Item>
     <JP-Name>震電改</JP-Name>

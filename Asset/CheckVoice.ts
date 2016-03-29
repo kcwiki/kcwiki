@@ -4,9 +4,9 @@ import * as HTTP from "../Lib/HTTP";
 import * as Ship from "../Lib/Ship";
 
 if (process.argv[2] === "diff") {
-    
+
     const excludeShips = process.argv[3] ? process.argv.slice(3).filter((v) => v.length > 0) : [];
-    
+
     const responsesCurr = require(`${__dirname}/Data/Voice/Responses.json`);
     const responsesPrev = require(`${__dirname}/Data/Voice/ResponsesPrev.json`);
     for (const [ship, lines] of _.pairs(responsesCurr)) {
@@ -39,7 +39,7 @@ const requests: HTTP.Request[] = [];
 
 for (const name of ships) {
     for (const [lineName, n] of _.pairs(Ship.Line.names)) {
-        if (!secretaryOnly || n === 2 || n === 3 || n === 4) {
+        if ((!secretaryOnly || n === 2 || n === 3 || n === 4) && Ship.en2Stat(name)) {
             const line = new Ship.Line(new Ship.Name(name), lineName);
             requests.push({ data: [name, lineName], method: "HEAD", url: line.url() });
         }

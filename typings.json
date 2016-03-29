@@ -1,0 +1,12 @@
+{
+  "ambientDependencies": {
+    "async": "registry:dt/async#1.4.2+20160316155526",
+    "cheerio": "registry:dt/cheerio#0.17.0+20160316155526",
+    "form-data": "registry:dt/form-data#0.0.0+20160316155526",
+    "lodash": "registry:dt/lodash#3.10.0+20160327004937",
+    "mkdirp": "registry:dt/mkdirp#0.3.0+20160317120654",
+    "node": "registry:dt/node#4.0.0+20160319033040",
+    "request": "registry:dt/request#0.0.0+20160316155526",
+    "xml2js": "registry:dt/xml2js#0.0.0+20160317120654"
+  }
+}

@@ -1,5 +1,3 @@
-/// <reference path="../typings/node/node.d.ts" />
-
 import * as child_process from "child_process";
 const api = require("../Lib/Data/api_start2.json");
 

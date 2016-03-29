@@ -1,7 +1,3 @@
-/// <reference path="../typings/node/node.d.ts" />
-/// <reference path="../typings/lodash/lodash.d.ts" />
-
-import * as fs from "fs";
 import * as _ from "lodash";
 import * as Server from "./Server";
 export const apiStart2 = require("./Data/api_start2.json");
@@ -184,7 +180,7 @@ export class Name {
         this.remodel = 0;
     }
 
-    public fullName(useSpace: boolean = true, useNi = true): string {
+    public fullName(useSpace: boolean = true, useNi: boolean = true): string {
         const exc = this.exception();
         if (exc) {
             return useSpace ? exc : exc.replace(/\ /g, "");
@@ -217,7 +213,7 @@ export class Name {
         return undefined;
     }
 
-    public toKai(useNi = true): string {
+    public toKai(useNi: boolean = true): string {
         if (this.name === "Bismarck" || this.name === "Z1" || this.name === "Z3") {
             return ["", "Kai", "zwei", "drei"][this.remodel];
         }
@@ -245,24 +241,26 @@ export function baseNames(): string[] {
 }
 
 export class Line {
-    
+
+    public static names: { [name: string]: number } = require("./Data/ShipLines.json");
+
     private static crKeys: number[] = [
         604825, 607300, 613847, 615318, 624009, 631856, 635451, 637218, 640529, 643036,
         652687, 658008, 662481, 669598, 675545, 685034, 687703, 696444, 702593, 703894,
         711191, 714166, 720579, 728970, 738675, 740918, 743009, 747240, 750347, 759846,
         764051, 770064, 773457, 779858, 786843, 790526, 799973, 803260, 808441, 816028,
         825381, 827516, 832463, 837868, 843091, 852548, 858315, 867580, 875771, 879698,
-        882759, 885564, 888837, 896168
+        882759, 885564, 888837, 896168,
     ];
-
-    private static getFileName(ship_api_id: number, voice_line_id: number): number {
-        return 100000 + 17 * (ship_api_id + 7) * (Line.crKeys[voice_line_id] - Line.crKeys[voice_line_id - 1]) % 99173;
-    }
-
-    public static names: { [name: string]: number } = require("./Data/ShipLines.json");
 
     public shipName: Name;
     public line: string;
+
+
+
+    private static getFileName(shipApiId: number, voiceLineId: number): number {
+        return 100000 + 17 * (shipApiId + 7) * (Line.crKeys[voiceLineId] - Line.crKeys[voiceLineId - 1]) % 99173;
+    }
 
     constructor(shipName: Name, line: string) {
         if (line === "Air_Battle") {

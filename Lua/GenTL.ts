@@ -1,5 +1,3 @@
-/// <reference path="../typings/node/node.d.ts" />
-
 import * as fs from "fs";
 
 const shipData = require("../Lib/Data/ShipData");
@@ -7,7 +5,9 @@ const enemyData = require("../Lib/Data/EnemyData");
 const equipmentData = require("../Lib/Data/EquipmentData");
 const enemyEquipmentData = require("../Lib/Data/EnemyEquipmentData");
 
-const shipTL = {}, enemyTL = {}, equipmentTL = {}, enemyEquipmentTL = {};
+type Dict = { [key: string]: string };
+
+const shipTL: Dict = {}, enemyTL: Dict = {}, equipmentTL: Dict = {}, enemyEquipmentTL: Dict = {};
 
 for (const ship in shipData) {
     for (const form in shipData[ship]) {
@@ -21,7 +21,7 @@ for (const ship in shipData) {
 
 for (const ship in enemyData) {
     for (const form in enemyData[ship]) {
-        const shipTable = enemyData[ship][form]; 
+        const shipTable = enemyData[ship][form];
         if (shipTable._japanese_name) {
             const name = shipTable._japanese_name.replace("elite", "").replace("flagship", "");
             if (! enemyTL[name]) {
@@ -46,17 +46,30 @@ for (const eq in enemyEquipmentData) {
     }
 }
 
-function xmlItems(tlTable, tag) {
-    var result = ""
+function xmlItems(tlTable: Dict, tag: string): string {
+    let result = "";
     for (const jpName in tlTable) {
-        result += `  <${tag}>\n    <JP-Name>${jpName}</JP-Name>\n    <TR-Name>${tlTable[jpName]}</TR-Name>\n  </${tag}>\n`;
+        const en = tlTable[jpName]
+                .replace("Kai Ni", "Kai2")
+                .replace("Kai 2", "Kai2")
+                .replace("Kai 3", "Kai3")
+                .replace("Kai 4", "Kai4")
+                .replace("Chitose Carrier", "Chitose CVL")
+                .replace("Chiyoda Carrier", "Chiyoda CVL")
+                .replace("zwei", "Zwei")
+                .replace("drei", "Drei")
+                .replace("Junyou", "Jun'you")
+                .replace("Верный", "Verniy")
+                .replace("&", "&amp;"),
+            jp = jpName.replace("&", "&amp;");
+        result += `  <${tag}>\n    <JP-Name>${jp}</JP-Name>\n    <TR-Name>${en}</TR-Name>\n  </${tag}>\n`;
     }
     return result;
 }
 
 fs.writeFileSync("Lib/Data/Ships.xml", `<?xml version="1.0" encoding="utf-8"?>\n<Ships Version="">\n${xmlItems(shipTL, "Ship")}${xmlItems(enemyTL, "Ship")}</Ships>\n`);
 fs.writeFileSync("Lib/Data/Equipment.xml", `<?xml version="1.0" encoding="utf-8"?>\n<Equipment Version="">\n${xmlItems(equipmentTL, "Item")}${xmlItems(enemyEquipmentTL, "Item")}</Equipment>\n`);
-fs.writeFileSync("Lib/Data/Ships.json", JSON.stringify(shipTL, null, 2) + "\n");
-fs.writeFileSync("Lib/Data/Enemy.json", JSON.stringify(enemyTL, null, 2) + "\n");
-fs.writeFileSync("Lib/Data/Equipment.json", JSON.stringify(equipmentTL, null, 2) + "\n");
-fs.writeFileSync("Lib/Data/EnemyEquipment.json", JSON.stringify(enemyEquipmentTL, null, 2) + "\n");
+fs.writeFileSync("Lib/Data/Ships.json", JSON.stringify(shipTL, undefined, 2) + "\n");
+fs.writeFileSync("Lib/Data/Enemy.json", JSON.stringify(enemyTL, undefined, 2) + "\n");
+fs.writeFileSync("Lib/Data/Equipment.json", JSON.stringify(equipmentTL, undefined, 2) + "\n");
+fs.writeFileSync("Lib/Data/EnemyEquipment.json", JSON.stringify(enemyEquipmentTL, undefined, 2) + "\n");

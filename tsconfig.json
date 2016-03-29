@@ -1,16 +1,20 @@
 {
     "compilerOptions": {
-        "target": "es6",
+        "target": "es5",
         "module": "commonjs",
         "noImplicitAny": true
     },
     "files": [
+        "typings/main.d.ts",
         "Lib/HTTP.ts",
         "Lib/Server.ts",
         "Lib/Ship.ts",
         "Asset/CheckCG.ts",
         "Asset/CheckVoice.ts",
+        "Asset/CheckVoiceHourly.ts",
         "Asset/GetLibrarySwf.ts",
-        "CSV/Gen.ts"
+        "CSV/Gen.ts",
+        "Lua/Get.ts",
+        "Lua/GenTL.ts"
     ]
 }

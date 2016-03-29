@@ -1,8 +1,11 @@
 # Requirements
 
 * If on Windows: https://desktop.github.com/
-* https://nodejs.org/ & typescript (duh): `npm install typescript -g; npm install tsd -g; npm install; tsd install`
-* `git submodule update`
+* https://nodejs.org/ & typescript (duh): `npm install typescript -g; npm install typings -g; npm install; typings install --ambient; tsc`
+
+# Lib/Data
+
+* `api_start2.json`, translations, stats and other data are stored here. `api_start2.json` can be updated automaticlly using a proxy (see Proxy section), translations and stats can be generated from Lua modules (see Lua section). 
 
 # Assets
 
@@ -10,33 +13,31 @@
 
 Requires https://www.free-decompiler.com/flash/ (with Java) for SWF extraction.
 
-* Get `Lib/Data/api_start2.json` first (or use the old one).
-* Make sure `Lib/KanColleViewer-Translations/Ships.xml` is synced with `Lib/Data/api_start2.json` (or names for new ships will be untranslated).
-* Check ship/enemy/seasonal ship/unknown ship SWF updates (write `Asset/Data/CG/*`): `./ts Asset/CheckCG` for latest update or `./ts Asset/CheckCG <update-number>` for previous update (previous updates get overridden by new updates).
+* Check ship/enemy/seasonal ship/unknown ship SWF updates (write `Asset/Data/CG/*`): `node Asset/CheckCG` for latest update or `node Asset/CheckCG <update-number>` for previous update (previous updates get overridden by new updates).
 * Check `Asset/Data/CG/*` files.
 * Download updated SWF and extract CG for specified update (in `Asset/Output/CG/*`): `./Asset/GetCG`.
-* To download all library SWF files (include seasonal cards): `./ts Asset/GetLibrarySwf` (write `Asset/Output/LibrarySwf/*`).
+* To download all library SWF files (include seasonal cards): `node Asset/GetLibrarySwf` (write `Asset/Output/LibrarySwf/*`).
 
 ## Voice
 
 Requires https://www.ffmpeg.org/ for `mp3 -> ogg` conversion.
 
 * For ship voice lines (enemy lines not supported), same, but use `Voice` instead of `CG` (`Asset/Output/{mp3,ogg}/*` generated).
-  * Use `./ts Asset/CheckVoice <update-number> secretary` to check secretary lines only.
-  * Use `./ts Asset/CheckVoice <update-number> <secretary-flag> <ship-names>...` to only check listed ships.
-  * Use `./ts Asset/CheckVoice diff` (or `./ts Asset/CheckVoice diff <excluded-ships>...`) to check updates based on file sizes, rather than modification times, can be useful on file migrations, like on 2016/02/10 (`Asset/Data/Voice/ResponsesPrev.json` should be present, previous responses are stored in [commits](https://github.com/gakada/KCTools/commits/master)).
-* Check ships with hourlies: `./ts Asset/CheckVoiceHourly` (write `Asset/Output/hourlies.json`).
+  * Use `node Asset/CheckVoice <update-number> secretary` to check secretary lines only.
+  * Use `node Asset/CheckVoice <update-number> <secretary-flag> <ship-names>...` to only check listed ships.
+  * Use `node Asset/CheckVoice diff` (or `node Asset/CheckVoice diff <excluded-ships>...`) to check updates based on file sizes, rather than modification times, can be useful on file migrations, like on 2016/02/10 (`Asset/Data/Voice/ResponsesPrev.json` should be present, previous responses are stored in [commits](https://github.com/gakada/KCTools/commits/master)).
+* Check ships with hourlies: `node Asset/CheckVoiceHourly` (write `Asset/Data/Hourlies.json`).
 
 # CSV stats
 
-Requires `Lua/Output/enemy.json` for enemy names translations (not supported by `KanColleViewer-Translations`).
-
-* `./ts CSV/Gen` to generate CSV files in `CSV` directory (ship and enemy stats from `api_start2`).
+* `node CSV/Gen` to generate CSV files in `CSV` directory (ship and enemy stats from `api_start2`).
 
 # Lua
 
-* Download Lua modules: `./ts Lua/Get` for ship modules, `./ts Lua/Get enemy` for enemy modules (write `Lua/Output/Lua/*`).
-* Convert to JSON: `lua Lua/Convert.lua > Lua/Output/Ships.json`, `lua Lua/Convert.lua enemy > Lua/Output/Enemy.json`.
+* Keep JSON files in `Lua/Data/` updated.
+* Download Lua data modules: `node Lua/Get ship; node Lua/Get enemy; node Lua/Get equipment; node Lua/Get enemy_equipment` (write `Lua/Output/Lua/*`).
+* Update JSON: `lua.exe Lua/Convert.lua ship > Lib/Data/ShipData.json; lua.exe Lua/Convert.lua enemy > Lib/Data/EnemyData.json; lua.exe Lua/Convert.lua equipment > Lib/Data/Equipment.json; lua.exe Lua/Convert.lua enemy_equipment > Lib/Data/EnemyEquipment.json`.
+* Generate JSON and XML translations in `Lib/Data/`: `node Lua/GenTL`.
 * Check JSON vs `api_start2`, `port`, etc.: TBD.
 
 # Wiki

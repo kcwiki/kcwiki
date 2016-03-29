@@ -22,7 +22,9 @@ export function writeShipsCsv(): void {
     log.write("name,api_name,api_id,api_sortno,api_filename,api_version,swf");
     for (const name of Ship.names) {
         const s = Ship.en2Stat(name), s2 = Ship.en2Stat2(name);
-        log.write(`${name},${Ship.en2Jp[name]},${s.api_id},${s.api_sortno},${s2.api_filename},${s2.api_version},${Ship.en2Swf(name)}`);
+        if (s && s2) {
+            log.write(`${name},${Ship.en2Jp[name]},${s.api_id},${s.api_sortno},${s2.api_filename},${s2.api_version},${Ship.en2Swf(name)}`);
+        }
     }
 }
 
@@ -67,17 +69,19 @@ export function writeShipStatsCsv(): void {
     log.write(h);
     for (const name of Ship.names) {
         const s = Ship.en2Stat(name);
-        let l = name;
-        for (const [apiStat, stat] of _.pairs(api2Stats)) {
-            if (typeof stat === "object") {
-                for (let i = 0; i < stat.length; ++i) {
-                    l += `,${s[apiStat][i]}`;
+        if (s) {
+            let l = name;
+            for (const [apiStat, stat] of _.pairs(api2Stats)) {
+                if (typeof stat === "object") {
+                    for (let i = 0; i < stat.length; ++i) {
+                        l += `,${s[apiStat][i]}`;
+                    }
+                } else {
+                    l += `,${s[apiStat]}`;
                 }
-            } else {
-                l += `,${s[apiStat]}`;
             }
+            log.write(l);
         }
-        log.write(l);
     }
 }
 
@@ -85,7 +89,10 @@ export function writeBaseShipsCsv(): void {
     const log = new Log(`${__dirname}/BaseShipNames.csv`);
     log.write("name,api_name,api_yomi");
     for (const name of Ship.baseNames()) {
-        log.write(`${name},${Ship.en2Jp[name]},${Ship.en2Stat(name).api_yomi}`);
+        const s = Ship.en2Stat(name);
+        if (s) {
+            log.write(`${name},${Ship.en2Jp[name]},${s.api_yomi}`);
+        }
     }
 }
 
@@ -94,8 +101,11 @@ export function writeShipVoiceLinesCsv(): void {
     log.write("ship,line,url");
     for (const name of Ship.names) {
         for (const lineName in Ship.Line.names) {
-            const line = new Ship.Line(new Ship.Name(name), lineName);
-            log.write(`${name},${lineName},${line.url()}`);
+            const s = Ship.en2Stat(name);
+            if (s) {
+                const line = new Ship.Line(new Ship.Name(name), lineName);
+                log.write(`${name},${lineName},${line.url()}`);
+            }
         }
     }
 }

@@ -1,7 +1,3 @@
-/// <reference path="../typings/node/node.d.ts" />
-/// <reference path="../typings/cheerio/cheerio.d.ts" />
-/// <reference path="../typings/mkdirp/mkdirp.d.ts" />
-
 import * as fs from "fs";
 import * as cheerio from "cheerio";
 import * as mkdirp from "mkdirp";
@@ -11,7 +7,7 @@ type Link = { data: string, url: string };
 
 const list = process.argv[2] || "ship";
 
-const lists = {
+const lists: { [key: string]: string } = {
     "ship": "WikiaShipModules",
     "enemy": "WikiaEnemyModules",
     "equipment": "WikiaEquipmentModules",
@@ -19,7 +15,7 @@ const lists = {
 };
 
 const names = require(`./Data/${lists[list]}`);
-const links = [];
+const links: Link[] = [];
 
 for (const name of names) {
     links.push({ data: name, url: `http://kancolle.wikia.com/wiki/Module:${name}` });
