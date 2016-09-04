@@ -5,7 +5,7 @@ import * as Ship from "../Lib/Ship";
 
 const requests: HTTP.Request[] = Ship.mstShipgraphShips.map((s: any) => {
     let name = Ship.mst_shipgraph_ship2Jp(s);
-    name = Ship.jp2En[name]
+    name = Ship.jp2En[name] && `${Ship.jp2En[name]} ${s.api_id}`
         || Ship.jp2EnEnemy[name] && `${Ship.jp2EnEnemy[name]} ${s.api_id}`
         || name && `${name} ${s.api_id}`
         || `${s.api_id}`;

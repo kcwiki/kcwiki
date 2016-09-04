@@ -4,7 +4,7 @@ import * as request from "request";
 import * as async from "async";
 import * as _ from "lodash";
 
-export type Request = { method?: string, url: string, data: any };
+export type Request = { method?: string, url: string, data: any, headers?: any };
 export type Next = (_error?: any) => void;
 export type ProcessRequest = (_link: Request, _body: any, _next: any, _response?: http.IncomingMessage) => void;
 
@@ -44,7 +44,7 @@ export class Fetcher {
         }
         if (r.method) {
             const u = url.parse(r.url);
-            const options = { hostname: u.hostname, method: r.method, path: u.path, port: parseInt(u.port) };
+            const options = { hostname: u.hostname, method: r.method, path: u.path, port: parseInt(u.port), headers: r.headers };
             const req = http.request(options, (res) => { this.processRequest(r, res, next, res); });
             req.on("error", (err: any) => {
                 if (!this.ignoreErrors) {

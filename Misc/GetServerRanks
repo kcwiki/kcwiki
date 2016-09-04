@@ -8,21 +8,19 @@ mkdir -p $dir/Output
 
 echo "fetching data from senka.me..."
 
-for i in `seq ${1-1} ${2-20}` ; do
+for i in `seq ${2-1} ${3-20}` ; do
   if [ ! -s $dir/Output/$i ]; then
-    echo "  server #$i"
+    printf "  server #$i"
     curl -s https://www.senka.me/server/$i/ > $dir/Output/$i
     if grep --quiet cloudflare $dir/Output/$i ; then
-      echo "    cloudflared"
+      echo ": cloudflared"
       rm $dir/Output/$i
-      echo "  waiting..."
       sleep 5
     elif [ ! -s $dir/Output/$i ]; then
-      echo "    dropped"
+      echo ": dropped"
       rm $dir/Output/$i
     else
-      echo "    done"
-      echo "  waiting..."
+      echo ": done, `grep -o -P -m 1 '2016年\d+月\d+日 \d+時' $dir/Output/$i`"
       sleep ${1:-5}
     fi
   fi
@@ -57,19 +55,21 @@ var servers = [
 ];
 
 var serverNames = [
-    "Yokosuka", "Kure", "Sasebo", "Maizuru", "Ominato", "Truk", "Lingga", "Rabaul", "Shortland", "Buin",
-    "Tawi-Tawi", "Palau", "Brunei", "Hitokappu", "Paramushir", "Sukumo", "Kanoya", "Iwagawa", "Saiki", "Hashirajima",
+    "Yokosuka (横須賀鎮守府)", "Kure (呉鎮守府)", "Sasebo (佐世保鎮守府)", "Maizuru (舞鶴鎮守府)", "Ominato (大湊警備府)",
+    "Truk (トラック泊地)", "Lingga (リンガ泊地)", "Rabaul (ラバウル基地)", "Shortland (ショートランド泊地)", "Buin (ブイン基地)",
+    "Tawi-Tawi (タウイタウイ泊地)", "Palau (パラオ泊地)", "Brunei (ブルネイ泊地)", "Hitokappu (単冠湾泊地)", "Paramushir (幌筵泊地)",
+    "Sukumo (宿毛湾泊地)", "Kanoya (鹿屋基地)", "Iwagawa (岩川基地)", "Saiki (佐伯湾泊地)", "Hashirajima (柱島泊地)",
 ];
 
 var s = "";
 for (var i = 0; i < servers.length; ++i) {
-    s += "|-\n|" + serverNames[i] + "\n";
+    var date = servers[i].Date.match(/(\d+)日 (\d+)時/);
+    s += "|-\n|" + (i + 1) + '\n|lang="ja"|' + serverNames[i] + " (" + date[1] + ", " + date[2] + ":00)\n";
     for (var ranking of servers[i].RankPoint) {
         s += "|" + ranking.Value[ranking.Value.length - 1] + "\n";
     }
 }
 console.log(s);
-
 GenJS
 
 node $dir/Output/ranks.js > $dir/Output/ranks

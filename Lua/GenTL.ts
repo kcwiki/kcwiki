@@ -26,7 +26,7 @@ for (const ship in enemyData) {
             const name = shipTable._japanese_name.replace("elite", "").replace("flagship", "");
             if (! enemyTL[name]) {
                 const enName = shipTable._suffix ? `${shipTable._name} ${shipTable._suffix}` : shipTable._name;
-                enemyTL[name] = enName;
+                enemyTL[name] = enName.replace(" Flagship", "");
             }
         }
     }
@@ -50,12 +50,7 @@ function xmlItems(tlTable: Dict, tag: string): string {
     let result = "";
     for (const jpName in tlTable) {
         const en = tlTable[jpName]
-                .replace("Kai Ni", "Kai2")
-                .replace("Kai 2", "Kai2")
-                .replace("Kai 3", "Kai3")
-                .replace("Kai 4", "Kai4")
-                .replace("Chitose Carrier", "Chitose CVL")
-                .replace("Chiyoda Carrier", "Chiyoda CVL")
+                .replace("Carrier Kai Ni", "Kai Ni")
                 .replace("zwei", "Zwei")
                 .replace("drei", "Drei")
                 .replace("Junyou", "Jun'you")

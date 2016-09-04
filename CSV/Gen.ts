@@ -132,6 +132,7 @@ export function writeEnemy(): void {
                     const enemy = findEnemy(parseInt(s.api_id));
                     if (!enemy) {
                         console.log(s);
+                        continue;
                     }
                     const name = enemy._name + (enemy._display_suffix ? ` ${enemy._display_suffix}` : "")
                         + (enemy._name !== enemy.form && enemy.form !== "" && !enemy._display_suffix ? ` ${enemy.form}` : "");

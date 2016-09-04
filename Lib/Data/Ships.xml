@@ -10,7 +10,7 @@
   </Ship>
   <Ship>
     <JP-Name>阿武隈改二</JP-Name>
-    <TR-Name>Abukuma Kai2</TR-Name>
+    <TR-Name>Abukuma Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>阿賀野</JP-Name>
@@ -46,7 +46,7 @@
   </Ship>
   <Ship>
     <JP-Name>暁改二</JP-Name>
-    <TR-Name>Akatsuki Kai2</TR-Name>
+    <TR-Name>Akatsuki Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>曙</JP-Name>
@@ -113,6 +113,14 @@
     <TR-Name>Aoba Kai</TR-Name>
   </Ship>
   <Ship>
+    <JP-Name>Aquila</JP-Name>
+    <TR-Name>Aquila</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>Aquila改</JP-Name>
+    <TR-Name>Aquila Kai</TR-Name>
+  </Ship>
+  <Ship>
     <JP-Name>霰</JP-Name>
     <TR-Name>Arare</TR-Name>
   </Ship>
@@ -161,6 +169,14 @@
     <TR-Name>Asashio Kai</TR-Name>
   </Ship>
   <Ship>
+    <JP-Name>朝潮改二</JP-Name>
+    <TR-Name>Asashio Kai Ni</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>朝潮改二丁</JP-Name>
+    <TR-Name>Asashio Kai Ni D</TR-Name>
+  </Ship>
+  <Ship>
     <JP-Name>足柄</JP-Name>
     <TR-Name>Ashigara</TR-Name>
   </Ship>
@@ -170,7 +186,7 @@
   </Ship>
   <Ship>
     <JP-Name>足柄改二</JP-Name>
-    <TR-Name>Ashigara Kai2</TR-Name>
+    <TR-Name>Ashigara Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>愛宕</JP-Name>
@@ -190,7 +206,7 @@
   </Ship>
   <Ship>
     <JP-Name>綾波改二</JP-Name>
-    <TR-Name>Ayanami Kai2</TR-Name>
+    <TR-Name>Ayanami Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>Bismarck</JP-Name>
@@ -218,7 +234,7 @@
   </Ship>
   <Ship>
     <JP-Name>筑摩改二</JP-Name>
-    <TR-Name>Chikuma Kai2</TR-Name>
+    <TR-Name>Chikuma Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>千歳</JP-Name>
@@ -230,15 +246,15 @@
   </Ship>
   <Ship>
     <JP-Name>千歳航</JP-Name>
-    <TR-Name>Chitose CVL</TR-Name>
+    <TR-Name>Chitose Carrier</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>千歳航改</JP-Name>
-    <TR-Name>Chitose CVL Kai</TR-Name>
+    <TR-Name>Chitose Carrier Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>千歳航改二</JP-Name>
-    <TR-Name>Chitose CVL Kai2</TR-Name>
+    <TR-Name>Chitose Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>千歳改</JP-Name>
@@ -254,15 +270,15 @@
   </Ship>
   <Ship>
     <JP-Name>千代田航</JP-Name>
-    <TR-Name>Chiyoda CVL</TR-Name>
+    <TR-Name>Chiyoda Carrier</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>千代田航改</JP-Name>
-    <TR-Name>Chiyoda CVL Kai</TR-Name>
+    <TR-Name>Chiyoda Carrier Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>千代田航改二</JP-Name>
-    <TR-Name>Chiyoda CVL Kai2</TR-Name>
+    <TR-Name>Chiyoda Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>千代田改</JP-Name>
@@ -278,7 +294,7 @@
   </Ship>
   <Ship>
     <JP-Name>鳥海改二</JP-Name>
-    <TR-Name>Choukai Kai2</TR-Name>
+    <TR-Name>Choukai Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>吹雪</JP-Name>
@@ -290,7 +306,7 @@
   </Ship>
   <Ship>
     <JP-Name>吹雪改二</JP-Name>
-    <TR-Name>Fubuki Kai2</TR-Name>
+    <TR-Name>Fubuki Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>文月</JP-Name>
@@ -310,7 +326,7 @@
   </Ship>
   <Ship>
     <JP-Name>古鷹改二</JP-Name>
-    <TR-Name>Furutaka Kai2</TR-Name>
+    <TR-Name>Furutaka Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>扶桑</JP-Name>
@@ -322,7 +338,7 @@
   </Ship>
   <Ship>
     <JP-Name>扶桑改二</JP-Name>
-    <TR-Name>Fusou Kai2</TR-Name>
+    <TR-Name>Fusou Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>Graf Zeppelin</JP-Name>
@@ -350,7 +366,7 @@
   </Ship>
   <Ship>
     <JP-Name>羽黒改二</JP-Name>
-    <TR-Name>Haguro Kai2</TR-Name>
+    <TR-Name>Haguro Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>浜風</JP-Name>
@@ -359,6 +375,14 @@
   <Ship>
     <JP-Name>浜風改</JP-Name>
     <TR-Name>Hamakaze Kai</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>春風</JP-Name>
+    <TR-Name>Harukaze</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>春風改</JP-Name>
+    <TR-Name>Harukaze Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>榛名</JP-Name>
@@ -370,7 +394,7 @@
   </Ship>
   <Ship>
     <JP-Name>榛名改二</JP-Name>
-    <TR-Name>Haruna Kai2</TR-Name>
+    <TR-Name>Haruna Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>春雨</JP-Name>
@@ -390,7 +414,7 @@
   </Ship>
   <Ship>
     <JP-Name>初春改二</JP-Name>
-    <TR-Name>Hatsuharu Kai2</TR-Name>
+    <TR-Name>Hatsuharu Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>初風</JP-Name>
@@ -410,7 +434,7 @@
   </Ship>
   <Ship>
     <JP-Name>初霜改二</JP-Name>
-    <TR-Name>Hatsushimo Kai2</TR-Name>
+    <TR-Name>Hatsushimo Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>初雪</JP-Name>
@@ -462,7 +486,7 @@
   </Ship>
   <Ship>
     <JP-Name>比叡改二</JP-Name>
-    <TR-Name>Hiei Kai2</TR-Name>
+    <TR-Name>Hiei Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>飛龍</JP-Name>
@@ -474,7 +498,7 @@
   </Ship>
   <Ship>
     <JP-Name>飛龍改二</JP-Name>
-    <TR-Name>Hiryuu Kai2</TR-Name>
+    <TR-Name>Hiryuu Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>飛鷹</JP-Name>
@@ -515,6 +539,14 @@
   <Ship>
     <JP-Name>伊19改</JP-Name>
     <TR-Name>I-19 Kai</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>伊26</JP-Name>
+    <TR-Name>I-26</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>伊26改</JP-Name>
+    <TR-Name>I-26 Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>伊401</JP-Name>
@@ -598,7 +630,7 @@
   </Ship>
   <Ship>
     <JP-Name>五十鈴改二</JP-Name>
-    <TR-Name>Isuzu Kai2</TR-Name>
+    <TR-Name>Isuzu Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>Italia</JP-Name>
@@ -614,7 +646,7 @@
   </Ship>
   <Ship>
     <JP-Name>神通改二</JP-Name>
-    <TR-Name>Jintsuu Kai2</TR-Name>
+    <TR-Name>Jintsuu Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>隼鷹</JP-Name>
@@ -626,7 +658,7 @@
   </Ship>
   <Ship>
     <JP-Name>隼鷹改二</JP-Name>
-    <TR-Name>Jun'you Kai2</TR-Name>
+    <TR-Name>Jun'you Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>加賀</JP-Name>
@@ -654,7 +686,15 @@
   </Ship>
   <Ship>
     <JP-Name>加古改二</JP-Name>
-    <TR-Name>Kako Kai2</TR-Name>
+    <TR-Name>Kako Kai Ni</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>神風</JP-Name>
+    <TR-Name>Kamikaze</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>神風改</JP-Name>
+    <TR-Name>Kamikaze Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>鹿島</JP-Name>
@@ -674,11 +714,11 @@
   </Ship>
   <Ship>
     <JP-Name>霞改二</JP-Name>
-    <TR-Name>Kasumi Kai2</TR-Name>
+    <TR-Name>Kasumi Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>霞改二乙</JP-Name>
-    <TR-Name>Kasumi Kai2 B</TR-Name>
+    <TR-Name>Kasumi Kai Ni B</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>香取</JP-Name>
@@ -706,7 +746,7 @@
   </Ship>
   <Ship>
     <JP-Name>江風改二</JP-Name>
-    <TR-Name>Kawakaze Kai2</TR-Name>
+    <TR-Name>Kawakaze Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>風雲</JP-Name>
@@ -742,7 +782,7 @@
   </Ship>
   <Ship>
     <JP-Name>衣笠改二</JP-Name>
-    <TR-Name>Kinugasa Kai2</TR-Name>
+    <TR-Name>Kinugasa Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>霧島</JP-Name>
@@ -754,7 +794,7 @@
   </Ship>
   <Ship>
     <JP-Name>霧島改二</JP-Name>
-    <TR-Name>Kirishima Kai2</TR-Name>
+    <TR-Name>Kirishima Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>如月</JP-Name>
@@ -766,7 +806,7 @@
   </Ship>
   <Ship>
     <JP-Name>如月改二</JP-Name>
-    <TR-Name>Kisaragi Kai2</TR-Name>
+    <TR-Name>Kisaragi Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>木曾</JP-Name>
@@ -778,7 +818,7 @@
   </Ship>
   <Ship>
     <JP-Name>木曾改二</JP-Name>
-    <TR-Name>Kiso Kai2</TR-Name>
+    <TR-Name>Kiso Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>北上</JP-Name>
@@ -790,7 +830,7 @@
   </Ship>
   <Ship>
     <JP-Name>北上改二</JP-Name>
-    <TR-Name>Kitakami Kai2</TR-Name>
+    <TR-Name>Kitakami Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>清霜</JP-Name>
@@ -810,7 +850,7 @@
   </Ship>
   <Ship>
     <JP-Name>金剛改二</JP-Name>
-    <TR-Name>Kongou Kai2</TR-Name>
+    <TR-Name>Kongou Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>球磨</JP-Name>
@@ -882,7 +922,7 @@
   </Ship>
   <Ship>
     <JP-Name>摩耶改二</JP-Name>
-    <TR-Name>Maya Kai2</TR-Name>
+    <TR-Name>Maya Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>満潮</JP-Name>
@@ -907,6 +947,14 @@
   <Ship>
     <JP-Name>三隈改</JP-Name>
     <TR-Name>Mikuma Kai</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>水無月</JP-Name>
+    <TR-Name>Minazuki</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>水無月改</JP-Name>
+    <TR-Name>Minazuki Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>深雪</JP-Name>
@@ -950,7 +998,7 @@
   </Ship>
   <Ship>
     <JP-Name>叢雲改二</JP-Name>
-    <TR-Name>Murakumo Kai2</TR-Name>
+    <TR-Name>Murakumo Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>村雨</JP-Name>
@@ -986,7 +1034,7 @@
   </Ship>
   <Ship>
     <JP-Name>睦月改二</JP-Name>
-    <TR-Name>Mutsuki Kai2</TR-Name>
+    <TR-Name>Mutsuki Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>妙高</JP-Name>
@@ -998,7 +1046,7 @@
   </Ship>
   <Ship>
     <JP-Name>妙高改二</JP-Name>
-    <TR-Name>Myoukou Kai2</TR-Name>
+    <TR-Name>Myoukou Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>那智</JP-Name>
@@ -1010,7 +1058,7 @@
   </Ship>
   <Ship>
     <JP-Name>那智改二</JP-Name>
-    <TR-Name>Nachi Kai2</TR-Name>
+    <TR-Name>Nachi Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>長波</JP-Name>
@@ -1054,7 +1102,7 @@
   </Ship>
   <Ship>
     <JP-Name>那珂改二</JP-Name>
-    <TR-Name>Naka Kai2</TR-Name>
+    <TR-Name>Naka Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>名取</JP-Name>
@@ -1114,7 +1162,7 @@
   </Ship>
   <Ship>
     <JP-Name>大井改二</JP-Name>
-    <TR-Name>Ooi Kai2</TR-Name>
+    <TR-Name>Ooi Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>大潮</JP-Name>
@@ -1126,7 +1174,7 @@
   </Ship>
   <Ship>
     <JP-Name>大潮改二</JP-Name>
-    <TR-Name>Ooshio Kai2</TR-Name>
+    <TR-Name>Ooshio Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>大淀</JP-Name>
@@ -1135,6 +1183,14 @@
   <Ship>
     <JP-Name>大淀改</JP-Name>
     <TR-Name>Ooyodo Kai</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>親潮</JP-Name>
+    <TR-Name>Oyashio</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>親潮改</JP-Name>
+    <TR-Name>Oyashio Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>Pola</JP-Name>
@@ -1182,7 +1238,7 @@
   </Ship>
   <Ship>
     <JP-Name>龍驤改二</JP-Name>
-    <TR-Name>Ryuujou Kai2</TR-Name>
+    <TR-Name>Ryuujou Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>酒匂</JP-Name>
@@ -1210,7 +1266,7 @@
   </Ship>
   <Ship>
     <JP-Name>皐月改二</JP-Name>
-    <TR-Name>Satsuki Kai2</TR-Name>
+    <TR-Name>Satsuki Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>漣</JP-Name>
@@ -1230,7 +1286,7 @@
   </Ship>
   <Ship>
     <JP-Name>川内改二</JP-Name>
-    <TR-Name>Sendai Kai2</TR-Name>
+    <TR-Name>Sendai Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>時雨</JP-Name>
@@ -1242,7 +1298,7 @@
   </Ship>
   <Ship>
     <JP-Name>時雨改二</JP-Name>
-    <TR-Name>Shigure Kai2</TR-Name>
+    <TR-Name>Shigure Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>敷波</JP-Name>
@@ -1302,11 +1358,11 @@
   </Ship>
   <Ship>
     <JP-Name>翔鶴改二</JP-Name>
-    <TR-Name>Shoukaku Kai2</TR-Name>
+    <TR-Name>Shoukaku Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>翔鶴改二甲</JP-Name>
-    <TR-Name>Shoukaku Kai2 A</TR-Name>
+    <TR-Name>Shoukaku Kai Ni A</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>蒼龍</JP-Name>
@@ -1318,7 +1374,7 @@
   </Ship>
   <Ship>
     <JP-Name>蒼龍改二</JP-Name>
-    <TR-Name>Souryuu Kai2</TR-Name>
+    <TR-Name>Souryuu Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>涼風</JP-Name>
@@ -1422,7 +1478,7 @@
   </Ship>
   <Ship>
     <JP-Name>利根改二</JP-Name>
-    <TR-Name>Tone Kai2</TR-Name>
+    <TR-Name>Tone Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>U-511</JP-Name>
@@ -1466,7 +1522,7 @@
   </Ship>
   <Ship>
     <JP-Name>潮改二</JP-Name>
-    <TR-Name>Ushio Kai2</TR-Name>
+    <TR-Name>Ushio Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>卯月</JP-Name>
@@ -1487,6 +1543,14 @@
   <Ship>
     <JP-Name>若葉改</JP-Name>
     <TR-Name>Wakaba Kai</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>Warspite</JP-Name>
+    <TR-Name>Warspite</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>Warspite改</JP-Name>
+    <TR-Name>Warspite Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>矢矧</JP-Name>
@@ -1514,7 +1578,7 @@
   </Ship>
   <Ship>
     <JP-Name>山城改二</JP-Name>
-    <TR-Name>Yamashiro Kai2</TR-Name>
+    <TR-Name>Yamashiro Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>大和</JP-Name>
@@ -1566,7 +1630,7 @@
   </Ship>
   <Ship>
     <JP-Name>夕立改二</JP-Name>
-    <TR-Name>Yuudachi Kai2</TR-Name>
+    <TR-Name>Yuudachi Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>夕雲</JP-Name>
@@ -1626,11 +1690,11 @@
   </Ship>
   <Ship>
     <JP-Name>瑞鶴改二</JP-Name>
-    <TR-Name>Zuikaku Kai2</TR-Name>
+    <TR-Name>Zuikaku Kai Ni</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>瑞鶴改二甲</JP-Name>
-    <TR-Name>Zuikaku Kai2 A</TR-Name>
+    <TR-Name>Zuikaku Kai Ni A</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>防空棲姫</JP-Name>
@@ -1690,7 +1754,11 @@
   </Ship>
   <Ship>
     <JP-Name>戦艦ル級改</JP-Name>
-    <TR-Name>Battleship Ru-Class Kai Flagship</TR-Name>
+    <TR-Name>Battleship Ru-Class Kai</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>戦艦夏姫</JP-Name>
+    <TR-Name>Battleship Summer Princess</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>戦艦タ級</JP-Name>
@@ -1699,6 +1767,22 @@
   <Ship>
     <JP-Name>戦艦水鬼</JP-Name>
     <TR-Name>Battleship Water Demon</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>中枢棲姫</JP-Name>
+    <TR-Name>Central Princess</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>中枢棲姫-壊</JP-Name>
+    <TR-Name>Central Princess - Damaged</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>駆逐古鬼</JP-Name>
+    <TR-Name>Destroyer Ancient Demon</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>駆逐古姫</JP-Name>
+    <TR-Name>Destroyer Ancient Princess</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>駆逐ハ級</JP-Name>
@@ -1753,6 +1837,14 @@
     <TR-Name>Harbour Princess</TR-Name>
   </Ship>
   <Ship>
+    <JP-Name>港湾夏姫</JP-Name>
+    <TR-Name>Harbour Summer Princess</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>港湾夏姫-壊</JP-Name>
+    <TR-Name>Harbour Summer Princess - Damaged</TR-Name>
+  </Ship>
+  <Ship>
     <JP-Name>港湾水鬼</JP-Name>
     <TR-Name>Harbour Water Demon</TR-Name>
   </Ship>
@@ -1770,7 +1862,11 @@
   </Ship>
   <Ship>
     <JP-Name>重巡リ級改</JP-Name>
-    <TR-Name>Heavy Cruiser Ri-Class Kai Flagship</TR-Name>
+    <TR-Name>Heavy Cruiser Ri-Class Kai</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>重巡夏姫</JP-Name>
+    <TR-Name>Heavy Cruiser Summer Princess</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>離島棲鬼</JP-Name>
@@ -1809,6 +1905,10 @@
     <TR-Name>Light Cruiser Tsu-Class</TR-Name>
   </Ship>
   <Ship>
+    <JP-Name>リコリス棲姫</JP-Name>
+    <TR-Name>Lycoris Princess</TR-Name>
+  </Ship>
+  <Ship>
     <JP-Name>中間棲姫</JP-Name>
     <TR-Name>Midway Princess</TR-Name>
   </Ship>
@@ -1842,7 +1942,7 @@
   </Ship>
   <Ship>
     <JP-Name>空母ヲ級改</JP-Name>
-    <TR-Name>Standard Carrier Wo-Class Kai Flagship</TR-Name>
+    <TR-Name>Standard Carrier Wo-Class Kai</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>潜水カ級</JP-Name>
@@ -1855,6 +1955,10 @@
   <Ship>
     <JP-Name>潜水ソ級</JP-Name>
     <TR-Name>Submarine So-Class</TR-Name>
+  </Ship>
+  <Ship>
+    <JP-Name>潜水夏姫</JP-Name>
+    <TR-Name>Submarine Summer Princess</TR-Name>
   </Ship>
   <Ship>
     <JP-Name>潜水ヨ級</JP-Name>

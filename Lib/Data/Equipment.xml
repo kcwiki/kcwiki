@@ -34,7 +34,7 @@
   </Item>
   <Item>
     <JP-Name>12.7cm連装砲B型改二</JP-Name>
-    <TR-Name>12.7cm Twin Gun Mount Model B Kai2</TR-Name>
+    <TR-Name>12.7cm Twin Gun Mount Model B Kai 2</TR-Name>
   </Item>
   <Item>
     <JP-Name>12.7cm連装高角砲</JP-Name>
@@ -94,11 +94,15 @@
   </Item>
   <Item>
     <JP-Name>15m二重測距儀+21号電探改二</JP-Name>
-    <TR-Name>15m Duplex Rangefinder + Type 21 Radar Kai2</TR-Name>
+    <TR-Name>15m Duplex Rangefinder + Type 21 Radar Kai Ni</TR-Name>
   </Item>
   <Item>
     <JP-Name>16inch三連装砲 Mk.7</JP-Name>
     <TR-Name>16inch Triple Gun Mount Mk.7</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>16inch三連装砲 Mk.7+GFCS</JP-Name>
+    <TR-Name>16inch Triple Gun Mount Mk.7 + GFCS</TR-Name>
   </Item>
   <Item>
     <JP-Name>20.3cm(2号)連装砲</JP-Name>
@@ -149,6 +153,10 @@
     <TR-Name>35.6cm Twin Gun Mount (Dazzle Camouflage)</TR-Name>
   </Item>
   <Item>
+    <JP-Name>38.1cm Mk.I連装砲</JP-Name>
+    <TR-Name>38.1cm Mk.I Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
     <JP-Name>381mm/50 三連装砲</JP-Name>
     <TR-Name>381mm/50 Triple Gun Mount</TR-Name>
   </Item>
@@ -175,6 +183,14 @@
   <Item>
     <JP-Name>53cm艦首(酸素)魚雷</JP-Name>
     <TR-Name>53cm Bow (Oxygen) Torpedo Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>53cm連装魚雷</JP-Name>
+    <TR-Name>53cm Twin Torpedo Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>5inch連装砲 Mk.28 mod.2</JP-Name>
+    <TR-Name>5inch Twin Gun Mount Mk.28 mod.2</TR-Name>
   </Item>
   <Item>
     <JP-Name>61cm四連装(酸素)魚雷</JP-Name>
@@ -219,6 +235,10 @@
   <Item>
     <JP-Name>毘式40mm連装機銃</JP-Name>
     <TR-Name>Bi Type 40mm Twin Autocannon Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Bofors 40mm四連装機関砲</JP-Name>
+    <TR-Name>Bofors 40mm Quadruple Autocannon Mount</TR-Name>
   </Item>
   <Item>
     <JP-Name>秋刀魚の缶詰</JP-Name>
@@ -273,6 +293,10 @@
     <TR-Name>Fw 190T Kai</TR-Name>
   </Item>
   <Item>
+    <JP-Name>銀河</JP-Name>
+    <TR-Name>Ginga</TR-Name>
+  </Item>
+  <Item>
     <JP-Name>改良型艦本式タービン</JP-Name>
     <TR-Name>Improved Kanhon Type Turbine</TR-Name>
   </Item>
@@ -314,7 +338,7 @@
   </Item>
   <Item>
     <JP-Name>22号対水上電探改四</JP-Name>
-    <TR-Name>Type 22 Surface Radar Kai4</TR-Name>
+    <TR-Name>Type 22 Surface Radar Kai 4</TR-Name>
   </Item>
   <Item>
     <JP-Name>32号対水上電探</JP-Name>
@@ -333,8 +357,16 @@
     <TR-Name>Ka Type Observation Autogyro</TR-Name>
   </Item>
   <Item>
+    <JP-Name>OS2U</JP-Name>
+    <TR-Name>OS2U</TR-Name>
+  </Item>
+  <Item>
     <JP-Name>OTO 152mm三連装速射砲</JP-Name>
     <TR-Name>OTO 152mm Triple Rapid Fire Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>PBY-5A Catalina</JP-Name>
+    <TR-Name>PBY-5A Catalina</TR-Name>
   </Item>
   <Item>
     <JP-Name>試製35.6cm三連装砲</JP-Name>
@@ -351,6 +383,10 @@
   <Item>
     <JP-Name>試製51cm連装砲</JP-Name>
     <TR-Name>Prototype 51cm Twin Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>試製61cm六連装(酸素)魚雷</JP-Name>
+    <TR-Name>Prototype 61cm Sextuple (Oxygen) Torpedo Mount</TR-Name>
   </Item>
   <Item>
     <JP-Name>試製FaT仕様九五式酸素魚雷改</JP-Name>
@@ -371,6 +407,26 @@
   <Item>
     <JP-Name>プリエーゼ式水中防御隔壁</JP-Name>
     <TR-Name>Pugliese Underwater Protection Bulkhead</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>QF 2ポンド8連装ポンポン砲</JP-Name>
+    <TR-Name>QF 2-pounder Octuple Pom-pom Gun Mount</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>雷電</JP-Name>
+    <TR-Name>Raiden</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Re.2001 G改</JP-Name>
+    <TR-Name>Re.2001 G Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Re.2001 OR改</JP-Name>
+    <TR-Name>Re.2001 OR Kai</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>Re.2005 改</JP-Name>
+    <TR-Name>Re.2005 Kai</TR-Name>
   </Item>
   <Item>
     <JP-Name>烈風</JP-Name>
@@ -418,7 +474,7 @@
   </Item>
   <Item>
     <JP-Name>紫電改二</JP-Name>
-    <TR-Name>Shiden Kai2</TR-Name>
+    <TR-Name>Shiden Kai 2</TR-Name>
   </Item>
   <Item>
     <JP-Name>震電改</JP-Name>
@@ -442,7 +498,7 @@
   </Item>
   <Item>
     <JP-Name>特二式内火艇</JP-Name>
-    <TR-Name>Special Type 2 Amphibious Landing Craft</TR-Name>
+    <TR-Name>Special Type 2 Amphibious Tank</TR-Name>
   </Item>
   <Item>
     <JP-Name>照明弾</JP-Name>
@@ -497,6 +553,14 @@
     <TR-Name>Type 0 Fighter Model 21 (Skilled)</TR-Name>
   </Item>
   <Item>
+    <JP-Name>零式艦戦32型</JP-Name>
+    <TR-Name>Type 0 Fighter Model 32</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>零式艦戦32型(熟練)</JP-Name>
+    <TR-Name>Type 0 Fighter Model 32 (Skilled)</TR-Name>
+  </Item>
+  <Item>
     <JP-Name>零式艦戦52型</JP-Name>
     <TR-Name>Type 0 Fighter Model 52</TR-Name>
   </Item>
@@ -529,6 +593,22 @@
     <TR-Name>Type 1 Armor Piercing Shell</TR-Name>
   </Item>
   <Item>
+    <JP-Name>一式陸攻</JP-Name>
+    <TR-Name>Type 1 Land-based Attack Aircraft</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>一式陸攻(野中隊)</JP-Name>
+    <TR-Name>Type 1 Land-based Attack Aircraft (Nonaka Squadron)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>一式陸攻 二二型甲</JP-Name>
+    <TR-Name>Type 1 Land-based Attack Aircraft Model 22A</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>一式陸攻 三四型</JP-Name>
+    <TR-Name>Type 1 Land-based Attack Aircraft Model 34</TR-Name>
+  </Item>
+  <Item>
     <JP-Name>二式大艇</JP-Name>
     <TR-Name>Type 2 Large Flying Boat</TR-Name>
   </Item>
@@ -551,6 +631,18 @@
   <Item>
     <JP-Name>三式爆雷投射機</JP-Name>
     <TR-Name>Type 3 Depth Charge Projector</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>三式戦 飛燕</JP-Name>
+    <TR-Name>Type 3 Fighter Hien</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>三式戦 飛燕(飛行第244戦隊)</JP-Name>
+    <TR-Name>Type 3 Fighter Hien (244th Air Combat Group)</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>三式戦 飛燕一型丁</JP-Name>
+    <TR-Name>Type 3 Fighter Hien Model 1D</TR-Name>
   </Item>
   <Item>
     <JP-Name>三式弾</JP-Name>
@@ -587,6 +679,10 @@
   <Item>
     <JP-Name>九六式艦戦</JP-Name>
     <TR-Name>Type 96 Fighter</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>九六式陸攻</JP-Name>
+    <TR-Name>Type 96 Land-based Attack Aircraft</TR-Name>
   </Item>
   <Item>
     <JP-Name>九七式艦攻</JP-Name>
@@ -837,6 +933,10 @@
     <TR-Name>Abyssal Liberation Land-based Dive Bomber Ace</TR-Name>
   </Item>
   <Item>
+    <JP-Name>深海偵察飛行艇</JP-Name>
+    <TR-Name>Abyssal Reconnaissance Flying Boat</TR-Name>
+  </Item>
+  <Item>
     <JP-Name>深海水上偵察観測機</JP-Name>
     <TR-Name>Abyssal Reconnaissance Observation Seaplane</TR-Name>
   </Item>
@@ -919,6 +1019,10 @@
   <Item>
     <JP-Name>高速深海魚雷</JP-Name>
     <TR-Name>High-speed Abyssal Torpedo</TR-Name>
+  </Item>
+  <Item>
+    <JP-Name>高速深海魚雷 mod.2</JP-Name>
+    <TR-Name>High-speed Abyssal Torpedo mod.2</TR-Name>
   </Item>
   <Item>
     <JP-Name>改良型深海タービン</JP-Name>

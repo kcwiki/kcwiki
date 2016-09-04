@@ -152,6 +152,12 @@ export class Name {
             this.remodel = 3;
             return;
         }
+        t = fullName.match(/(.*) Kai Ni D/);
+        if (t) {
+            this.name = t[1];
+            this.remodel = 3;
+            return;
+        }
         t = fullName.match(/(.*) Kai Ni/);
         if (t) {
             this.name = t[1];
@@ -219,6 +225,9 @@ export class Name {
         }
         if (this.name === "Kasumi" && this.remodel === 3) {
             return useNi ? "Kai Ni B" : "Kai2 B";
+        }
+        if (this.name === "Asashio" && this.remodel === 3) {
+            return useNi ? "Kai Ni D" : "Kai2 D";
         }
         for (const [exc, s] of _.pairs(Name.exceptions)) {
             if (s.name === this.name && s.remodel === this.remodel) {
