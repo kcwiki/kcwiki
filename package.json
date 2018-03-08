@@ -1,0 +1,35 @@
+{
+  "name": "kctools",
+  "version": "0.0.1",
+  "description": "KanColle related tools",
+  "license": "MIT",
+  "repository": "gakada/kctools",
+  "scripts": {
+    "install": "mkdir -p lib/external && curl -s http://regex.info/code/JSON.lua > lib/external/json.lua",
+    "test": "standard --fix && xo && ava"
+  },
+  "files": [],
+  "keywords": [],
+  "dependencies": {
+    "async": "^2.6.0",
+    "filenamify": "^2.0.0",
+    "fs-extra": "^5.0.0",
+    "lodash": "^4.17.5",
+    "nodemw": "^0.12.0",
+    "pify": "^3.0.0",
+    "write-json-file": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-beta.3",
+    "standard": "^11.0.0",
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true,
+    "rules": {
+      "guard-for-in": 0,
+      "space-before-function-paren": 0
+    }
+  }
+}

@@ -1,3 +1,5 @@
-sandbox
-
 node_modules
+package-lock.json
+yarn.lock
+
+lib/external
