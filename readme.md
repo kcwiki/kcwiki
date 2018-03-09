@@ -2,11 +2,11 @@ For old scripts, see the `old` branch.
 
 Old and new scripts will be added here in due time.
 
-# `data/`
+## `data/`
 
 [kcdata](https://github.com/gakada/kcdata) submodule, various manual or generated data.
 
-# `wikia/`
+## `wikia/`
 
 KanColle Wikia scripts.
 
@@ -14,12 +14,16 @@ KanColle Wikia scripts.
 * `translations`: run after `fetch` to generate translation JSON files (`*_names.json`) in `data/wikia/`.
 * `equipability`: generate client based equipability data in `data/client/`.
 
-# TODO
+## `poi/`
+
+PoiDB scripts, see [readme](poi/readme.md).
+
+## TODO
 
 * More translations?
 * Publish asset scanners and fetchers.
   * Need a good HTTP requesting library.
-* Publish PoiDB tool.
+* Publish second half of PoiDB tool.
 * Total check for Wikia JSON data.
 * Publish/make more Wikia automation.
 * [nodemw](https://github.com/macbre/nodemw) is lacking.

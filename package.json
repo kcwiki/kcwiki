@@ -15,8 +15,8 @@
     "filenamify": "^2.0.0",
     "fs-extra": "^5.0.0",
     "lodash": "^4.17.5",
+    "mongodb": "^3.0.4",
     "nodemw": "^0.12.0",
-    "pify": "^3.0.0",
     "write-json-file": "^2.3.0"
   },
   "devDependencies": {
@@ -29,7 +29,11 @@
     "space": true,
     "rules": {
       "guard-for-in": 0,
-      "space-before-function-paren": 0
+      "space-before-function-paren": 0,
+      "no-warning-comments": 0,
+      "radix": 0,
+      "unicorn/no-process-exit": 0,
+      "no-negated-condition": 0
     }
   }
 }
