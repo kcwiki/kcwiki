@@ -1,10 +1,11 @@
 const {spawnSync} = require('child_process')
-const {readJsonSync, outputFileSync} = require('fs-extra')
+const {readFileSync, readJsonSync, outputFileSync} = require('fs-extra')
 const filenamify = require('filenamify')
 const {mapValues, invert} = require('lodash')
 const {eachLimit, mapValuesLimit} = require('async')
 
 const {id, fail, writeJsonSync} = require('../lib/utils')
+const {luaToJson} = require('../lib/lua')
 const mw = require('../lib/mw')
 
 const config = require('./config')
@@ -18,7 +19,7 @@ if (process.env.mw_name && process.env.mw_password) {
   user = {name: process.env.mw_name, password: process.env.mw_password}
 }
 
-module.exports = (next, all = false) => mw(config.bot, user, bot => {
+module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, bot => {
   const fetchNamespaces = next => {
     bot.getSiteInfo(['namespaces'], (error, data) => {
       fail(error)
@@ -81,34 +82,50 @@ module.exports = (next, all = false) => mw(config.bot, user, bot => {
       fail(error)
       writeJsonSync(`${dataDir}/module_filenames.json`, filenames)
       console.log(`  got ${i} modules`)
-      next()
+      next(filenames)
     })
   }
 
   fetchNamespaces(() => {
-    fetchModuleNames(data => {
+    fetchModuleNames(modules => {
       if (all) {
-        writeJsonSync(`${dataDir}/modules-all.json`, data.all)
+        writeJsonSync(`${dataDir}/modules-all.json`, modules.all)
       } else {
-        writeJsonSync(`${dataDir}/modules.json`, data)
+        writeJsonSync(`${dataDir}/modules.json`, modules)
       }
-      fetchModules(data, () => {
+      fetchModules(modules, filenames => {
         if (all) {
+          next()
           return
         }
         console.log(`wikia/fetch: converting Lua to JSON`)
-        const lua = spawnSync('lua', [`${__dirname}/convert.lua`, __dirname])
-        if (lua.stdout.toString() !== '') {
-          console.log(lua.stdout.toString())
-        }
-        if (lua.stderr.toString() !== '') {
-          console.log(lua.stderr.toString())
-        }
-        const data = readJsonSync(`${dataDir}/data.json`)
-        // Resorting
-        writeJsonSync(`${dataDir}/data.json`, data)
-        for (const key in data) {
-          writeJsonSync(`${dataDir}/${key}.json`, data[key])
+        if (spawnLua) {
+          // Todo: remove later
+          const lua = spawnSync('lua', [`${__dirname}/convert.lua`, __dirname])
+          if (lua.stdout.toString() !== '') {
+            console.log(lua.stdout.toString())
+          }
+          if (lua.stderr.toString() !== '') {
+            console.log(lua.stderr.toString())
+          }
+          const data = readJsonSync(`${dataDir}/data.json`)
+          // Resorting
+          writeJsonSync(`${dataDir}/data.json`, data)
+          for (const key in data) {
+            writeJsonSync(`${dataDir}/${key}.json`, data[key])
+          }
+        } else {
+          const data = {}
+          for (const key in modules) {
+            data[key] = data[key] || {}
+            for (const page of modules[key]) {
+              data[key][page] = luaToJson(readFileSync(`${dataDir}/lua/${filenames[page]}.lua`).toString())
+            }
+          }
+          writeJsonSync(`${dataDir}/data.json`, data)
+          for (const key in data) {
+            writeJsonSync(`${dataDir}/${key}.json`, data[key])
+          }
         }
         next()
       })
@@ -117,5 +134,5 @@ module.exports = (next, all = false) => mw(config.bot, user, bot => {
 })
 
 if (process.argv[2] === 'run') {
-  module.exports(id, process.argv[3] === 'all')
+  module.exports(id, process.argv[3] === 'all', process.argv[4] === 'spawnLua')
 }
