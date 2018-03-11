@@ -1,35 +1,61 @@
 const {spawnSync} = require('child_process')
 const {readJsonSync, outputFileSync} = require('fs-extra')
 const filenamify = require('filenamify')
+const {mapValues, invert} = require('lodash')
 const {eachLimit, mapValuesLimit} = require('async')
 
-const {fail, writeJsonSync} = require('../lib/utils')
+const {id, fail, writeJsonSync} = require('../lib/utils')
 const mw = require('../lib/mw')
 
 const config = require('./config')
 
 const dataDir = `${__dirname}/../data/wikia`
 
-module.exports = next => mw(config.bot, null, bot => {
+let namespaces
+
+let user
+if (process.env.mw_name && process.env.mw_password) {
+  user = {name: process.env.mw_name, password: process.env.mw_password}
+}
+
+module.exports = (next, all = false) => mw(config.bot, user, bot => {
+  const fetchNamespaces = next => {
+    bot.getSiteInfo(['namespaces'], (error, data) => {
+      fail(error)
+      namespaces = mapValues(invert(mapValues(data.namespaces, v => v['*'])), v => parseInt(v))
+      writeJsonSync(`${dataDir}/namespaces.json`, namespaces, (a, b) => namespaces[a] - namespaces[b])
+      next()
+    })
+  }
+
   const fetchModuleNames = next => {
     console.log('wikia/fetch: fetching module names')
-    mapValuesLimit(config.modules, config.bot.concurrency, (category, key, next) => {
-      bot.getPagesInCategory(category.category || category, (error, pages) => {
+    if (all) {
+      bot.getPagesInNamespace(namespaces.Module, (error, pages) => {
         fail(error)
-        console.log(`  ${key}`)
-        next(error, pages.filter(e => e.title.startsWith('Module:')).map(e => e.title.replace('Module:', '')))
+        next({
+          all: pages.filter(e => e.title.startsWith('Module:')).map(e => e.title.replace('Module:', ''))
+        })
       })
-    },
-    (error, data) => {
-      fail(error)
-      for (const key in config.modules) {
-        if (config.modules[key].move_to) {
-          data[config.modules[key].move_to].push(...data[key])
-          delete data[key]
+    } else {
+      mapValuesLimit(config.modules, config.bot.concurrency, (category, key, next) => {
+        bot.getPagesInCategory(category.category || category, (error, pages) => {
+          fail(error)
+          console.log(`  ${key}`)
+          next(error, pages.filter(e => e.title.startsWith('Module:')).map(e => e.title.replace('Module:', '')))
+        })
+      },
+      (error, data) => {
+        fail(error)
+        for (const key in config.modules) {
+          if (config.modules[key].move_to) {
+            data[config.modules[key].move_to].push(...data[key])
+            delete data[key]
+          }
         }
-      }
-      next(data)
-    })
+        next(data)
+      })
+    }
   }
 
   const fetchModules = (data, next) => {
@@ -59,24 +85,37 @@ module.exports = next => mw(config.bot, null, bot => {
     })
   }
 
-  fetchModuleNames(data => {
-    writeJsonSync(`${dataDir}/modules.json`, data)
-    fetchModules(data, () => {
-      console.log(`wikia/fetch: converting Lua to JSON`)
-      const lua = spawnSync('lua', [`${__dirname}/convert.lua`, __dirname])
-      if (lua.stdout.toString() !== '') {
-        console.log(lua.stdout.toString())
+  fetchNamespaces(() => {
+    fetchModuleNames(data => {
+      if (all) {
+        writeJsonSync(`${dataDir}/modules-all.json`, data.all)
+      } else {
+        writeJsonSync(`${dataDir}/modules.json`, data)
       }
-      if (lua.stderr.toString() !== '') {
-        console.log(lua.stderr.toString())
-      }
-      const data = readJsonSync(`${dataDir}/data.json`)
-      // Resorting
-      writeJsonSync(`${dataDir}/data.json`, data)
-      for (const key in data) {
-        writeJsonSync(`${dataDir}/${key}.json`, data[key])
-      }
-      next()
+      fetchModules(data, () => {
+        if (all) {
+          return
+        }
+        console.log(`wikia/fetch: converting Lua to JSON`)
+        const lua = spawnSync('lua', [`${__dirname}/convert.lua`, __dirname])
+        if (lua.stdout.toString() !== '') {
+          console.log(lua.stdout.toString())
+        }
+        if (lua.stderr.toString() !== '') {
+          console.log(lua.stderr.toString())
+        }
+        const data = readJsonSync(`${dataDir}/data.json`)
+        // Resorting
+        writeJsonSync(`${dataDir}/data.json`, data)
+        for (const key in data) {
+          writeJsonSync(`${dataDir}/${key}.json`, data[key])
+        }
+        next()
+      })
     })
   })
 })
+
+if (process.argv[2] === 'run') {
+  module.exports(id, process.argv[3] === 'all')
+}
