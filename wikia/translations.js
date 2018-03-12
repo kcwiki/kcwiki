@@ -1,7 +1,7 @@
 const {writeJsonSync} = require('../lib/utils')
-const {ships, enemies, equipment, enemyEquipment, shipTypes, equipmentTypes} = require('../lib/kc')
+const {ships, enemies, equipment, enemyEquipment, shipTypes, equipmentTypes, items} = require('../lib/kc')
 const {getShipData, formatShipName, getId, formatEnemyName, getEquipmentData, getEquipmentId,
-  getShipType, getShipTypeId, getEquipmentType, getEquipmentTypeId} = require('../lib/wikia')
+  getShipType, getShipTypeId, getEquipmentType, getEquipmentTypeId, getItem, getItemId} = require('../lib/wikia')
 
 const dataDir = `${__dirname}/../data/wikia`
 
@@ -53,5 +53,15 @@ for (const e of equipmentTypes) {
   equipmentTypeNames[e.api_name] = getEquipmentType(e.api_id) || e.api_name
 }
 writeJsonSync(`${dataDir}/equipment_type_names.json`, equipmentTypeNames, (a, b) => getEquipmentTypeId(a) - getEquipmentTypeId(b))
+
+console.log('wikia/tranlations: generating item names')
+
+const itemNames = {}
+for (const e of items) {
+  if (e.api_name !== '') {
+    itemNames[e.api_name] = getItem(e.api_id) || e.api_name
+  }
+}
+writeJsonSync(`${dataDir}/item_names.json`, itemNames, (a, b) => getItemId(a) - getItemId(b))
 
 module.exports = () => {}

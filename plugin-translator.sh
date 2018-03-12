@@ -1,4 +1,5 @@
-npm t
+node wikia/fetch run
+node wikia/translations
 
 cp data/wikia/ship_names.json ../plugin-translator/i18n_source/ship/en-US.json
 cp data/wikia/equipment_names.json ../plugin-translator/i18n_source/slotitem/en-US.json
@@ -11,3 +12,5 @@ printf "\n}\n" >> ../plugin-translator/i18n_source/ship-abyssal/en-US.json
 
 cp data/wikia/ship_type_names.json ../plugin-translator/i18n_source/shipType/en-US.json
 cp data/wikia/equipment_type_names.json ../plugin-translator/i18n_source/slotitemType/en-US.json
+
+cp data/wikia/item_names.json ../plugin-translator/i18n_source/useitem/en-US.json

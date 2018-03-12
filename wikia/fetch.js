@@ -19,6 +19,8 @@ if (process.env.mw_name && process.env.mw_password) {
   user = {name: process.env.mw_name, password: process.env.mw_password}
 }
 
+const concurrency = parseInt(process.env.mw_concurrency) || config.bot.concurrency
+
 module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, bot => {
   const fetchNamespaces = next => {
     bot.getSiteInfo(['namespaces'], (error, data) => {
@@ -39,7 +41,7 @@ module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, b
         })
       })
     } else {
-      mapValuesLimit(config.modules, config.bot.concurrency, (category, key, next) => {
+      mapValuesLimit(config.modules, concurrency, (category, key, next) => {
         bot.getPagesInCategory(category.category || category, (error, pages) => {
           fail(error)
           console.log(`  ${key}`)
@@ -69,7 +71,7 @@ module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, b
     }
     const filenames = {}
     let i = 0
-    eachLimit(pages, config.bot.concurrency, (page, next) => {
+    eachLimit(pages, concurrency, (page, next) => {
       bot.getArticle(`Module:${page}`, (error, data) => {
         fail(error)
         outputFileSync(`${dataDir}/lua/${filenamify(page)}.lua`, data)

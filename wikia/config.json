@@ -5,6 +5,7 @@
     "bosses": { "category": "Enemy boss ship modules", "move_to": "enemies" },
     "equipment": "Equipment modules",
     "enemy_equipment": "Enemy equipment modules",
+    "items": "Item modules",
     "misc": "Misc data modules"
   },
   "bot": {

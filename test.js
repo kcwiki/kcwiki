@@ -9,10 +9,10 @@ test.serial.cb('wikia/fetch should fetch something', t => {
   removeSync(wikiaDataDir)
   // Fetch data modules
   fetch(() => {
-    t.is(readdirSync(wikiaDataDir).length, 10)
+    t.is(readdirSync(wikiaDataDir).length, 11)
     // Fetch all modules
     fetch(() => {
-      t.is(readdirSync(wikiaDataDir).length, 11)
+      t.is(readdirSync(wikiaDataDir).length, 12)
       t.end()
     }, true)
   })
@@ -20,5 +20,5 @@ test.serial.cb('wikia/fetch should fetch something', t => {
 
 test.serial('wikia/translations should generate something', t => {
   require('./wikia/translations')()
-  t.is(readdirSync(wikiaDataDir).length, 17)
+  t.is(readdirSync(wikiaDataDir).length, 19)
 })
