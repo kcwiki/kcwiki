@@ -2,9 +2,9 @@ const {spawnSync} = require('child_process')
 const {readFileSync, readJsonSync, outputFileSync} = require('fs-extra')
 const filenamify = require('filenamify')
 const {mapValues, invert} = require('lodash')
-const {eachLimit, mapValuesLimit} = require('async')
+const {eachLimit, mapValuesLimit, retryable} = require('async')
 
-const {id, fail, writeJsonSync} = require('../lib/utils')
+const {id, fail, writeJsonSync, getArgs} = require('../lib/utils')
 const {luaToJson} = require('../lib/lua')
 const mw = require('../lib/mw')
 
@@ -71,15 +71,16 @@ module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, b
     }
     const filenames = {}
     let i = 0
-    eachLimit(pages, concurrency, (page, next) => {
+    eachLimit(pages, concurrency, retryable((page, next) => {
       bot.getArticle(`Module:${page}`, (error, data) => {
-        fail(error)
-        outputFileSync(`${dataDir}/lua/${filenamify(page)}.lua`, data)
-        filenames[page] = filenamify(page)
-        ++i
-        next()
+        if (!error) {
+          ++i
+          outputFileSync(`${dataDir}/lua/${filenamify(page)}.lua`, data)
+          filenames[page] = filenamify(page)
+        }
+        next(error)
       })
-    },
+    }),
     error => {
       fail(error)
       writeJsonSync(`${dataDir}/module_filenames.json`, filenames)
@@ -135,6 +136,8 @@ module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, b
   })
 })
 
-if (process.argv[2] === 'run') {
-  module.exports(id, process.argv[3] === 'all', process.argv[4] === 'spawnLua')
+const args = getArgs(['run', 'all', 'spawnLua'])
+
+if (args.run) {
+  module.exports(id, args.all, args.spawnLua)
 }
