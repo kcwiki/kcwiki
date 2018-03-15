@@ -6,7 +6,8 @@
   "repository": "gakada/kctools",
   "scripts": {
     "install": "mkdir -p lib/external && curl -s http://regex.info/code/JSON.lua > lib/external/json.lua",
-    "test": "standard --fix && xo && ava"
+    "test": "standard --fix && xo && ava",
+    "jsx": "NODE_PATH=$NODE_PATH:. babel-node --presets env,react wikia/test-jsx.js"
   },
   "files": [],
   "keywords": [],
@@ -22,6 +23,10 @@
   },
   "devDependencies": {
     "ava": "^1.0.0-beta.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
     "standard": "^11.0.0",
     "xo": "^0.20.3"
   },
