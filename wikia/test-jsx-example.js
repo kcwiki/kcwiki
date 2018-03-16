@@ -1,6 +1,8 @@
+/* eslint-disable */
 import React from 'react'
-import {parameter, mapping} from 'lib/jsx'
-import {collection} from 'lib/kc/ship-type'
+import {parameter, mapping} from '../lib/jsx'
+import {collection} from 'kc/ship-type'
+/* eslint-enable */
 
 const ShipType = ({code, type}) =>
   <link target={code}>
@@ -12,7 +14,7 @@ const ShipType = ({code, type}) =>
 
 ShipType.args = {
   code: parameter(1),
-  type: mapping(parameter(1), collection, e => e.code, e => e.name)
+  type: mapping(parameter(1), collection, e => e.code, e => e.name, 'Unknown Type')
 }
 
 export default ShipType

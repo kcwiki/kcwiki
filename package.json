@@ -7,7 +7,7 @@
   "scripts": {
     "install": "mkdir -p lib/external && curl -s http://regex.info/code/JSON.lua > lib/external/json.lua",
     "test": "standard --fix && xo && ava",
-    "jsx": "NODE_PATH=$NODE_PATH:. babel-node --presets env,react wikia/test-jsx.js"
+    "jsx": "NODE_PATH=$NODE_PATH:./lib babel-node --presets env,react wikia/test-jsx.js"
   },
   "files": [],
   "keywords": [],
@@ -39,7 +39,9 @@
       "no-warning-comments": 0,
       "radix": 0,
       "unicorn/no-process-exit": 0,
-      "no-negated-condition": 0
+      "no-negated-condition": 0,
+      "jsx-quotes": 0,
+      "unicorn/no-abusive-eslint-disable": 0
     }
   }
 }

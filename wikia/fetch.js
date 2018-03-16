@@ -75,8 +75,13 @@ module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, b
       bot.getArticle(`Module:${page}`, (error, data) => {
         if (!error) {
           ++i
+          if (i % 100 === 0) {
+            console.log(`  ${Math.round(100 * i / pages.length)}%`)
+          }
           outputFileSync(`${dataDir}/lua/${filenamify(page)}.lua`, data)
           filenames[page] = filenamify(page)
+        } else {
+          console.log(`  retrying for ${page}`)
         }
         next(error)
       })
