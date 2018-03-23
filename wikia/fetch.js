@@ -12,22 +12,15 @@ const config = require('./config')
 
 const dataDir = `${__dirname}/../data/wikia`
 
-let namespaces
+const namespaces = require(`${dataDir}/namespaces.json`)
 
-let user
-if (process.env.mw_name && process.env.mw_password) {
-  user = {name: process.env.mw_name, password: process.env.mw_password}
-}
-
-const concurrency = parseInt(process.env.mw_concurrency) || config.bot.concurrency
-
-module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, bot => {
+module.exports = (next, all = false, spawnLua = false) => mw(config, bot => {
   const fetchNamespaces = next => {
     bot.getSiteInfo(['namespaces'], (error, data) => {
       fail(error)
-      namespaces = mapValues(invert(mapValues(data.namespaces, v => v['*'])), v => parseInt(v))
+      const namespaces = mapValues(invert(mapValues(data.namespaces, v => v['*'])), v => parseInt(v))
       writeJsonSync(`${dataDir}/namespaces.json`, namespaces, (a, b) => namespaces[a] - namespaces[b])
-      next()
+      next(namespaces)
     })
   }
 
@@ -41,7 +34,7 @@ module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, b
         })
       })
     } else {
-      mapValuesLimit(config.modules, concurrency, (category, key, next) => {
+      mapValuesLimit(config.modules, bot.concurrency, (category, key, next) => {
         bot.getPagesInCategory(category.category || category, (error, pages) => {
           fail(error)
           console.log(`  ${key}`)
@@ -71,7 +64,7 @@ module.exports = (next, all = false, spawnLua = false) => mw(config.bot, user, b
     }
     const filenames = {}
     let i = 0
-    eachLimit(pages, concurrency, retryable((page, next) => {
+    eachLimit(pages, bot.concurrency, retryable((page, next) => {
       bot.getArticle(`Module:${page}`, (error, data) => {
         if (!error) {
           ++i

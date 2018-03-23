@@ -59,7 +59,7 @@ console.log('wikia/tranlations: generating item names')
 const itemNames = {}
 for (const e of items) {
   if (e.api_name !== '') {
-    itemNames[e.api_name] = getItem(e.api_id) || e.api_name
+    itemNames[e.api_name] = getItem(e.api_id, e.api_name) || e.api_name
   }
 }
 writeJsonSync(`${dataDir}/item_names.json`, itemNames, (a, b) => getItemId(a) - getItemId(b))
