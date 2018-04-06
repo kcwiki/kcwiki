@@ -4,6 +4,7 @@ yarn.lock
 
 lib/external
 poi/config
+poi/misc
 
 gen-api.js
 wikia/sitemap.js
