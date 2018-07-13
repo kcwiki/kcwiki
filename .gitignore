@@ -3,6 +3,7 @@ package-lock.json
 yarn.lock
 
 lib/external
+poi/bson
 poi/config
 poi/misc
 
