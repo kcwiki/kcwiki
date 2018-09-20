@@ -1,0 +1,10 @@
+{
+  "extends": ["tslint:all", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "await-promise": [true, "Bluebird"],
+    "interface-name": [true, "never-prefix"],
+    "no-console": false,
+    "prettier": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectCoverage": true,
+  "globals": {
+    "ts-jest": {
+      "tsConfigFile": "tsconfig.json"
+    }
+  },
+  "moduleFileExtensions": ["js", "jsx", "json", "ts", "tsx"],
+  "testEnvironment": "node",
+  "testRegex": "(/test/.*|(\\.|/)(test|spec))\\.(ts|js)x?$",
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  }
+}
